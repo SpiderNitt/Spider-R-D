@@ -1,0 +1,107 @@
+body{
+	background: linear-gradient( 90deg, #0D1329, #0D1329);
+	overflow-x: hidden;
+}
+
+.tabs
+{
+	flex-grow:1;
+	max-width:1000px;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+.heading
+{
+  color:#FFFFFF;
+  font-weight: 550;
+  font-family: 'Raleway';
+}
+
+.navBar
+{
+	background: linear-gradient( 90deg, #0D1329, #0D1329);
+	font-family: 'Raleway';
+}
+
+.card
+{
+	background: linear-gradient(90deg, #FFFFFF, #FFFFFF);
+	cursor: pointer;
+	box-shadow: 0px 2px 10px rgba(0,0,0,0.5);
+	transition: all 0.3s ease;
+	border-radius: 10px;
+	min-width: 280px;
+	max-width:300px;
+}
+
+.card .image 
+{
+    overflow: hidden;
+    transition: .5s;
+}
+
+.card .memberName 
+{
+	color: #000000;
+	font-weight: 550;
+    text-transform: capitalize;
+    font-family: 'Raleway';
+}
+
+.card .details 
+{
+    position: absolute;
+    top: 63px;
+    right:0;
+    width: 35%;
+    transition: .5s;
+    transform-origin: right;
+    opacity:0;
+}
+	
+.card:hover  
+{
+   transition: all 0.3s ease;
+   opacity:0.9;
+}
+.card:hover .image 
+{
+    transform: translateX(-10%);
+}
+.card:hover .details {
+    opacity:1;
+}
+.grid{
+	padding-left: 300px;
+	padding-right: 300px;
+}
+.linkedInIcon
+{
+   transform: translate(-40%); 
+}
+.githubIcon
+{
+   transform: translate(0); 
+}
+.webIcon
+{
+   transform: translate(-40%); 
+}
+
+@media(max-width:1550px)
+{
+	.grid{
+	padding-left: 0px;
+	padding-right:0px;
+	}	
+}
+
+
+
+
+
+
+
+
+
