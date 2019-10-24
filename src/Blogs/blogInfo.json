@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "My Experience with the Google WTM Scholars Program",
+    "summary": "This article is about my whole journey with the WTM Scholars Program throughout the various stages! I am Shivani Chander, currently…",
+    "article_link": "https://medium.com/spidernitt/my-experience-with-the-google-wtm-scholars-program-3a75c2a34702?source=collection_home---4------0---------------------",
+    "image_link": "https://cdn-images-1.medium.com/max/800/1*8pYf63leDdYXV9gLwvKqFw.png"
+  },
+  {
+    "id": 2,
+    "title": "Gyanix: Part-1",
+    "summary": "Learning Electronics by doing it.",
+    "article_link": "https://medium.com/spidernitt/gyanix-part-1-d93ec343df77?source=collection_home---4------1---------------------",
+    "image_link": "https://cdn-images-1.medium.com/max/800/0*e4nRBO41bj91f736"
+  },
+  {
+    "id": 3,
+    "title": "Breaking down Neural Networks: An intuitive approach to Backpropagation",
+    "summary": "Whether you’re a beginner in machine learning or an expert, you would have had a hard time understanding the concept of backpropagation in…",
+    "article_link": "https://medium.com/spidernitt/breaking-down-neural-networks-an-intuitive-approach-to-backpropagation-3b2ff958794c?source=collection_home---4------2---------------------",
+    "image_link": "https://cdn-images-1.medium.com/max/800/0*RpN3PGmHU3jKcC9m.jpg"
+  },
+  {
+    "id": 4,
+    "title": "World CodeSprint 13",
+    "summary": "Watson’s Love for Arrays",
+    "article_link": "https://medium.com/spidernitt/world-codesprint-13-1f1bdbfe3153?source=collection_home---4------3---------------------",
+    "image_link": "https://cdn-images-1.medium.com/max/800/1*W5SorRQ-XMYNLwL2hW9Wiw.png"
+  },
+  {
+    "id": 5,
+    "title": "Demystifying Quaternions…",
+    "summary": "Almost all of us have awed at the magnificence of the VFX and graphics in console games and movies. Be it the moment of destruction, when…",
+    "article_link": "https://medium.com/spidernitt/demystifying-quaternions-60a8f4110ad0?source=collection_home---4------4---------------------",
+    "image_link": "https://cdn-images-1.medium.com/max/800/0*ury8xrZqf_4mF1hk."
+  },
+  {
+    "id": 6,
+    "title": "Problem C: Codeforces Round 455",
+    "summary": "Python Indentation",
+    "article_link": "https://medium.com/spidernitt/problem-c-codeforces-round-455-293ac65c10d6?source=collection_home---4------5---------------------",
+    "image_link": "https://cdn-images-1.medium.com/max/800/1*Ut55XNszCQPxCG9qaEQfAw.png"
+  }
+]
