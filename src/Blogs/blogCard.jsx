@@ -11,38 +11,19 @@ import Grid from "@material-ui/core/Grid";
 import Data from "./blogInfo.json";
 import { Button } from "@material-ui/core";
 import "typeface-raleway";
+import { mediaStyle,blogCardStyles } from './blogs.css'
 
 let data = JSON.stringify(Data);
 let blogData = JSON.parse(data);
 
-const useStyles = makeStyles(theme => ({
-  card: {
-    maxWidth: 400,
-    minWidth: 300,
-    margin: theme.spacing(2),
-    height: 500,
-    color: "#1e1e1e",
-    fontFamily: "Raleway",
-    background: "#ffffff",
-    padding: "auto",
-    margin: "auto",
-    marginTop: 20,
-    marginBottom: 20,
-    textAlign: "center"
-  },
-  media: {
-    height: 300
-  },
-  button: {
-    color: "#0d132a",
-    fontFamily: "Raleway",
-    margin: "auto"
-  },
-  content: {
-    color: "#1e1e1e",
-    fontFamily: "Raleway"
-  }
-}));
+const useStyles = makeStyles(
+  mediaStyle
+);
+
+const styles = makeStyles({
+  blogCardStyles
+})
+
 
 function Media(props) {
   const { loading = false } = props;
@@ -59,8 +40,8 @@ function Media(props) {
       {loading ? (
         <Skeleton variant="rect" className={classes.media} />
       ) : (
-        <CardMedia className={classes.media} image={props.imgsrc} />
-      )}
+          <CardMedia className={classes.media} image={props.imgsrc} />
+        )}
 
       <CardContent>
         {loading ? (
@@ -69,42 +50,28 @@ function Media(props) {
             <Skeleton height={6} width="100%" />
           </React.Fragment>
         ) : (
-          <React.Fragment>
-            <Typography
-              variant="body2"
-              color="textPrimary"
-              component="p"
-              className={classes.content}
-            >
-              {props.blogsummary}
-            </Typography>
-            <Button href={props.bloglink} className={classes.button}>
-              Read More
+            <React.Fragment>
+              <Typography
+                variant="body2"
+                color="textPrimary"
+                component="p"
+                className={classes.content}
+              >
+                {props.blogsummary}
+              </Typography>
+              <Button href={props.bloglink} className={classes.button}>
+                Read More
             </Button>
-          </React.Fragment>
-        )}
+            </React.Fragment>
+          )}
       </CardContent>
     </Card>
   );
 }
 
-Media.propTypes = {
-  loading: PropTypes.bool
-};
-
-//   const myStyles = makeStyles(theme => ({
-//     root: {
-//       flexGrow: 1
-//     },
-//     paper: {
-//       padding: theme.spacing(2),
-//       textAlign: "center",
-//       color: theme.palette.text.secondary
-//     }
-//   }));
 
 export default function blogCard() {
-  // const classe = myStyles();
+  const classes = styles();
 
   return (
     <div style={{ padding: 0 }}>
@@ -116,23 +83,17 @@ export default function blogCard() {
         margin="auto"
         padding={0}
         background="#000000"
+        className={classes.gridStyles}
       >
         {blogData.map(post => (
-          <Grid item xs={12} sm={6} md={4} padding={0}>
+          <Grid key={post.id} item xs={12} sm={6} md={4} padding={0}>
             <Media
+
               imgsrc={post.image_link}
               blogtitle={post.title}
               blogsummary={post.summary}
               bloglink={post.article_link}
-              style={{
-                background: "#0b3287",
-                alignItems: "center",
-                justify: "center",
-                margin: "auto",
-                padding: "0",
-                background: "#000",
-                textAlign: "center"
-              }}
+              className = {classes.media}
             />
           </Grid>
         ))}
@@ -140,3 +101,8 @@ export default function blogCard() {
     </div>
   );
 }
+
+
+Media.propTypes = {
+  loading: PropTypes.bool
+};
