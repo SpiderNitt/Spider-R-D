@@ -10,8 +10,7 @@ import Skeleton from "@material-ui/lab/Skeleton";
 import Grid from "@material-ui/core/Grid";
 import Data from "./blogInfo.json";
 import { Button } from "@material-ui/core";
-import "typeface-raleway";
-import { mediaStyle,blogCardStyles } from './blogs.css'
+import { mediaStyle, blogCardStyles } from './blogs.css'
 
 let data = JSON.stringify(Data);
 let blogData = JSON.parse(data);
@@ -82,8 +81,10 @@ export default function blogCard() {
         justify="center"
         margin="auto"
         padding={0}
-        background="#000000"
-        className={classes.gridStyles}
+        // background="black"
+        // style = {{
+        //   width: "100vw",
+        // }}
       >
         {blogData.map(post => (
           <Grid key={post.id} item xs={12} sm={6} md={4} padding={0}>
