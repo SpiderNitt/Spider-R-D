@@ -210,7 +210,7 @@ export const members = [
     {
         "id": "21",
         "Name": "Barath Kumar S",
-        "Photo": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FIMG_20190829_195739_081%20-%20Barath%20Kumar.jpg?alt=media&token=0d899a8c-db4a-40f6-87c7-3b262b62286b",
+        "Photo": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FBarath-Barath.jpeg?alt=media&token=214eb19e-7469-42d3-8245-64fccda9a9e8",
         "Profile": "Web Dev",
         "Year": "B tech 2nd Year",
         "LinkedIn": "https://linkedin.com/in/barath1999",
@@ -1205,7 +1205,7 @@ export const members = [
     {
         "id": "120",
         "Name": "Barath Kumar S",
-        "Photo": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FIMG_20190829_195739_081%20-%20Barath%20Kumar.jpg?alt=media&token=0d899a8c-db4a-40f6-87c7-3b262b62286b",
+        "Photo": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FBarath-Barath.jpeg?alt=media&token=214eb19e-7469-42d3-8245-64fccda9a9e8",
         "Profile": "Web Dev",
         "Year": "All",
         "LinkedIn": "https://linkedin.com/in/barath1999",
