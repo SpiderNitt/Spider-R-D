@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './HomePage/demo.jsx'
+import Navbar from './Navbar/nav.jsx'
 import './App.css';
 import AndroidIcon from '@material-ui/icons/Android';
 import LanguageIcon from '@material-ui/icons/Language';
