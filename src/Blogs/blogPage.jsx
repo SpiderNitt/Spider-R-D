@@ -5,11 +5,11 @@ import Blog from "./blogCard";
 class BlogPage extends Component {
   render() {
     return (
-      <div style={{ padding: 10 }}>
+      <div style={{ maxWidth: "100vw", maxHeight: "100vh", padding: 0, margin: "auto" }}>
         <div
           style={{
             background: "#e2e2e2",
-            maxWidth: "100vw"
+            // width: "100vw"
           }}
         >
           <Blog />

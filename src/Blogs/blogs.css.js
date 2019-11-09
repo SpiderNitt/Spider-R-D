@@ -2,7 +2,6 @@ const mediaStyle = {
     card: {
         maxWidth: 400,
         minWidth: 300,
-        // margin: them e.spacing(2),
         height: 500,
         color: "#1e1e1e",
         fontFamily: "Raleway",
@@ -35,8 +34,8 @@ const blogCardStyles = {
         justify: "center",
         margin: "auto",
         padding: "0",
-        background: "#000",
-        textAlign: "center"
+        textAlign: "center",
+        maxWidth: "100vw"
     }
 }
 export { mediaStyle, blogCardStyles };

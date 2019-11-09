@@ -82,8 +82,10 @@ export default function blogCard() {
         justify="center"
         margin="auto"
         padding={0}
-        background="#000000"
-        className={classes.gridStyles}
+        // background="black"
+        // style = {{
+        //   width: "100vw",
+        // }}
       >
         {blogData.map(post => (
           <Grid key={post.id} item xs={12} sm={6} md={4} padding={0}>
