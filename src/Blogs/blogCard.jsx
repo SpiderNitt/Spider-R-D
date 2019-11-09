@@ -10,7 +10,7 @@ import Skeleton from "@material-ui/lab/Skeleton";
 import Grid from "@material-ui/core/Grid";
 import Data from "./blogInfo.json";
 import { Button } from "@material-ui/core";
-import "typeface-raleway";
+// import "typeface-raleway";
 import { mediaStyle,blogCardStyles } from './blogs.css'
 
 let data = JSON.stringify(Data);

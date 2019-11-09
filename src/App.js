@@ -1,30 +1,20 @@
 import React from 'react';
-// import logo from './logo.ssvg';
 import './App.css';
-import Footer from './Footer/footer';
 import Blog from './Blogs/blogPage';
+import './App.css';
+import AndroidIcon from '@material-ui/icons/Android';
+import LanguageIcon from '@material-ui/icons/Language';
+import ComputerIcon from '@material-ui/icons/Computer';
+import SelectAllIcon from '@material-ui/icons/SelectAll';
+import Navbar from './Navbar/nav'
 
 function App() {
-  return (
-    <div className="App">
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
-      <Blog />
-      {/* <Footer /> */}
-    </div>
-  );
+    return (
+        <div className="App" >
+            <Navbar />
+        </div>
+    )
 }
+
 
 export default App;

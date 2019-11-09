@@ -1,0 +1,58 @@
+.coreCard {
+    max-width: 272px;
+    max-height: 368px;
+    transition: 0.5s;
+    font-family: 'Raleway';
+}
+
+.coreImage {
+    width: 276px;
+    height: 280px;
+    font-family: 'Raleway';
+}
+
+.coreIcon {
+    opacity: 0;
+}
+
+.coreCard:hover .coreIcon {
+    opacity: 1;
+}
+
+.coreCard:hover {
+    max-height: 550px;
+    transition: 0.5s;
+    font-family: 'Raleway';
+}
+
+.MuiButtonBase-root {
+    background-color: #010a43;
+    color: #ffffff;
+    font-family: 'Raleway';
+}
+
+@media(max-width:1250px) {
+    .coreGrid {
+        padding-left: 0px;
+        padding-right: 0px;
+        font-family: 'Raleway';
+    }
+}
+
+@media(min-width:1250px) {
+    .coreGrid {
+        padding-left: 80px;
+        padding-right: 80px;
+        font-family: 'Raleway';
+    }
+}
+
+.coreCard .coreName {
+    font-family: 'Raleway';
+    font-size: 1.2em;
+}
+
+.coreCard .coreRole {
+    font-family: 'Raleway';
+    font-size: 1em;
+}
