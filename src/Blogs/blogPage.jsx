@@ -2,7 +2,7 @@ import React, { Component } from "react";
 // import "bootstrap/dist/css/bootstrap.css";
 import Blog from "./blogCard";
 
-class blogPage extends Component {
+class BlogPage extends Component {
   render() {
     return (
       <div style={{ padding: 10 }}>
@@ -19,4 +19,4 @@ class blogPage extends Component {
   }
 }
 
-export default blogPage;
+export default BlogPage;

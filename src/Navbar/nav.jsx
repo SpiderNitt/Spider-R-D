@@ -3,12 +3,8 @@ import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
-// import Typography from "@material-ui/core/Typography";
-// import IconButton from "@material-ui/core/IconButton";
-// import MenuIcon from "@material-ui/icons/Menu";
 import ToolbarMenu from "./ToolbarMenu";
 import { Button, MenuItem } from "@material-ui/core";
-import 
 
 
 const styles = {
@@ -46,28 +42,31 @@ function ButtonAppBar(props) {
     alert("Contact Us Clicked");
   }
 
-
   return (
-    <AppBar position="fixed" className="appbar"  style={{ background: '#0E122B' ,color:'#ffffff'}}>
+    <AppBar
+      position="fixed"
+      className="appbar"
+      style={{ background: "#0E122B", color: "#ffffff" }}
+    >
       <Toolbar>
-      <img src="navlogo.png" width="85" alt="logo" className={classes.logo} />
+        <img src="navlogo.png" width="85" alt="logo" className={classes.logo} />
         <ToolbarMenu
           render={collapsed => {
             return collapsed
               ? [
-                  <MenuItem key="login" onClick={onAboutUs} autoclose={true}>
+                  <MenuItem key="login" autoclose={true}>
                     About Us
                   </MenuItem>,
-                  <MenuItem key="signup" onClick={onProjects} autoclose={true}>
+                  <MenuItem key="signup" autoclose={true}>
                     Projects
                   </MenuItem>,
-                  <MenuItem key="signup" onClick={onBlogs} autoclose={true}>
+                  <MenuItem key="signup" autoclose={true}>
                     Blogs
                   </MenuItem>,
-                  <MenuItem key="signup" onClick={onMembers} autoclose={true}>
+                  <MenuItem key="signup" autoclose={true}>
                     Members
                   </MenuItem>,
-                  <MenuItem key="signup" onClick={onContactUs} autoclose={true}>
+                  <MenuItem key="signup" autoclose={true}>
                     Contact Us
                   </MenuItem>
                 ]

@@ -4,7 +4,9 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.5.2",
+    "@material-ui/icons": "^4.5.1",
     "@material-ui/lab": "^4.0.0-alpha.30",
+    "google-map-react": "^1.1.5",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-router": "^5.1.2",
