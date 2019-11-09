@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Footer from './HomePage/Footer';
-import CoreMembers from './HomePage/cardExample.js'
+import Footer from './Footer/Footer';
+import CoreMembers from './HomePage/coreMemberCards'
 import Team from './HomePage/team.js'
 
 

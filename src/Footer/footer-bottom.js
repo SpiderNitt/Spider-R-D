@@ -40,7 +40,7 @@ export default function FooterBar() {
       <AppBar position="static" style={{background:'#0D1329'}}>
         <Toolbar>
           <Typography variant="center" className={classes.title}>
-          <b style={{padding:20}}>Weaved with ð by Spider</b>
+          <b style={{padding:20}}>Weaved with &#128376; by Spider</b>
           </Typography>
 
         </Toolbar>
