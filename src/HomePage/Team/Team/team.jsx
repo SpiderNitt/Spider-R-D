@@ -16,6 +16,7 @@ function Team() {
               src={require("./team.jpg")}
               style={{ borderRadius: "20" }}
               width="75% "
+              alt="Team members of Spider'18"
             />
             <br />
             <br />

@@ -1,16 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-
 import * as serviceWorker from './serviceWorker';
 import { Route, BrowserRouter as Router } from 'react-router-dom';
-// import "bootstrap/dist/css/bootstrap.min.css";
-
 import './index.css';
 import App from './App';
 import Blogs from './Blogs/blogPage';
 import HomePage from './HomePage/homepage';
 import Projects from './Projects/projects'
+import Members from './Members/members';
 
 
 const routing = (
@@ -21,6 +19,7 @@ const routing = (
             <Route exact path="/" component={HomePage} />
             <Route exact path="/blogs" component={Blogs} />
             <Route exact path="/projects" component={Projects} />
+            <Route exact path="/members" component={Members} />
         </div>
     </Router>
 )

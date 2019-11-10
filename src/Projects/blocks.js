@@ -28,9 +28,6 @@ import Details from './projectmembers.json'
 import { albumStyles } from './projects.css'
 
 const myStyles = makeStyles(theme => ({
-  root: {
-    flexGrow: 1
-  },
   paper: {
     padding: theme.spacing(2),
     textAlign: "center",
@@ -42,7 +39,9 @@ const myStyles = makeStyles(theme => ({
   },
   root: {
     fontFamily: "raleway",
-    fontWeight: "bold"
+    fontWeight: "bold",
+    flexGrow: 1
+
   },
   default: {
     fontFamily: "raleway",
@@ -50,10 +49,7 @@ const myStyles = makeStyles(theme => ({
   icon: {
     marginRight: theme.spacing(2),
   },
-  heroContent: {
-    backgroundColor: theme.palette.background.paper,
-    padding: theme.spacing(4, 0, 6),
-  },
+
   content: {
     background: "#E2E2E2",
     borderRadius: 10,
@@ -113,8 +109,6 @@ const useStyles = makeStyles(
 
 function Album(props) {
   const classes = useStyles();
-
-  const { loading = false } = props;
 
   const [open, setOpen] = React.useState(false);
   const [scroll, setScroll] = React.useState('paper');
@@ -234,7 +228,7 @@ function Album(props) {
                   <div className={classes.images}><center>
                     {
                       props.projectImages.map(send => {
-                        return (<img src={send} className={classes.pics} />)
+                        return (<img src={send} className={classes.pics} alt="project by Spider"/>)
                       })
                     }
 
