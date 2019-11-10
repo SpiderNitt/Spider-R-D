@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import Blog from "./blogCard";
 import NavBar from '../Navbar/nav';
 
-class blogPage extends Component {
+class BlogPage extends Component {
   render() {
     return (
       <div style={{ padding: 10 }}>
@@ -11,7 +11,7 @@ class blogPage extends Component {
         <div
           style={{
             background: "#e2e2e2",
-            maxWidth: "100vw"
+            // width: "100vw"
           }}
         >
           <Blog />
@@ -21,4 +21,4 @@ class blogPage extends Component {
   }
 }
 
-export default blogPage;
+export default BlogPage;
