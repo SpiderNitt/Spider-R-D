@@ -1,5 +1,5 @@
 import React from 'react';
-import Menu from '../Navbar/navbar.js';
+// import Menu from '../Navbar/navbar.js';
 import AutoGrid from './body.js';
 
 

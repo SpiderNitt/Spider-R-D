@@ -131,9 +131,6 @@ export default function PrimarySearchAppBar() {
       onClose={handleMobileMenuClose}
     >
       <MenuItem >
-        <a style={{ textDecoration:"none", color:"#0E122B" }} href="/aboutus">ABOUT US</a>
-      </MenuItem>
-      <MenuItem >
         <a style={{ textDecoration:"none", color:"#0E122B" }} href="/projects">PROJECTS</a>
       </MenuItem>
       <MenuItem >
@@ -156,14 +153,6 @@ export default function PrimarySearchAppBar() {
           
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>
-          <Button
-            key="aboutUs"
-            color="inherit"
-            href="/aboutus"
-            className={classes.menuButton}
-          >
-           About Us
-          </Button>
           <Button
             key="projects"
             color="inherit"

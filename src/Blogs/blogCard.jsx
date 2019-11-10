@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
@@ -10,20 +10,12 @@ import Skeleton from "@material-ui/lab/Skeleton";
 import Grid from "@material-ui/core/Grid";
 import Data from "./blogInfo.json";
 import { Button } from "@material-ui/core";
-// import "typeface-raleway";
-import { mediaStyle,blogCardStyles } from './blogs.css'
+import { mediaStyle, blogCardStyles } from "./blogs.css";
 
 let data = JSON.stringify(Data);
 let blogData = JSON.parse(data);
 
-const useStyles = makeStyles(
-  mediaStyle
-);
-
-const styles = makeStyles({
-  blogCardStyles
-})
-
+const useStyles = makeStyles(mediaStyle);
 
 function Media(props) {
   const { loading = false } = props;
@@ -40,8 +32,8 @@ function Media(props) {
       {loading ? (
         <Skeleton variant="rect" className={classes.media} />
       ) : (
-          <CardMedia className={classes.media} image={props.imgsrc} />
-        )}
+        <CardMedia className={classes.media} image={props.imgsrc} />
+      )}
 
       <CardContent>
         {loading ? (
@@ -50,29 +42,29 @@ function Media(props) {
             <Skeleton height={6} width="100%" />
           </React.Fragment>
         ) : (
-            <React.Fragment>
-              <Typography
-                variant="body2"
-                color="textPrimary"
-                component="p"
-                className={classes.content}
-              >
-                {props.blogsummary}
-              </Typography>
-              <Button href={props.bloglink} className={classes.button}>
-                Read More
+          <React.Fragment>
+            <Typography
+              variant="body2"
+              color="textPrimary"
+              component="p"
+              className={classes.content}
+            >
+              {props.blogsummary}
+            </Typography>
+            <Button href={props.bloglink} className={classes.button}>
+              Read More
             </Button>
-            </React.Fragment>
-          )}
+          </React.Fragment>
+        )}
       </CardContent>
     </Card>
   );
 }
 
-
-export default function blogCard() {
-  const classes = styles();
-
+export default function Blog(props) {
+  const classes = makeStyles({
+    blogCardStyles
+  })();
   return (
     <div style={{ padding: 0 }}>
       <Grid
@@ -82,20 +74,15 @@ export default function blogCard() {
         justify="center"
         margin="auto"
         padding={0}
-        // background="black"
-        // style = {{
-        //   width: "100vw",
-        // }}
       >
         {blogData.map(post => (
           <Grid key={post.id} item xs={12} sm={6} md={4} padding={0}>
             <Media
-
               imgsrc={post.image_link}
               blogtitle={post.title}
               blogsummary={post.summary}
               bloglink={post.article_link}
-              className = {classes.media}
+              className={classes.media}
             />
           </Grid>
         ))}
@@ -104,7 +91,8 @@ export default function blogCard() {
   );
 }
 
-
 Media.propTypes = {
   loading: PropTypes.bool
 };
+
+// export default Blog;
