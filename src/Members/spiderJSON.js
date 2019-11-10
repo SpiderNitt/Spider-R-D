@@ -1,9 +1,9 @@
 export const Profile = [
-'Tronix' , 'Web Dev' , 'App Dev' , 'Algos'
+    'Tronix', 'Web Dev', 'App Dev', 'Algos'
 ]
 
-export const Year= [
-'All' ,'B tech 4th year', 'B tech 3rd Year' , 'B tech 2nd Year'  
+export const Year = [
+    'All', 'B tech 4th year', 'B tech 3rd Year', 'B tech 2nd Year'
 ]
 
 export const members = [
@@ -237,7 +237,7 @@ export const members = [
         "Github": "https://github.com/Smrithi23",
         "Website": ""
     },
-    
+
     {
         "id": "24",
         "Name": "Jerry J",
@@ -328,7 +328,7 @@ export const members = [
         "Github": "https://github.com/HarshitNITT",
         "Website": ""
     },
-    
+
     {
         "id": "33",
         "Name": "Rajiv",
@@ -589,7 +589,7 @@ export const members = [
         "Github": "https://github.com/abishek27",
         "Website": ""
     },
-    
+
     {
         "id": "59",
         "Name": "Chockalingam",
@@ -821,7 +821,7 @@ export const members = [
         "Github": "https://github.com/sachin-101",
         "Website": ""
     },
-    
+
     {
         "id": "82",
         "Name": "Rahul Bhope",
@@ -1142,7 +1142,7 @@ export const members = [
         "Github": "",
         "Website": ""
     },
-     {
+    {
         "id": "114",
         "Name": "Joel Johnson",
         "Photo": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FJoel%20Johnson%20-%20Joel%20Johnson.jpeg?alt=media&token=0ca3ee5c-6379-4049-a19c-1d8baf137eee",
@@ -1181,7 +1181,7 @@ export const members = [
         "LinkedIn": "https://www.linkedin.com/in/anjaneya-tripathi-610234183/",
         "Github": "https://github.com/AnjaneyaTripathi",
         "Website": ""
-    },    
+    },
     {
         "id": "118",
         "Name": "Thrishik Senthilkumar",
@@ -1292,7 +1292,7 @@ export const members = [
         "Github": "https://github.com/cyberfreak5725",
         "Website": ""
     },
-    
+
     {
         "id": "129",
         "Name": "Shivani Chander",
@@ -1583,7 +1583,7 @@ export const members = [
         "Github": "https://github.com/abishek27",
         "Website": ""
     },
-    
+
     {
         "id": "158",
         "Name": "Chockalingam",
@@ -1814,7 +1814,7 @@ export const members = [
         "Github": "https://github.com/sachin-101",
         "Website": ""
     },
-    
+
     {
         "id": "181",
         "Name": "Rahul Bhope",
@@ -1995,5 +1995,5 @@ export const members = [
         "Github": "https://github.com/Srinidhi2000",
         "Website": ""
     },
-    
+
 ]

@@ -4,13 +4,13 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import './members.css'
 
-export default ({yearName , Year , onSelect}) => {
+export default ({ yearName, Year, onSelect }) => {
 
   const index = yearName ? Year.findIndex(group => group === yearName) : 0
 
   const onIndexSelect = (e, index) =>
-      onSelect(Year[index])
-  
+    onSelect(Year[index])
+
   return (
     <Paper className='tabs'>
       <Tabs
@@ -19,11 +19,11 @@ export default ({yearName , Year , onSelect}) => {
         indicatorColor="primary"
         textColor="primary"
         centered
-      >        
+      >
         <Tab label="All" />
         <Tab label="2019-20" />
         <Tab label="2020-21" />
-        <Tab label="2021-22" />        
+        <Tab label="2021-22" />
       </Tabs>
     </Paper>
   );

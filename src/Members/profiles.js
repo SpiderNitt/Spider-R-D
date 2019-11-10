@@ -9,10 +9,10 @@ import AccountTreeIcon from '@material-ui/icons/AccountTree';
 import './members.css'
 
 
-export default ({profileName , Profile , onSelect}) => {
+export default ({ profileName, Profile, onSelect }) => {
   const index = profileName ? Profile.findIndex(group => group === profileName) : 0
   const onIndexSelect = (e, index) =>
-      onSelect(Profile[index])
+    onSelect(Profile[index])
 
   return (
     <Paper square className='tabs'>
@@ -24,9 +24,9 @@ export default ({profileName , Profile , onSelect}) => {
         aria-label="icon tabs example"
         centered
       >
-      <Tab icon={<MemoryIcon fontSize="large"/>} label="TRONIX" />
+        <Tab icon={<MemoryIcon fontSize="large" />} label="TRONIX" />
         <Tab icon={<PublicIcon fontSize="large" />} label=" WEB DEV" />
-        <Tab icon={<AndroidIcon fontSize="large"/>} label="APP DEV" />
+        <Tab icon={<AndroidIcon fontSize="large" />} label="APP DEV" />
         <Tab icon={<AccountTreeIcon fontSize="large" />} label="ALGOS" />
       </Tabs>
     </Paper>
