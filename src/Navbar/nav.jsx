@@ -195,8 +195,13 @@ export default function PrimarySearchAppBar() {
             <Button
               key="contactUs"
               color="inherit"
-              href="/contact"
+              // href="/contacts"
               className={classes.menuButton}
+              onClick={() => {
+                document
+                  .getElementById("Footer-Contacts")
+                  .scrollIntoView({ behavior: "smooth" });
+              }}
             >
               Contact Us
             </Button>

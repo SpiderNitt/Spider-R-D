@@ -25,7 +25,7 @@ export const members = [
         "Year": "B tech 4th year",
         "LinkedIn": "https://www.linkedin.com/in/benedictflorance/",
         "Github": "https://github.com/benedictflorance",
-        "Website": "benedictflorance.github.io"
+        "Website": "https://benedictflorance.github.io"
     },
     {
         "id": "3",
@@ -145,7 +145,7 @@ export const members = [
         "Year": "B tech 3rd Year",
         "LinkedIn": "",
         "Github": "",
-        "Website": ""
+        "Website": "https://gigatesseract.github.io/"
     },
     {
         "id": "15",
@@ -1016,7 +1016,7 @@ export const members = [
         "Year": "All",
         "LinkedIn": "https://www.linkedin.com/in/benedictflorance/",
         "Github": "https://github.com/benedictflorance",
-        "Website": "benedictflorance.github.io"
+        "Website": "https://benedictflorance.github.io"
     },
     {
         "id": "102",
@@ -1136,7 +1136,7 @@ export const members = [
         "Year": "All",
         "LinkedIn": "",
         "Github": "",
-        "Website": ""
+        "Website": "https://gigatesseract.github.io/"
     },
     {
         "id": "114",

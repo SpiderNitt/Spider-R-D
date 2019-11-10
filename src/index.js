@@ -20,6 +20,7 @@ const routing = (
             <Route exact path="/blogs" component={Blogs} />
             <Route exact path="/projects" component={Projects} />
             <Route exact path="/members" component={Members} />
+            <Route exact path="/contacts"/>
         </div>
     </Router>
 )
