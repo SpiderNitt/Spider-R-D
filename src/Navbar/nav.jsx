@@ -158,13 +158,14 @@ export default function PrimarySearchAppBar() {
         style={{ background: "#0E122B", color: "#ffffff" }}
       >
         <Toolbar>
-          <img
-            src="navlogo.png"
-            width="85"
-            alt="logo"
-            className={classes.logo}
-          />
-
+          <a href="/">
+            <img
+              src="navlogo.png"
+              width="85"
+              alt="logo"
+              className={classes.logo}
+            />
+          </a>
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>
             <Button
