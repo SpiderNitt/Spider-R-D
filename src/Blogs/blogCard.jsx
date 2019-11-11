@@ -9,28 +9,10 @@ import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
-import AndroidIcon from "@material-ui/icons/Android";
-import PublicIcon from "@material-ui/icons/Public";
-import AccountTreeIcon from "@material-ui/icons/AccountTree";
-import MemoryIcon from "@material-ui/icons/Memory";
-import Avatar from "@material-ui/core/Avatar";
-import Fab from "@material-ui/core/Fab";
-import Dialog from "@material-ui/core/Dialog";
-import DialogActions from "@material-ui/core/DialogActions";
-import DialogContent from "@material-ui/core/DialogContent";
-import DialogContentText from "@material-ui/core/DialogContentText";
-import DialogTitle from "@material-ui/core/DialogTitle";
-import ExpansionPanel from "@material-ui/core/ExpansionPanel";
-import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
-import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
-import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import Data from "./blogInfo.json";
 import { albumStyles } from "./blogs.css";
 
 const myStyles = makeStyles(theme => ({
-  root: {
-    flexGrow: 1
-  },
   paper: {
     padding: theme.spacing(2),
     textAlign: "center",
@@ -42,17 +24,14 @@ const myStyles = makeStyles(theme => ({
   },
   root: {
     fontFamily: "raleway",
-    fontWeight: "bold"
+    fontWeight: "bold",
+    flexGrow: 1
   },
   default: {
     fontFamily: "raleway"
   },
   icon: {
     marginRight: theme.spacing(2)
-  },
-  heroContent: {
-    backgroundColor: theme.palette.background.paper,
-    padding: theme.spacing(4, 0, 6)
   },
   content: {
     background: "#E2E2E2",
@@ -104,19 +83,19 @@ const useStyles = makeStyles(albumStyles);
 function Album(props) {
   const classes = useStyles();
 
-  const { loading = false } = props;
+  // const { loading = false } = props;
 
-  const [open, setOpen] = React.useState(false);
-  const [scroll, setScroll] = React.useState("paper");
+  // const [open, setOpen] = React.useState(false);
+  // const [scroll, setScroll] = React.useState("paper");
 
-  const handleClickOpen = scrollType => () => {
-    setOpen(true);
-    setScroll(scrollType);
-  };
+  // const handleClickOpen = scrollType => () => {
+  //   setOpen(true);
+  //   setScroll(scrollType);
+  // };
 
-  const handleClose = () => {
-    setOpen(false);
-  };
+  // const handleClose = () => {
+  //   setOpen(false);
+  // };
 
   return (
     <div>
