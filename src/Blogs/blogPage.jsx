@@ -5,7 +5,7 @@ import FooterBar from "../Footer/footer-bottom";
 class BlogPage extends Component {
   render() {
     return (
-      <div style={{ padding: 10 }}>
+      <div>
         <div
           style={{
             background: "#e2e2e2"

@@ -1,98 +1,193 @@
 import React from "react";
-import PropTypes from "prop-types";
-import { makeStyles } from "@material-ui/core/styles";
+import Button from "@material-ui/core/Button";
 import Card from "@material-ui/core/Card";
-import CardHeader from "@material-ui/core/CardHeader";
+import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
-import Typography from "@material-ui/core/Typography";
-import Skeleton from "@material-ui/lab/Skeleton";
+import CssBaseline from "@material-ui/core/CssBaseline";
 import Grid from "@material-ui/core/Grid";
+import Typography from "@material-ui/core/Typography";
+import { makeStyles } from "@material-ui/core/styles";
+import Container from "@material-ui/core/Container";
+import AndroidIcon from "@material-ui/icons/Android";
+import PublicIcon from "@material-ui/icons/Public";
+import AccountTreeIcon from "@material-ui/icons/AccountTree";
+import MemoryIcon from "@material-ui/icons/Memory";
+import Avatar from "@material-ui/core/Avatar";
+import Fab from "@material-ui/core/Fab";
+import Dialog from "@material-ui/core/Dialog";
+import DialogActions from "@material-ui/core/DialogActions";
+import DialogContent from "@material-ui/core/DialogContent";
+import DialogContentText from "@material-ui/core/DialogContentText";
+import DialogTitle from "@material-ui/core/DialogTitle";
+import ExpansionPanel from "@material-ui/core/ExpansionPanel";
+import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
+import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
+import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import Data from "./blogInfo.json";
-import { Button } from "@material-ui/core";
-import { mediaStyle, blogCardStyles } from "./blogs.css";
+import { albumStyles } from "./blogs.css";
+
+const myStyles = makeStyles(theme => ({
+  root: {
+    flexGrow: 1
+  },
+  paper: {
+    padding: theme.spacing(2),
+    textAlign: "center",
+    color: theme.palette.text.secondary
+  },
+  heroContent: {
+    backgroundColor: theme.palette.background.paper,
+    padding: theme.spacing(4, 0, 6)
+  },
+  root: {
+    fontFamily: "raleway",
+    fontWeight: "bold"
+  },
+  default: {
+    fontFamily: "raleway"
+  },
+  icon: {
+    marginRight: theme.spacing(2)
+  },
+  heroContent: {
+    backgroundColor: theme.palette.background.paper,
+    padding: theme.spacing(4, 0, 6)
+  },
+  content: {
+    background: "#E2E2E2",
+    borderRadius: 10,
+    opacity: 1
+  },
+  avatar: {
+    margin: 10
+  },
+  member: {
+    padding: 10
+  },
+  dialog: {
+    background: "#0D132A",
+    color: "white",
+    borderRadius: 0
+  },
+  heroButtons: {
+    marginTop: theme.spacing(4)
+  },
+  cardGrid: {
+    paddingTop: theme.spacing(8),
+    paddingBottom: theme.spacing(8)
+  },
+  card: {
+    height: "100%",
+    display: "flex",
+    flexDirection: "column"
+  },
+  cardMedia: {
+    paddingTop: "56.25%"
+  },
+  cardContent: {
+    flexGrow: 1
+  },
+  profiles: {
+    color: "black"
+  },
+  logos: {
+    padding: 5
+  }
+}));
 
 let data = JSON.stringify(Data);
 let blogData = JSON.parse(data);
 
-const useStyles = makeStyles(mediaStyle);
+const useStyles = makeStyles(albumStyles);
 
-function Media(props) {
-  const { loading = false } = props;
+function Album(props) {
   const classes = useStyles();
 
-  return (
-    <Card className={classes.card}>
-      <CardHeader
-        title={props.blogtitle}
-        titleTypographyProps={{
-          style: { fontFamily: "Raleway", fontSize: 15, fontWeight: "bold" }
-        }}
-      />
-      {loading ? (
-        <Skeleton variant="rect" className={classes.media} />
-      ) : (
-        <CardMedia className={classes.media} image={props.imgsrc} />
-      )}
+  const { loading = false } = props;
 
-      <CardContent>
-        {loading ? (
-          <React.Fragment>
-            <Skeleton height={6} />
-            <Skeleton height={6} width="100%" />
-          </React.Fragment>
-        ) : (
-          <React.Fragment>
+  const [open, setOpen] = React.useState(false);
+  const [scroll, setScroll] = React.useState("paper");
+
+  const handleClickOpen = scrollType => () => {
+    setOpen(true);
+    setScroll(scrollType);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+  };
+
+  return (
+    <div>
+      <Card className={classes.card}>
+        <div className={classes.notthumb}>
+          <CardContent className={classes.cardContent}>
             <Typography
-              variant="body2"
-              color="textPrimary"
-              component="p"
-              className={classes.content}
+              gutterBottom
+              variant="h5"
+              component="h2"
+              className={classes.root}
             >
-              {props.blogsummary}
+              {props.blogTitle}
             </Typography>
-            <Button href={props.bloglink} className={classes.button}>
-              Read More
-            </Button>
-          </React.Fragment>
-        )}
-      </CardContent>
-    </Card>
-  );
-}
-
-export default function Blog(props) {
-  const classes = makeStyles({
-    blogCardStyles
-  })();
-  return (
-    <div style={{ padding: 0 }}>
-      <Grid
-        container
-        spacing={4}
-        alignItems="center"
-        justify="center"
-        margin="auto"
-        padding={0}
-      >
-        {blogData.map(post => (
-          <Grid key={post.id} item xs={12} sm={6} md={4} padding={0}>
-            <Media
-              imgsrc={post.image_link}
-              blogtitle={post.title}
-              blogsummary={post.summary}
-              bloglink={post.article_link}
-              className={classes.media}
-            />
-          </Grid>
-        ))}
-      </Grid>
+            <div className={classes.imagediv}>
+              <CardMedia
+                className={classes.cardMedia}
+                image={props.imgsrc}
+                title="Image title"
+              />
+            </div>
+            <div>
+              <p>{props.blogDescription}</p>
+            </div>
+          </CardContent>
+          <CardActions>
+            <Button href={props.blogLink}>View More</Button>
+          </CardActions>
+        </div>
+      </Card>
     </div>
   );
 }
 
-Media.propTypes = {
-  loading: PropTypes.bool
-};
+export default function ProjectItems() {
+  const classes = myStyles();
 
-// export default Blog;
+  return (
+    <React.Fragment>
+      <CssBaseline />
+      <main>
+        <div className={classes.heroContent}>
+          <Container maxWidth="md">
+            <Typography
+              component="h1"
+              variant="h2"
+              align="center"
+              color="textPrimary"
+              className={classes.root}
+              gutterBottom
+            >
+              Blogs
+            </Typography>
+          </Container>
+        </div>
+        <Container className={classes.cardGrid} maxWidth="md">
+          <Grid container spacing={4}>
+            {blogData.map(post => (
+              <Grid item xs={12} sm={6} md={4}>
+                <Album
+                  blogId={post.id}
+                  blogTitle={post.title}
+                  blogDescription={post.summary}
+                  imgsrc={post.image_link}
+                  blogLink={post.article_link}
+                />
+              </Grid>
+            ))}
+          </Grid>
+        </Container>
+      </main>
+    </React.Fragment>
+  );
+}
