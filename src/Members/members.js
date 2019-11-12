@@ -4,6 +4,7 @@ import ProfileName from './profiles'
 import Batch from './batch'
 import { Profile, Year, members } from './spiderJSON'
 import TeamPage from './teamPage'
+import './members.css'
 
 export default class extends Component {
 
@@ -52,8 +53,9 @@ export default class extends Component {
 
     return (
       <Fragment>
-        <br />
         <center>
+        <div className = "memberBody">
+        <br />
           <br />
           <Heading />
           <ProfileName
@@ -72,6 +74,9 @@ export default class extends Component {
             profileName={profileName}
             yearName={yearName}
           />
+          <br/>
+          <br/>
+          </div>
         </center>
       </Fragment>
     )

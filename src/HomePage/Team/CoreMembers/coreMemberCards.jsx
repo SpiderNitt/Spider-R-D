@@ -19,8 +19,7 @@ export default function CoreMembers() {
       <center>
         <h1 id="core-header">
           Core Members
-        </h1>
-        <center>
+        </h1>        
           <div id="heads">
             <Grid
               container
@@ -30,23 +29,21 @@ export default function CoreMembers() {
               className="coreGrid"
             >
               {core.map(members => (
-                <Grid item xs={12} sm={6} md={4} lg={3} xl={3} align="center">
+                <Grid item xs={12} sm={6} md={4} lg={3} xl={3} align="center" key={members.id} >
                   <Card className="coreCard">
-                    <CardActionArea>
+                    
                       <img
-                        className="coreIma"
+                        className="coreImage"
                         src={members.Photo}
                         alt={members.Name}
-                        height="280x"
-                        width="100%"
                       />
                       <CardContent>
                         <Typography
-                          variant="h5"
+                          variant="h4"
                           component="h2"
                           className="coreName"
-                        >
-                          {members.Name}
+                        ><b>
+                          {members.Name}</b>
                         </Typography>
                         <Typography
                           variant="h5"
@@ -94,14 +91,13 @@ export default function CoreMembers() {
                           ""
                         )}
                       </CardContent>
-                    </CardActionArea>
                   </Card>
-                  <br />
+                 
                 </Grid>
               ))}
             </Grid>
           </div>
-        </center>
+       
       </center>
     </div>
   );

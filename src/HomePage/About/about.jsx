@@ -18,19 +18,13 @@ class About extends Component {
           <p
             style={{
               textAlignment: "justify",
-              padding: "0 80px",
+              padding: "0 50px",
               fontFamily: "Raleway, sans-serif",
               lineHeight: 3
-            }}
+            }
+            }
           >
-            Spider, the Research and Development Club of NIT Trichy is a group
-            of people enthusiastic about technology and innovation. We ideate
-            and pursue projects that are relevant to today's industry in fields
-            like Artificial Intelligence and Machine Learning, Electronics,
-            Computer Technology along with App and Web Development. Spread
-            across 4 domains: Algorithms, Tronix, App Development and Web
-            Development, we as a team look forward to Ideate and Innovate to
-            take Research and Development projects to greater heights.
+            Spider, the Research and Development Club of NIT Trichy is a group of people enthusiastic about technology and innovation. We pursue projects that are relevant to today's industry in fields like Artificial Intelligence and Machine Learning, Electronics, Computer Technology along with App and Web Development. Spread across 4 domains: Algorithms, Tronix, App Development and Web Development, we as a team look forward to Ideate and Innovate to take Research and Development projects to greater heights.
           </p>
         </b>
       </div>
