@@ -13,7 +13,8 @@ const useStyles = makeStyles(theme => ({
     flexGrow: 1
   },
   menuButton: {
-    marginRight: theme.spacing(2)
+    marginRight: theme.spacing(2),
+    fontSize:"120%"
   },
   title: {
     display: "none",
@@ -179,8 +180,8 @@ export default function PrimarySearchAppBar() {
               color="inherit"
               href="/projects"
               className={classes.menuButton}
-            ><b>
-              Projects</b>
+            >
+              <b>Projects</b>
             </Button>
             <Button
               key="blogs"

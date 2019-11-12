@@ -55,7 +55,7 @@ export default class extends Component {
       <Fragment>
         <center>
         <div className = "memberBody">
-        <br />
+          <br />
           <br />
           <Heading />
           <ProfileName
