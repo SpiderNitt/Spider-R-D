@@ -7,3 +7,14 @@
 .footer-main {
   padding-bottom: 3%;
 }
+
+.footer-main h1 {
+  font-size: 3em;
+  padding: 0;
+}
+
+.map-grid {
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+}

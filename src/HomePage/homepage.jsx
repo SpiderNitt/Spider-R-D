@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Logo from './Logo/logo';
+import Logo from './Logo/Bharat/logo';
 import Footer from '../Footer/Footer';
 import CoreMembers from './Team/CoreMembers/coreMemberCards';
 import Team from './Team/Team/team';

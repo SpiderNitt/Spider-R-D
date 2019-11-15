@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import GoogleMapReact from "google-map-react";
-
+import './footer-maps.css';
 
 class SimpleMap extends Component {
   static defaultProps = {
@@ -8,7 +8,7 @@ class SimpleMap extends Component {
       lat: 10.7600909,
       lng: 78.8178183
     },
-    zoom: 15
+    zoom: 16
   };
 
   renderMarkers(map, maps) {
@@ -25,7 +25,7 @@ class SimpleMap extends Component {
   render() {
     return (
       // Important! Always set the container height explicitly
-      <div style={{ height: "80vh", width: "80%" }}>
+      <div className="maps-style">
         <GoogleMapReact
           bootstrapURLKeys={{ key: "AIzaSyAVcA8AwyUkedvJlnEcXF5BFUaq7d5IbUo" }}
           defaultCenter={this.props.center}

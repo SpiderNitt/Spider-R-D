@@ -1,0 +1,13 @@
+.maps-style {
+  height: 60vh;
+  width: 30vw;
+  margin: auto;
+}
+
+@media only screen and (max-width: 650px) {
+  .maps-style {
+    height: 50vh;
+    width: 70vw;
+    margin: auto;
+  }
+}
