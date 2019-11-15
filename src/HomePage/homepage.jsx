@@ -8,7 +8,7 @@ import About from './About/about';
 class HomePage extends Component {
     render() {
         return (
-            <div>
+            <div style={{overflowX:"hidden"}}>
                 <Logo />
                 <About />
                 <Team />

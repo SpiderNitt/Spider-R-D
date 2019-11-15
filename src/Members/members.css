@@ -1,6 +1,7 @@
-body {
-  /* background: linear-gradient(90deg, #0d1329, #0d1329); */
-  overflow-x: hidden;
+.memberBody {
+  background-color: #0d1329; 
+  overflow: hidden;
+  min-height:100vh;
 }
 
 .tabs {

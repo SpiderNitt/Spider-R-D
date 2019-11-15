@@ -13,7 +13,8 @@ const useStyles = makeStyles(theme => ({
     flexGrow: 1
   },
   menuButton: {
-    marginRight: theme.spacing(2)
+    marginRight: theme.spacing(2),
+    fontSize:"120%"
   },
   title: {
     display: "none",
@@ -126,18 +127,22 @@ export default function PrimarySearchAppBar() {
         <a
           style={{ textDecoration: "none", color: "#0E122B" }}
           href="/projects"
-        >
-          PROJECTS
+        ><b>
+          PROJECTS</b>
         </a>
       </MenuItem>
       <MenuItem>
         <a style={{ textDecoration: "none", color: "#0E122B" }} href="/blogs">
+        <b>
           BLOGS
+          </b>
         </a>
       </MenuItem>
       <MenuItem>
         <a style={{ textDecoration: "none", color: "#0E122B" }} href="/members">
+        <b>
           MEMBERS
+          </b>
         </a>
       </MenuItem>
       <MenuItem>
@@ -145,7 +150,9 @@ export default function PrimarySearchAppBar() {
           style={{ textDecoration: "none", color: "#0E122B" }}
           href="/contactus"
         >
+        <b>
           CONTACT US
+          </b>
         </a>
       </MenuItem>
     </Menu>
@@ -174,7 +181,7 @@ export default function PrimarySearchAppBar() {
               href="/projects"
               className={classes.menuButton}
             >
-              Projects
+              <b>Projects</b>
             </Button>
             <Button
               key="blogs"
@@ -182,7 +189,7 @@ export default function PrimarySearchAppBar() {
               href="/blogs"
               className={classes.menuButton}
             >
-              Blogs
+              <b>Blogs</b>
             </Button>
             <Button
               key="members"
@@ -190,7 +197,7 @@ export default function PrimarySearchAppBar() {
               href="/members"
               className={classes.menuButton}
             >
-              Members
+              <b>Members</b>
             </Button>
             <Button
               key="contactUs"
@@ -203,7 +210,7 @@ export default function PrimarySearchAppBar() {
                   .scrollIntoView({ behavior: "smooth" });
               }}
             >
-              Contact Us
+              <b>Contact Us</b>
             </Button>
           </div>
           <div className={classes.sectionMobile}>
