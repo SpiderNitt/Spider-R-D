@@ -11,7 +11,7 @@ import MoreIcon from "@material-ui/icons/MoreVert";
 const useStyles = makeStyles(theme => ({
   grow: {
     flexGrow: 1,
-    height: "70px",
+    height: "64px",
   },
   menuButton: {
     marginRight: theme.spacing(2),
@@ -162,7 +162,7 @@ export default function PrimarySearchAppBar() {
   return (
     <div className={classes.grow}>
       <AppBar
-        position="static"
+        position="fixed"
         style={{ background: "#0E122B", color: "#ffffff" }}
       >
         <Toolbar>
