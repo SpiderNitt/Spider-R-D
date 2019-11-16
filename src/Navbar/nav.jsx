@@ -110,8 +110,9 @@ export default function PrimarySearchAppBar() {
         <Toolbar>
           <a href="/">
             <img
-              src="navlogo.png"
-              width="85"
+              src="logo-alt.png"
+              width="45"
+              height="45"
               alt="logo"
               className={classes.logo}
             />
