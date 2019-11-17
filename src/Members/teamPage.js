@@ -7,7 +7,7 @@ import LanguageIcon from '@material-ui/icons/Language';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import IconButton from '@material-ui/core/IconButton';
-import './members.css'
+
 
 const styles = {
   bigAvatar: {
