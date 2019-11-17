@@ -8,7 +8,7 @@ import App from './App';
 import Blogs from './Blogs/blogPage';
 import HomePage from './HomePage/homepage';
 import Projects from './Projects/projects'
-import Members from './Members/members';
+import Members from './Members/new_members';
 
 
 const routing = (

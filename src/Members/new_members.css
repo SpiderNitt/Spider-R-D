@@ -1,0 +1,66 @@
+
+.card {
+  background: linear-gradient(90deg, #ffffff, #ffffff); /*#E2E2E2*/
+  cursor: pointer;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+  border-radius: 10px;
+  min-width: 280px;
+  max-width: 300px;
+}
+
+.card .image {
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.card .memberName {
+  color: #000000;
+  font-weight: 550;
+  text-transform: capitalize;
+  font-family: "Raleway";
+}
+
+.card .details {
+  position: absolute;
+  top: 63px;
+  right: 0;
+  width: 35%;
+  transition: 0.5s;
+  transform-origin: right;
+  opacity: 0;
+}
+
+.card:hover {
+  transition: all 0.3s ease;
+  opacity: 0.9;
+}
+.card:hover .image {
+  transform: translateX(-10%);
+}
+.card:hover .details {
+  opacity: 1;
+}
+
+.linkedInIcon {
+  transform: translate(-40%);
+}
+.githubIcon {
+  transform: translate(0);
+}
+.webIcon {
+  transform: translate(-40%);
+}
+
+
+@media (min-width:1900px) {
+  .linkedInIcon {
+  transform: translate(-8%);
+}
+.githubIcon {
+  transform: translate(30%);
+}
+.webIcon {
+  transform: translate(-8%);
+}
+}

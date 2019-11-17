@@ -271,7 +271,7 @@ export default function ProjectItems() {
         <div className={classes.heroContent}>
           <Container maxWidth="md">
             <Typography component="h1" variant="h2" align="center" color="textPrimary" className={classes.root} gutterBottom>
-              Projects By Spider R&D
+              Projects 
               </Typography>
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justify="center">
