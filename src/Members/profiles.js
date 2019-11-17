@@ -6,7 +6,7 @@ import PublicIcon from '@material-ui/icons/Public';
 import AndroidIcon from '@material-ui/icons/Android';
 import MemoryIcon from '@material-ui/icons/Memory';
 import AccountTreeIcon from '@material-ui/icons/AccountTree';
-import './members.css'
+
 
 
 export default ({ profileName, Profile, onSelect }) => {
