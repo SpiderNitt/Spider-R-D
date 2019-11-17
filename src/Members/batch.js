@@ -12,7 +12,7 @@ export default ({ yearName, Year, onSelect }) => {
     onSelect(Year[index])
 
   return (
-    <Paper className='tabs'>
+    <Paper className='tabs' style={{ backgroundColor: "#E2E2E2" }}>
       <Tabs
         value={index}
         onChange={onIndexSelect}

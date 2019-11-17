@@ -15,7 +15,7 @@ export default ({ profileName, Profile, onSelect }) => {
     onSelect(Profile[index])
 
   return (
-    <Paper square className='tabs'>
+    <Paper square className='tabs' style={{ backgroundColor: "#E2E2E2" }}>
       <Tabs
         value={index}
         onChange={onIndexSelect}
