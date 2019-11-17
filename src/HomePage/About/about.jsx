@@ -4,8 +4,8 @@ import "./about.css";
 class About extends Component {
   render() {
     return (
-      <div style={{ background: "#EFEFEF", paddingBottom: "3%" }}>
-        <h1 className="about-header">ABOUT US</h1>
+      <div>
+        <h1 className="about-header">About Us</h1>
         <b>
           <p className="about-content">
             Spider, the Research and Development Club of NIT Trichy is a group

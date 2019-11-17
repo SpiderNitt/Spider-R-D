@@ -7,7 +7,7 @@ function Team() {
   return (
     <div className="team-body">
       <center>
-        <h1 className="team-header">OUR TEAM</h1>
+        <h1 className="team-header">Our Team</h1>
         <center>
           <div id="ourTeam" style={{ paddingTop: "3%" }}>
             <img
@@ -19,11 +19,9 @@ function Team() {
             />
             <br />
             <br />
-            <a href="/members">
-              <Button variant="contained" color="primary">
+              <Button href="/members" variant="outlined" size="large" style={{ background: "#0E122B", color: "white" }}>
                 View all Members
               </Button>
-            </a>
           </div>
         </center>
       </center>
