@@ -9,7 +9,7 @@ var mouse = {
 };
 
 var canvas_width = window.innerWidth; //Needs to be a multiple of the resolution value below.
-var canvas_height = 650; //This too.
+var canvas_height = 600; //This too.
 
 var resolution = 5; //Width and height of each cell in the grid.
 
