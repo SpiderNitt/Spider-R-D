@@ -1,17 +1,33 @@
-import React,{ Component } from "react";
+import React, { Component } from "react";
 import "./sparticle.css";
-import "./indScript.js";
 
-class Sparticle extends Component{
+class Sparticle extends Component {
+  componentDidMount() {
+    console.log("Going to load");
+    const script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "indScript.js";
+    script.async = true;
+    this.instance.appendChild(script);
+    document.body.appendChild(script);
+    console.log("Loaded");
+  }
+
   render() {
     return (
-      <div>
-				<canvas id="c"/>
-				    <center>
-				        <img className="ima1" src="SpiderLogo.png"  /><br />
-				        <img className="ima2" src="navLogo.png"  />
-				    </center>
-			</div>
+      <div id="canvas_container">
+        <canvas
+          id="c"
+          ref={el => {
+            this.instance = el;
+          }}
+        />
+        {/* <center> */}
+        <img className="ima1" src="SpiderLogo.png" alt="spiderlogo-main" />
+        {/* <br /> */}
+        {/* <img className="ima2" src="navlogo.png" alt="spiderlogo-2" /> */}
+        {/* </center> */}
+      </div>
     );
   }
 }

@@ -1,16 +1,23 @@
-#c{
-  position: fixed;
-  margin: 0;
+#c {
+  /* position: fixed; */
+  margin: auto;
+  /* z-index: -100; */
+  background: black;
+  /* width: 100%; */
+}
+.ima1 {
+  height: 25vh;
+  /* margin-top: 8%;
+  margin-bottom: 2%; */
   z-index: 100;
+  position: absolute;
 }
-.ima1{
-  height:25vh;
-  margin-top: 8%;
-  margin-bottom: 2%;
-}
-.ima2{
+/* .ima2{
   height:10vh;
-}
-canvas{
-  position: fixed;
+} */
+
+#canvas_container {
+  display: inline-block;
+  margin: 0 auto;
+  position: relative;
 }
