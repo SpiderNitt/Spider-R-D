@@ -1,0 +1,16 @@
+#c{
+  position: fixed;
+  margin: 0;
+  z-index: 100;
+}
+.ima1{
+  height:25vh;
+  margin-top: 8%;
+  margin-bottom: 2%;
+}
+.ima2{
+  height:10vh;
+}
+canvas{
+  position: fixed;
+}
