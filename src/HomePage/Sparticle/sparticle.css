@@ -2,7 +2,7 @@
   /* position: fixed; */
   margin: 0;
   /* z-index: -100; */
-  background: black;
+  background: #0E122B;
   /* width: 100%; */
 }
 .ima1 {
@@ -23,5 +23,5 @@
 #canvas_container {
   margin: 0 auto;
   position: static;
-  background-color: black;
+  background: #0E122B;
 }

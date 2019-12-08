@@ -17,7 +17,7 @@ var pen_size = 50; //Radius around the mouse cursor coordinates to reach when st
 
 var num_cols = canvas_width / resolution; //This value is the number of columns in the grid.
 var num_rows = canvas_height / resolution; //This is number of rows.
-var speck_count = 2000; //This determines how many particles will be made.
+var speck_count = 5000; //This determines how many particles will be made.
 
 var vec_cells = []; //The array that will contain the grid cells
 var particles = []; //The array that will contain the particles
