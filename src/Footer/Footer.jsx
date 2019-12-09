@@ -11,7 +11,7 @@ function Footer() {
       <div className="footer-main">
         <center>
           <br/>
-          <h1 className="footer-heading">FIND US</h1>
+          <h1 className="footer-heading">Find Us</h1>
         </center>
       </div>
       <Grid container spacing={0}>
@@ -52,6 +52,12 @@ function Footer() {
             <br /> President, Spider
             <br />
             Mobile :9629916025
+          </Typography>
+          <Typography align="center" variant="body1" gutterBottom>
+            Shivani Chander
+            <br /> Inter-Profile Coordinator, Spider
+            <br />
+            Mobile :7401161825
           </Typography>
         </Grid>
       </Grid>
