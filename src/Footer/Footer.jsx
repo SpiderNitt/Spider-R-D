@@ -44,7 +44,7 @@ function Footer() {
             <br />
           </Typography>
           <Typography align="center" variant="h6" gutterBottom>
-            <b>Point of Contacts</b>
+            <b>Points of Contact</b>
             <br />
           </Typography>
           <Typography align="center" variant="body1" gutterBottom>

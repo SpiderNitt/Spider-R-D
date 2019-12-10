@@ -125,7 +125,7 @@ export const members = [
         "Year": "B tech 3rd Year",
         "LinkedIn": "https://www.linkedin.com/in/mohamedsohail/",
         "Github": "https://github.com/kamikazechaser",
-        "Website": "https://github.com/kamikazechaser.github.io"
+        "Website": "https:kamikazechaser.github.io"
     },
     {
         "id": "13",
@@ -215,7 +215,7 @@ export const members = [
         "Year": "B tech 2nd Year",
         "LinkedIn": "https://linkedin.com/in/barath1999",
         "Github": "https://www.github.com/barath99",
-        "Website": "barath99.github.io"
+        "Website": "https://barath99.github.io"
     },
     {
         "id": "22",
@@ -224,7 +224,7 @@ export const members = [
         "Profile": "Web Dev",
         "Year": "B tech 2nd Year",
         "LinkedIn": "",
-        "Github": "https://github.com/srn11",
+        "Github": "https://github.com/labyrinth-maven",
         "Website": ""
     },
     {
@@ -1116,7 +1116,7 @@ export const members = [
         "Year": "All",
         "LinkedIn": "https://www.linkedin.com/in/mohamedsohail/",
         "Github": "https://github.com/kamikazechaser",
-        "Website": "kamikazechaser.github.io"
+        "Website": "https://kamikazechaser.github.io"
     },
     {
         "id": "112",
@@ -1196,7 +1196,7 @@ export const members = [
         "Year": "All",
         "LinkedIn": "https://www.linkedin.com/in/abhishek-l-b2701b193/",
         "Github": "https://www.github.com/Abhishec177",
-        "Website": "abhishec177.github.io"
+        "Website": "https://abhishec177.github.io"
     },
     {
         "id": "120",
@@ -1206,7 +1206,7 @@ export const members = [
         "Year": "All",
         "LinkedIn": "https://linkedin.com/in/barath1999",
         "Github": "https://www.github.com/barath99",
-        "Website": "barath99.github.io"
+        "Website": "https://barath99.github.io"
     },
     {
         "id": "121",
@@ -1215,7 +1215,7 @@ export const members = [
         "Profile": "Web Dev",
         "Year": "All",
         "LinkedIn": "",
-        "Github": "https://github.com/srn11",
+        "Github": "https://github.com/labyrinth-maven",
         "Website": ""
     },
     {
