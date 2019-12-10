@@ -108,7 +108,7 @@ export default function PrimarySearchAppBar() {
         <Toolbar>
           <NavLink exact to="/">
             <img
-              src="logo-alt.png"
+              src="images/logo-alt.png"
               width="45"
               height="45"
               alt="logo"

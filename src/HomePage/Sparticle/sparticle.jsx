@@ -6,7 +6,7 @@ class Sparticle extends Component {
     console.log("Going to load");
     const script = document.createElement("script");
     script.type = "text/javascript";
-    script.src = "indScript.js";
+    script.src = "js/indScript.js";
     script.async = true;
     this.instance.appendChild(script);
     document.body.appendChild(script);
@@ -23,9 +23,9 @@ class Sparticle extends Component {
           }}
         />
 
-        <img className="ima1" src="SpiderLogo.png" alt="spiderlogo-main" />
+        <img className="ima1" src="images/SpiderLogo.png" alt="spiderlogo-main" />
          <br />
-         <img className="ima2" src="navlogo.png" alt="spiderlogo-2" />
+         <img className="ima2" src="images/navlogo.png" alt="spiderlogo-2" />
       </div>
     );
   }

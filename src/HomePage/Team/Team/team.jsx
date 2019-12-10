@@ -1,7 +1,6 @@
 import React from "react";
 import Button from "@material-ui/core/Button";
 import "./team.css";
-// import "../../../App.css";
 
 function Team() {
   return (
@@ -11,7 +10,7 @@ function Team() {
         <center>
           <div id="ourTeam" style={{ paddingTop: "3%" }}>
             <img
-              src="/team.jpg"
+              src="images/team.jpg"
               style={{ borderRadius: "20" }}
               width="78%"
               alt="Team members of Spider'18"
