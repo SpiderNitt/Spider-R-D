@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
@@ -8,7 +7,7 @@ import MenuItem from "@material-ui/core/MenuItem";
 import Button from "@material-ui/core/Button";
 import Menu from "@material-ui/core/Menu";
 import MoreIcon from "@material-ui/icons/MoreVert";
-import { NavLink, BrowserRouter as Router, Redirect } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const useStyles = makeStyles(theme => ({
   grow: {

@@ -135,6 +135,7 @@ function Album(props) {
 
           </div>
           <div className={classes.desclogo}>{
+            // eslint-disable-next-line 
             props.projectProfiles.map(send => {
               if (send === "webdev") {
                 return (<AndroidIcon className={classes.icons} />)
@@ -149,8 +150,6 @@ function Album(props) {
                 return (<AccountTreeIcon className={classes.icons} />)
               }
             })
-
-
           }
           </div></div>
 
@@ -197,6 +196,7 @@ function Album(props) {
                   <Grid container justify="center" alignItems="center" >
                     {
                       props.projectMembers.map(send =>
+                        // eslint-disable-next-line 
                         props.spiderMembers.map(key => {
                           var link;
                           if (send === key.Name) {
@@ -228,7 +228,7 @@ function Album(props) {
                   <div className={classes.images}><center>
                     {
                       props.projectImages.map(send => {
-                        return (<img src={send} className={classes.pics} alt="project by Spider"/>)
+                        return (<img src={send} className={classes.pics} alt="project by Spider" />)
                       })
                     }
 
