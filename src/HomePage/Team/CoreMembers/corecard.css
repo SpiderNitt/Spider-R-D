@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 .core-header {
     font-size: 2.5em;
-    color: black;
+    color: white;
     text-align: center;
+}
+
+#core-main {
+    background-color: #0e122b;
+    padding: 5px;
 }
