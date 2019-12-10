@@ -11,13 +11,13 @@ var mouse = {
 var canvas_width = window.innerWidth; //Needs to be a multiple of the resolution value below.
 var canvas_height = 600; //This too.
 
-var resolution = 5; //Width and height of each cell in the grid.
+var resolution = 4; //Width and height of each cell in the grid.
 
-var pen_size = 50; //Radius around the mouse cursor coordinates to reach when stirring
+var pen_size = 30; //Radius around the mouse cursor coordinates to reach when stirring
 
 var num_cols = canvas_width / resolution; //This value is the number of columns in the grid.
 var num_rows = canvas_height / resolution; //This is number of rows.
-var speck_count = 5000; //This determines how many particles will be made.
+var speck_count = 9000; //This determines how many particles will be made.
 
 var vec_cells = []; //The array that will contain the grid cells
 var particles = []; //The array that will contain the particles
@@ -28,7 +28,6 @@ function init() {
 
     //These lines get the canvas DOM element and canvas context, respectively.
     canvas = document.getElementById("c");
-    console.log(document.getElementById("c"))
     ctx = canvas.getContext('2d');
 
     //These two set the width and height of the canvas to the defined values.
@@ -119,8 +118,6 @@ function init() {
             var col_right = (col + 1 < num_cols) ? col + 1 : 0;
 
             //Get the reference to the cell on the row above.
-            console.log(row)
-            console.log(vec_cells[col])
             var up = vec_cells[col][row_up];
             var left = vec_cells[col_left][row];
             var up_left = vec_cells[col_left][row_up];
