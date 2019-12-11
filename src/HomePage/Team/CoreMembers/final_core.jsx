@@ -50,7 +50,6 @@ export default function CoreMembers() {
                         {members.Role}
                       </Typography>
                     </CardContent>
-
                     <CardActions style={{ marginLeft: "20%", marginTop: "-5%" }}>
                       <a href={members.Website}>
                         <IconButton aria-label="personalSite">
@@ -73,7 +72,7 @@ export default function CoreMembers() {
               </Grid>
             ))}
           </Grid>
-          </Container>
+        </Container>
         </div>
       </center>
     </div>

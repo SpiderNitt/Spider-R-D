@@ -3,14 +3,12 @@ import "./sparticle.css";
 
 class Sparticle extends Component {
   componentDidMount() {
-    console.log("Going to load");
     const script = document.createElement("script");
     script.type = "text/javascript";
     script.src = "js/indScript.js";
     script.async = true;
     this.instance.appendChild(script);
     document.body.appendChild(script);
-    console.log("Loaded");
   }
 
   render() {
