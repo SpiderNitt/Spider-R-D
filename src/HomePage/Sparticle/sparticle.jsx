@@ -5,7 +5,7 @@ class Sparticle extends Component {
   componentDidMount() {
     const script = document.createElement("script");
     script.type = "text/javascript";
-    script.src = "js/indScript.js";
+    script.src = "js/indScript.min.js";
     script.async = true;
     this.instance.appendChild(script);
     document.body.appendChild(script);
