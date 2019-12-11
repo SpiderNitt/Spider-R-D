@@ -1,9 +1,9 @@
 import React from "react";
-import FooterBar from "./footer-bottom";
-import SimpleMap from "./location-maps";
+import BottomFooter from "./footer-bottom";
+import MapComponent from "./footer-maps";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
-import "./footer.css";
+import "./footer-overall.css";
 
 function Footer() {
   return (
@@ -16,7 +16,7 @@ function Footer() {
       </div>
       <Grid container spacing={0}>
         <Grid item xs={12} sm={6} className="map-grid">
-          <SimpleMap />
+          <MapComponent />
         </Grid>
         <Grid item xs={12} sm={6}>
           <br /><br/>
@@ -63,7 +63,7 @@ function Footer() {
       </Grid>
       <br />
       <br />
-      <FooterBar />
+      <BottomFooter />
     </div>
   );
 }

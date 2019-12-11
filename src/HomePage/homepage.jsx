@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Footer from '../Footer/Footer';
+import Footer from '../Footer/footer-overall';
 import CoreMembers from './Team/CoreMembers/final_core';
 import Team from './Team/Team/team';
 import About from './About/about';

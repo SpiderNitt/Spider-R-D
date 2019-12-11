@@ -3,6 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -36,12 +37,9 @@ export default function FooterBar() {
           <Typography variant="center" className={classes.title}>
             <b style={{ padding: 20 }}>
               Weaved with &#128376; by{" "}
-              <a
-                href="https://spider.nitt.edu"
-                style={{ textDecoration: "none", color: "white" }}
-              >
+              <Link to="/" style={{ textDecoration: "none", color: "white" }}>
                 Spider
-              </a>
+              </Link>
             </b>
           </Typography>
         </Toolbar>
