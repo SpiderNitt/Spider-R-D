@@ -20,6 +20,7 @@ const styles = theme => ({
   heroContent: {
     backgroundColor: theme.palette.background.paper,
     padding: theme.spacing(4, 0, 6),
+    marginBottom:0
   },
   root: {
     fontFamily: "raleway",
@@ -30,7 +31,10 @@ const styles = theme => ({
   default: {
     fontFamily: "raleway",
   },
-
+  cardGrid: {
+    paddingLeft: '180px',
+    paddingRight: '180px',
+  },
   heroButtons: {
     marginTop: theme.spacing(4),
   },
@@ -101,7 +105,7 @@ class MembersBlock extends Component {
             </div>
           </Container>
         </div>
-        <Container>
+        <Container className={classes.cardGrid} maxWidth='l'>
         <br/>
           <TeamPage
             members={members}
@@ -109,6 +113,7 @@ class MembersBlock extends Component {
             yearName={yearName}
           />
         </Container>
+        <br/><br/>
     </Fragment>
   )}
 }

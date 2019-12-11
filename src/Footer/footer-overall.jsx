@@ -11,7 +11,7 @@ function Footer() {
       <div className="footer-main">
         <center>
           <br/>
-          <h1 className="footer-heading">Find Us</h1>
+          <h1 className="footer-header">Find Us</h1>
         </center>
       </div>
       <Grid container spacing={0}>
