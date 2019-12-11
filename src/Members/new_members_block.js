@@ -26,7 +26,6 @@ const styles = theme => ({
     fontFamily: "raleway",
     fontWeight: "bold",
     flexGrow: 1
-
   },
   default: {
     fontFamily: "raleway",
@@ -105,7 +104,7 @@ class MembersBlock extends Component {
             </div>
           </Container>
         </div>
-        <Container className={classes.cardGrid} maxWidth='l'>
+        <Container className={classes.cardGrid} maxWidth='xl'>
         <br/>
           <TeamPage
             members={members}

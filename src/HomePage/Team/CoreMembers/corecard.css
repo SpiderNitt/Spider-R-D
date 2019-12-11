@@ -13,8 +13,9 @@
     font-size: 2.5em;
     color: black;
     text-align: center;
+    font-family: "Raleway";
 }
 
 #core-main {
-    background-color: #0e122b;
-    }    font-family: "Raleway";
+    padding: 10px;
+}

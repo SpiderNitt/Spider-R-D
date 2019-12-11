@@ -1,26 +1,35 @@
 .about-header:after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    width: 70px;
-    height: 5px;
-    margin-left: -30px;
-    margin-top: 60px;
-    background-color: #232d65;
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 70px;
+  height: 5px;
+  margin-left: -30px;
+  margin-top: 60px;
+  background-color: #232d65;
 }
 
 .about-header {
-    font-size: 2.5em;
-    color: black;
-    text-align: center;
-    font-family: "Raleway";
-    padding-top: 80px;
-    padding-bottom: 20px;
+  font-size: 2.5em;
+  color: black;
+  text-align: center;
+  font-family: "Raleway";
+  padding-top: 80px;
+  padding-bottom: 20px;
 }
 
 .about-content {
-    padding: 0 80px;
+  padding: 0 80px;
+  line-height: 2;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .about-content {
+    padding: 0 50px;
     line-height: 2;
-    font-size: 1.2em;
+    font-size: 1.0em;
     font-weight: bold;
+  }
 }

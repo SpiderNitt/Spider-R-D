@@ -154,7 +154,7 @@ export default function ProjectItems() {
         <Container className={classes.cardGrid} maxWidth="md">
           <Grid container spacing={4}>
             {blogData.map(post => (
-              <Grid item xs={12} sm={6} md={4}>
+              <Grid item xs={12} sm={6} md={4} key={post.id}>
                 <Album
                   blogId={post.id}
                   blogTitle={post.title}
