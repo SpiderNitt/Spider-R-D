@@ -7,7 +7,7 @@ import Container from '@material-ui/core/Container';
 
 import ProfileName from './profiles'
 import Batch from './batch'
-import { Profile, Year, members } from './spiderJSON'
+import { Profile, Year, members } from './spider_members'
 import TeamPage from './teamPage'
 import './new_members.css'
 

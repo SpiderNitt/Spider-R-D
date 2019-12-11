@@ -7,14 +7,15 @@ import MenuItem from "@material-ui/core/MenuItem";
 import Button from "@material-ui/core/Button";
 import Menu from "@material-ui/core/Menu";
 import MoreIcon from "@material-ui/icons/MoreVert";
+import { NavLink } from "react-router-dom";
 
 const useStyles = makeStyles(theme => ({
   grow: {
     flexGrow: 1,
-    height: "64px",
+    height: "64px"
   },
   menuButton: {
-    marginRight: theme.spacing(2),
+    marginRight: theme.spacing(2)
   },
   title: {
     display: "none",
@@ -38,30 +39,18 @@ const useStyles = makeStyles(theme => ({
 
 export default function PrimarySearchAppBar() {
   const classes = useStyles();
-  // const [anchorEl, setAnchorEl] = React.useState(null);
   const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState(null);
 
-  // const isMenuOpen = Boolean(anchorEl);
   const isMobileMenuOpen = Boolean(mobileMoreAnchorEl);
-
-  // const handleProfileMenuOpen = event => {
-  //   setAnchorEl(event.currentTarget);
-  // };
 
   const handleMobileMenuClose = () => {
     setMobileMoreAnchorEl(null);
   };
 
-  // const handleMenuClose = () => {
-  //   setAnchorEl(null);
-  //   handleMobileMenuClose();
-  // };
-
   const handleMobileMenuOpen = event => {
     setMobileMoreAnchorEl(event.currentTarget);
   };
 
-  // const menuId = "primary-search-account-menu";
   const mobileMenuId = "primary-search-account-menu-mobile";
   const renderMobileMenu = (
     <Menu
@@ -74,29 +63,38 @@ export default function PrimarySearchAppBar() {
       onClose={handleMobileMenuClose}
     >
       <MenuItem>
-        <a
-          style={{ textDecoration: "none", color: "#0E122B" }}href="/projects">
+        <NavLink
+          exact
+          style={{ textDecoration: "none", color: "#0E122B", width: "100%" }}
+          to="/projects"
+        >
           Projects
-        </a>
+        </NavLink>
       </MenuItem>
       <MenuItem>
-        <a style={{ textDecoration: "none", color: "#0E122B" }} href="/blogs">
-          Blogs
-        </a>
-      </MenuItem>
-      <MenuItem>
-        <a style={{ textDecoration: "none", color: "#0E122B" }} href="/members">
-          Members
-        </a>
-      </MenuItem>
-      <MenuItem>
-        <a
+        <NavLink
           style={{ textDecoration: "none", color: "#0E122B" }}
-          href="/contactus"
+          to="/blogs"
+        >
+          Blogs
+        </NavLink>
+      </MenuItem>
+      <MenuItem>
+        <NavLink
+          style={{ textDecoration: "none", color: "#0E122B" }}
+          to="/members"
+        >
+          Members
+        </NavLink>
+      </MenuItem>
+      {/* <MenuItem>
+        <NavLink
+          style={{ textDecoration: "none", color: "#0E122B" }}
+          to="/contactus"
         >
           Contact us
-        </a>
-      </MenuItem>
+        </NavLink>
+      </MenuItem> */}
     </Menu>
   );
 
@@ -108,54 +106,75 @@ export default function PrimarySearchAppBar() {
         style={{ background: "#0E122B", color: "#ffffff" }}
       >
         <Toolbar>
-          <a href="/">
+          <NavLink exact to="/">
             <img
-              src="logo-alt.png"
+              src="images/logo-alt.png"
               width="45"
               height="45"
               alt="logo"
               className={classes.logo}
             />
-          </a>
+          </NavLink>
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>
-            <Button
-              key="projects"
-              color="inherit"
-              href="/projects"
-              className={classes.menuButton}
+            <NavLink
+              exact
+              to="/projects"
+              style={{ color: "#DADADE", textDecoration: "none" }}
             >
-              Projects
-            </Button>
-            <Button
-              key="blogs"
-              color="inherit"
-              href="/blogs"
-              className={classes.menuButton}
+              <Button
+                key="projects"
+                color="inherit"
+                className={classes.menuButton}
+              >
+                Projects
+              </Button>
+            </NavLink>
+            <NavLink
+              exact
+              to="/blogs"
+              style={{ color: "#DADADE", textDecoration: "none" }}
             >
-              Blogs
-            </Button>
-            <Button
-              key="members"
-              color="inherit"
-              href="/members"
-              className={classes.menuButton}
+              <Button
+                key="blogs"
+                color="inherit"
+                className={classes.menuButton}
+              >
+                Blogs
+              </Button>
+            </NavLink>
+            <NavLink
+              exact
+              to="/members"
+              style={{ color: "#DADADE", textDecoration: "none" }}
             >
-              Members
-            </Button>
-            <Button
+              <Button
+                key="members"
+                color="inherit"
+                className={classes.menuButton}
+              >
+                Members
+              </Button>
+            </NavLink>
+            {/* <Button
               key="contactUs"
               color="inherit"
-              // href="/contacts"
               className={classes.menuButton}
               onClick={() => {
-                document
-                  .getElementById("Footer-Contacts")
-                  .scrollIntoView({ behavior: "smooth" });
+                if (document.getElementById("Footer-Contacts")) {
+                  document
+                    .getElementById("Footer-Contacts")
+                    .scrollIntoView({ behavior: "smooth" });
+                } else {
+                  window.location.href = "/";
+                  document
+                    .getElementById("Footer-Contacts")
+                    .scrollIntoView({ behavior: "smooth" });
+                }
               }}
             >
               Contact Us
-            </Button>
+            </Button> */}
           </div>
           <div className={classes.sectionMobile}>
             <IconButton

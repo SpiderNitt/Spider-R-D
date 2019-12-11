@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "@material-ui/core/Button";
 import "./team.css";
-// import "../../../App.css";
+import { Link } from "react-router-dom";
 
 function Team() {
   return (
@@ -11,7 +11,7 @@ function Team() {
         <center>
           <div id="ourTeam" style={{ paddingTop: "3%" }}>
             <img
-              src="/team.jpg"
+              src="images/team.jpg"
               style={{ borderRadius: "20" }}
               width="78%"
               alt="Team members of Spider'18"
@@ -19,9 +19,15 @@ function Team() {
             />
             <br />
             <br />
-              <Button href="/members" variant="outlined" size="large" style={{ background: "#0E122B", color: "white" }}>
+            <Link to="/members" style={{ textDecoration: "none" }}>
+              <Button
+                variant="outlined"
+                size="large"
+                style={{ background: "#0E122B", color: "white" }}
+              >
                 View all Members
               </Button>
+            </Link>
           </div>
         </center>
       </center>

@@ -11,11 +11,12 @@ var mouse = {
 var canvas_width = window.innerWidth; //Needs to be a multiple of the resolution value below.
 var canvas_height = 600; //This too.
 
+
 var resolution = 4; //Width and height of each cell in the grid.
 
 var pen_size = 30; //Radius around the mouse cursor coordinates to reach when stirring
 
-var num_cols = canvas_width / resolution; //This value is the number of columns in the grid.
+var num_cols = 500; //This value is the number of columns in the grid.
 var num_rows = canvas_height / resolution; //This is number of rows.
 var speck_count = 9000; //This determines how many particles will be made.
 

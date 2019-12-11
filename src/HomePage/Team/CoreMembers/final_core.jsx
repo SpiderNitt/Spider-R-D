@@ -27,6 +27,10 @@ export default function CoreMembers() {
             alignItems="center"
             justify="center"
             className="coreGrid"
+<<<<<<< HEAD
+=======
+            style={{padding: "40px"}}
+>>>>>>> a17dd28f8dbce64dbf5b44ac98a1d12ac86609db
           >
             {core.map(members => (
               <Grid

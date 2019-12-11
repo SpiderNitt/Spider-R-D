@@ -1,27 +1,77 @@
 #c {
-  /* position: fixed; */
-  margin: 0;
-  /* z-index: -100; */
-  background: #0E122B;
-  /* width: 100%; */
+    /* position: fixed; */
+    margin: 0;
+    /* z-index: -100; */
+    background: #0E122B;
+    /* width: 100%; */
 }
+
 .ima1 {
-  height: 25vh;
-  position: absolute;
-  top:25%;
-  left: 50%;
-  margin-left: -10vh;
+    height: 25vh;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-left: -10vh;
 }
-.ima2{
-  height:10vh;
-  position: absolute;
-  top:53%;
-  left: 50%;
-  margin-left: -9vh;
+
+.ima2 {
+    height: 10vh;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    margin-left: -9vh;
 }
 
 #canvas_container {
-  margin: 0 auto;
-  position: static;
-  background: #0E122B;
+    margin: 0 auto;
+    position: static;
+    background: #0E122B;
+}
+
+
+/* iPad*/
+
+@media (min-height:1000px) and (max-height:1100px) {
+    .ima1 {
+        top: 12%;
+    }
+    .ima2 {
+        top: 40%;
+    }
+}
+
+
+/* iPad Responsive */
+
+@media (min-height:1100px) and (max-height:1200px) {
+    .ima1 {
+        top: 10%;
+    }
+    .ima2 {
+        top: 37%;
+    }
+}
+
+
+/* iPad Pro */
+
+@media (min-height:1300px) and (max-height:1400px) {
+    .ima1 {
+        top: 8%;
+    }
+    .ima2 {
+        top: 35%;
+    }
+}
+
+
+/* iPad Pro Responsive */
+
+@media (min-height:1650px) and (max-height:1700px) {
+    .ima1 {
+        top: 4.5%;
+    }
+    .ima2 {
+        top: 28.5%;
+    }
 }
