@@ -20,6 +20,7 @@ const styles = theme => ({
   heroContent: {
     backgroundColor: theme.palette.background.paper,
     padding: theme.spacing(4, 0, 6),
+    marginBottom:0
   },
   root: {
     fontFamily: "raleway",
@@ -112,6 +113,7 @@ class MembersBlock extends Component {
             yearName={yearName}
           />
         </Container>
+        <br/><br/>
     </Fragment>
   )}
 }

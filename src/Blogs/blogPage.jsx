@@ -3,6 +3,11 @@ import Blog from "./blogCard";
 import FooterBar from "../Footer/footer-bottom";
 
 class BlogPage extends Component {
+
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <div>

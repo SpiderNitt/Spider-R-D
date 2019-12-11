@@ -11,44 +11,37 @@ import LanguageIcon from "@material-ui/icons/Language";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import IconButton from "@material-ui/core/IconButton";
+
+import { makeStyles } from '@material-ui/core/styles';
+import Container from '@material-ui/core/Container';
+
 import core from "./coreMembersData.json";
 import "./corecard.css";
 
+const myStyles = makeStyles(theme => ({
+  cardGrid: {
+    paddingLeft: '200px',
+    paddingRight: '200px',
+  }
+}));
+
+
 export default function CoreMembers() {
+  const classes = myStyles();
   return (
     <div id="core-main">
       <center>
         <h1 className="core-header">Core Members</h1>
         <br />
+        <br />
         <div>
-          <Grid
-            container
-            spacing={6}
-            alignItems="center"
-            justify="center"
-            className="coreGrid"
-            style={{padding: "40px"}}
-          >
+        <Container className={classes.cardGrid} maxWidth='l'>
+          <Grid container spacing={6} alignItems="center" justify="center" className="coreGrid">
             {core.map(members => (
-              <Grid
-                item
-                xs={12}
-                sm={6}
-                md={4}
-                lg={3}
-                xl={3}
-                align="center"
-                key={members.id}
-              >
+              <Grid item xs={12} sm={6} md={4} lg={3} xl={3} align="center" key={members.id}>
                 <Card style={{ maxWidth: 300 }}>
                   <CardActionArea>
-                    <CardMedia
-                      component="img"
-                      alt={members.Role}
-                      height="270"
-                      image={members.Photo}
-                      title={members.Role}
-                    />
+                    <CardMedia component="img" alt={members.Role} height="270" image={members.Photo} title={members.Role}/>
                     <CardContent>
                       <Typography gutterBottom variant="h5" component="h2">
                         {members.Name}
@@ -58,9 +51,7 @@ export default function CoreMembers() {
                       </Typography>
                     </CardContent>
 
-                    <CardActions
-                      style={{ marginLeft: "20%", marginTop: "-5%" }}
-                    >
+                    <CardActions style={{ marginLeft: "20%", marginTop: "-5%" }}>
                       <a href={members.Website}>
                         <IconButton aria-label="personalSite">
                           <LanguageIcon />
@@ -82,6 +73,7 @@ export default function CoreMembers() {
               </Grid>
             ))}
           </Grid>
+          </Container>
         </div>
       </center>
     </div>
