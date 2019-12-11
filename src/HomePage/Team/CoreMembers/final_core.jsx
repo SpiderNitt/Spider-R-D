@@ -27,7 +27,7 @@ export default function CoreMembers() {
             alignItems="center"
             justify="center"
             className="coreGrid"
-            style={{padding: "40px"}}
+            style={{ padding: "40px" }}
           >
             {core.map(members => (
               <Grid
@@ -61,21 +61,18 @@ export default function CoreMembers() {
                     <CardActions
                       style={{ marginLeft: "20%", marginTop: "-5%" }}
                     >
-                      <a href={members.Website}>
-                        <IconButton aria-label="personalSite">
-                          <LanguageIcon />
-                        </IconButton>
-                      </a>
-                      <a href={members.LinkedIn}>
-                        <IconButton aria-label="linkedIn">
-                          <LinkedInIcon />
-                        </IconButton>
-                      </a>
-                      <a href={members.Github}>
-                        <IconButton aria-label="gitHubLink">
-                          <GitHubIcon />
-                        </IconButton>
-                      </a>
+                      <IconButton
+                        aria-label="personalSite"
+                        href={members.Website}
+                      >
+                        <LanguageIcon />
+                      </IconButton>
+                      <IconButton aria-label="linkedIn" href={members.LinkedIn}>
+                        <LinkedInIcon />
+                      </IconButton>
+                      <IconButton aria-label="gitHubLink" href={members.Github}>
+                        <GitHubIcon />
+                      </IconButton>
                     </CardActions>
                   </CardActionArea>
                 </Card>

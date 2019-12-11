@@ -34,7 +34,7 @@ export default function FooterBar() {
     <div className={classes.root}>
       <AppBar position="static" style={{ background: "#0D1329" }}>
         <Toolbar>
-          <Typography variant="center" className={classes.title}>
+          <Typography className={classes.title}>
             <b style={{ padding: 20 }}>
               Weaved with &#128376; by{" "}
               <Link to="/" style={{ textDecoration: "none", color: "white" }}>
