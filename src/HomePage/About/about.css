@@ -21,8 +21,9 @@
 .about-content {
   padding: 0 80px;
   line-height: 2;
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: bold;
+  text-align: justify;
 }
 
 @media (max-width: 600px) {
