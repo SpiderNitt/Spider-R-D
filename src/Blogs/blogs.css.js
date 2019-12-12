@@ -7,20 +7,10 @@ const albumStyles = {
     width: "100%",
     fontFamily: "raleway"
   },
-  heading: {
-    // fontSize: theme.typography.pxToRem(15),
-    // fontWeight: theme.typography.fontWeightRegular,
-  },
   default: {
     fontFamily: "raleway"
   },
-  icon: {
-    // marginRight: theme.spacing(2),
-  },
-  heroContent: {
-    // backgroundColor: theme.palette.background.paper,
-    // padding: theme.spacing(4, 0, 6),
-  },
+
   content: {
     background: "white",
     borderRadius: 10,
@@ -37,13 +27,7 @@ const albumStyles = {
   member: {
     padding: 10
   },
-  heroButtons: {
-    // marginTop: theme.spacing(4),
-  },
-  cardGrid: {
-    // paddingTop: theme.spacing(8),
-    // paddingBottom: theme.spacing(6),
-  },
+
   card: {
     height: "100%",
     display: "flex",

@@ -13,7 +13,7 @@ class Sparticle extends Component {
 
   render() {
     return (
-      <div id="canvas_container" style={{width:"100%",height:"600px"}}>
+      <div id="canvas_container" style={{ width: "100%", height: "600px" }}>
         <canvas
           id="c"
           ref={el => {
@@ -21,9 +21,13 @@ class Sparticle extends Component {
           }}
         />
 
-        <img className="ima1" src="images/SpiderLogo.png" alt="spiderlogo-main" />
-         <br />
-         <img className="ima2" src="images/navlogo.png" alt="spiderlogo-2" />
+        <img
+          className="ima1"
+          src="images/SpiderLogo.png"
+          alt="spiderlogo-main"
+        />
+        <br />
+        <img className="ima2" src="images/navlogo.png" alt="spiderlogo-2" />
       </div>
     );
   }

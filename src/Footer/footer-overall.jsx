@@ -10,7 +10,7 @@ function Footer() {
     <div id="Footer-Contacts">
       <div className="footer-main">
         <center>
-          <br/>
+          <br />
           <h1 className="footer-header">Find Us</h1>
         </center>
       </div>
@@ -19,7 +19,8 @@ function Footer() {
           <MapComponent />
         </Grid>
         <Grid item xs={12} sm={6}>
-          <br /><br/>
+          <br />
+          <br />
           <Typography align="center" variant="h6" gutterBottom>
             <b>PRIMARY OFFICE</b>
             <br />
