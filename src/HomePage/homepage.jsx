@@ -3,13 +3,13 @@ import Footer from '../Footer/footer-overall';
 import CoreMembers from './Team/CoreMembers/final_core';
 import Team from './Team/Team/team';
 import About from './About/about';
-import Sparticle from './Sparticle/sparticle';
+import Particles from './Particles/particles';
 
 class HomePage extends Component {
     render() {
         return (
             <div style={{overflowX:"hidden"}}>
-                <Sparticle />
+                <Particles />
                 <About />
                 <Team />
                 <CoreMembers />

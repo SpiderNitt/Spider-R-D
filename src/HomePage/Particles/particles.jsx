@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./sparticle.css";
+import "./particles.css";
 
 class Sparticle extends Component {
   componentDidMount() {
