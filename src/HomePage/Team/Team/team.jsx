@@ -9,7 +9,7 @@ function Team() {
       <center>
         <h1 className="team-header">Our Team</h1>
         <center>
-          <div id="ourTeam" style={{ paddingTop: "3%" }}>
+          <div id="ourTeam">
             <img
               src="images/team.jpg"
               style={{ borderRadius: "20" }}

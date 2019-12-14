@@ -16,7 +16,7 @@ function Footer() {
       </div>
       <Grid container spacing={0}>
         <Grid item xs={12} sm={6} className="map-grid">
-          <MapComponent />
+          <MapComponent/>
         </Grid>
         <Grid item xs={12} sm={6}>
           <br />

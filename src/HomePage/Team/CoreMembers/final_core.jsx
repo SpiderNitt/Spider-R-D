@@ -27,7 +27,7 @@ export default function CoreMembers() {
             alignItems="center"
             justify="center"
             className="coreGrid"
-            style={{ padding: "40px" }}
+            style={{ paddingLeft: "40px",paddingRight:"40px" }}
           >
             {core.map(members => (
               <Grid
@@ -59,7 +59,7 @@ export default function CoreMembers() {
                     </CardContent>
 
                     <CardActions
-                      style={{ marginLeft: "20%", marginTop: "-5%" }}
+                      style={{ marginLeft: "20%" }}
                     >
                       <IconButton
                         aria-label="personalSite"

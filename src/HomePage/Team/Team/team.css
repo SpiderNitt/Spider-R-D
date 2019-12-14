@@ -1,5 +1,5 @@
 .team-body {
-    padding-bottom: 3%;
+    /*padding-bottom: 3%;*/
     background-color: "#ffffff";
 }
 
@@ -26,7 +26,11 @@
     color: black;
     text-align: center;
     font-family: "Raleway";
-    padding-top: 80px;
+    margin-top: 5vh;
+
+}
+.team-image{
+    margin-top: 4vh;
 }
 
 @media only screen and (max-width: 650px) {

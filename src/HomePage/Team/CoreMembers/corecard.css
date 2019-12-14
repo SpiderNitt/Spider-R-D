@@ -14,8 +14,11 @@
     color: black;
     text-align: center;
     font-family: "Raleway";
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 #core-main {
-    padding: 10px;
+    /*padding: 10px;*/
+    /*padding-top: 2vh;*/
 }
