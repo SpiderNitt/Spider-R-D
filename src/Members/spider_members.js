@@ -731,7 +731,7 @@ export const members = [
     {
         "id": "73",
         "Name": "S P Sharan",
-        "Photo": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FIMG-20181227-WA0000%20-%20Sharan%20SP.jpg?alt=media&token=485748e9-9b43-4902-933b-bf83ec459025",
+        "Photo": "https://firebasestorage.googleapis.com/v0/b/self-pic-faa7e.appspot.com/o/sharan.jpg?alt=media&token=a232e1f8-595a-4843-afca-e7e3b25e7b48",
         "Profile": "Tronix",
         "Year": "B tech 2nd Year",
         "LinkedIn": "https://www.linkedin.com/in/sharan-sp-05735a168",
@@ -1721,7 +1721,7 @@ export const members = [
     {
         "id": "172",
         "Name": "S P Sharan",
-        "Photo": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FIMG-20181227-WA0000%20-%20Sharan%20SP.jpg?alt=media&token=485748e9-9b43-4902-933b-bf83ec459025",
+        "Photo": "https://firebasestorage.googleapis.com/v0/b/self-pic-faa7e.appspot.com/o/sharan.jpg?alt=media&token=a232e1f8-595a-4843-afca-e7e3b25e7b48",
         "Profile": "Tronix",
         "Year": "All",
         "LinkedIn": "https://www.linkedin.com/in/sharan-sp-05735a168",
