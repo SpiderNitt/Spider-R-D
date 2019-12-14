@@ -13,7 +13,7 @@ class Sparticle extends Component {
 
   render() {
     return (
-      <div id="canvas_container" style={{ width: "100%", height: "600px" }}>
+      <div id="canvas_container" style={{ width: "100%"}}>
         <canvas
           id="c"
           ref={el => {

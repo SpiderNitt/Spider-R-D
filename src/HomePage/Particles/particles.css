@@ -3,21 +3,23 @@
     margin: 0;
     /* z-index: -100; */
     background: #0E122B;
-    /* width: 100%; */
+    width: 100%;
+    height: calc(100vh - 64px);;
 }
 
 .ima1 {
     height: 25vh;
     position: absolute;
-    top: 25%;
+    /*top: 25%;*/
+    top:32.5vh;
     left: 50%;
     margin-left: -10vh;
-}
+ }
 
 .ima2 {
     height: 10vh;
     position: absolute;
-    top: 53%;
+    top: 59vh;
     left: 50%;
     margin-left: -9vh;
 }
@@ -31,31 +33,31 @@
 
 /* iPad*/
 
-@media (min-height:1000px) and (max-height:1100px) {
+/*@media (min-height:1000px) and (max-height:1100px) {
     .ima1 {
         top: 12%;
     }
     .ima2 {
         top: 40%;
     }
-}
+}*/
 
 
 /* iPad Responsive */
 
-@media (min-height:1100px) and (max-height:1200px) {
+/*@media (min-height:1100px) and (max-height:1200px) {
     .ima1 {
         top: 10%;
     }
     .ima2 {
         top: 37%;
     }
-}
+}*/
 
 
-/* iPad Pro */
+ /*iPad Pro */
 
-@media (min-height:1300px) and (max-height:1400px) {
+/*@media (min-height:1300px) and (max-height:1400px) {
     .ima1 {
         top: 8%;
     }
@@ -63,15 +65,15 @@
         top: 35%;
     }
 }
-
+*/
 
 /* iPad Pro Responsive */
 
-@media (min-height:1650px) and (max-height:1700px) {
+/*@media (min-height:1650px) and (max-height:1700px) {
     .ima1 {
         top: 4.5%;
     }
     .ima2 {
         top: 28.5%;
     }
-}
+}*/
