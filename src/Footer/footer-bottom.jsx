@@ -4,6 +4,9 @@ import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import { Link } from "react-router-dom";
+import { Icon } from "react-icons-kit";
+import { medium } from "react-icons-kit/fa/medium";
+import { facebookOfficial } from "react-icons-kit/fa/facebookOfficial";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -20,7 +23,9 @@ const useStyles = makeStyles(theme => ({
   },
   title: {
     flexGrow: 1,
-    textAlign: "center"
+    textAlign: "center",
+    fontSize: 19,
+    fontFamily: "Raleway"
   },
   onhover: {
     boxshadow: "0px 0px 2px 1px #000000"
@@ -33,15 +38,33 @@ export default function FooterBar() {
   return (
     <div className={classes.root}>
       <AppBar position="static" style={{ background: "#0D1329" }}>
-        <Toolbar>
+        <Toolbar style={{ paddingBottom: 0 }}>
           <Typography className={classes.title}>
-            <b style={{ padding: 20 }}>
+            <b style={{ paddingTop: 20 }}>
               Weaved with &#128376; by{" "}
               <Link to="/" style={{ textDecoration: "none", color: "white" }}>
                 Spider
               </Link>
             </b>
           </Typography>
+        </Toolbar>
+        <Toolbar style={{ justifyContent: "center", paddingBottom: 10 }}>
+          <div style={{ width: 23, height: 23, paddingRight: "10px" }}>
+            <a
+              href="https://medium.com/spidernitt"
+              style={{ textDecoration: "None", color: "inherit" }}
+            >
+              <Icon icon={medium} size={"100%"}></Icon>
+            </a>
+          </div>
+          <div style={{ width: 23, height: 23, paddingLeft: "10px" }}>
+            <a
+              href="https://www.facebook.com/SpiderNitt/"
+              style={{ textDecoration: "None", color: "inherit" }}
+            >
+              <Icon icon={facebookOfficial} size={"100%"}></Icon>
+            </a>
+          </div>
         </Toolbar>
       </AppBar>
     </div>
