@@ -251,10 +251,7 @@ function Album(props) {
                         );
                       })}
 
-                      <video width="65%" controls className={classes.videos}>
-                        <source src={props.projectVideo} type="video/mp4" />
-                        Your browser does not support the video tag.
-                      </video>
+                      
                     </center>{" "}
                   </div>
                 </ExpansionPanelDetails>
