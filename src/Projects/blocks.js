@@ -128,20 +128,20 @@ function Album(props) {
           <div className={classes.overlay}></div>
           <div className={classes.desclogo}>
             {// eslint-disable-next-line
-            props.projectProfiles.map(send => {
-              if (send === "webdev") {
-                return <AndroidIcon className={classes.icons} />;
-              }
-              if (send === "appdev") {
-                return <PublicIcon className={classes.icons} />;
-              }
-              if (send === "tronix") {
-                return <MemoryIcon className={classes.icons} />;
-              }
-              if (send === "algos") {
-                return <AccountTreeIcon className={classes.icons} />;
-              }
-            })}
+              props.projectProfiles.map(send => {
+                if (send === "webdev") {
+                  return <AndroidIcon className={classes.icons} />;
+                }
+                if (send === "appdev") {
+                  return <PublicIcon className={classes.icons} />;
+                }
+                if (send === "tronix") {
+                  return <MemoryIcon className={classes.icons} />;
+                }
+                if (send === "algos") {
+                  return <AccountTreeIcon className={classes.icons} />;
+                }
+              })}
           </div>
         </div>
 
@@ -155,7 +155,7 @@ function Album(props) {
             >
               {props.projectTitle}
             </Typography>
-            <Typography noWrap="true" className={classes.default}>
+            <Typography noWrap={true} className={classes.default}>
               {props.projectDescription}
             </Typography>
           </CardContent>
@@ -216,9 +216,9 @@ function Album(props) {
                                   src={link}
                                   className={classes.bigAvatar}
                                 />
-                                <typography className={classes.root}>
+                                <Typography className={classes.root}>
                                   {send}
-                                </typography>
+                                </Typography>
                               </center>
                             </div>
                           );
@@ -251,7 +251,7 @@ function Album(props) {
                         );
                       })}
 
-                      
+
                     </center>{" "}
                   </div>
                 </ExpansionPanelDetails>
@@ -297,47 +297,47 @@ export default function ProjectItems() {
               <Grid container spacing={2} justify="center">
                 <Grid item>
                   <div className={classes.logos}>
-                    <Fab className={classes.profiles} disabled="true">
+                    <Fab className={classes.profiles} disabled={true}>
                       <AndroidIcon className={classes.profiles} />
                     </Fab>
                     <center>
-                      <typography className={classes.default}>
+                      <Typography className={classes.default}>
                         App Dev
-                      </typography>
+                      </Typography>
                     </center>
                   </div>
                 </Grid>
                 <Grid item>
                   <div className={classes.logos}>
-                    <Fab className={classes.profiles} disabled="true">
+                    <Fab className={classes.profiles} disabled={true}>
                       <PublicIcon className={classes.profiles} />
                     </Fab>
                     <center>
-                      <typography className={classes.default}>
+                      <Typography className={classes.default}>
                         Web Dev
-                      </typography>
+                      </Typography>
                     </center>
                   </div>
                 </Grid>
                 <Grid item>
                   <div className={classes.logos}>
-                    <Fab className={classes.profiles} disabled="true">
+                    <Fab className={classes.profiles} disabled={true}>
                       <MemoryIcon className={classes.profiles} />
                     </Fab>
                     <center>
-                      <typography className={classes.default}>
+                      <Typography className={classes.default}>
                         Tronix
-                      </typography>
+                      </Typography>
                     </center>
                   </div>
                 </Grid>
                 <Grid item>
                   <div className={classes.logos}>
-                    <Fab className={classes.profiles} disabled="true">
+                    <Fab className={classes.profiles} disabled={true}>
                       <AccountTreeIcon className={classes.profiles} />
                     </Fab>
                     <center>
-                      <typography className={classes.default}>Algos</typography>
+                      <Typography className={classes.default}>Algos</Typography>
                     </center>
                   </div>
                 </Grid>
@@ -350,6 +350,7 @@ export default function ProjectItems() {
             {projectData.projects.map(post => (
               <Grid item xs={12} sm={6} md={4}>
                 <Album
+                  key={post.id}
                   projectId={post.id}
                   projectTitle={post.project_name}
                   projectDescription={post.project_description}

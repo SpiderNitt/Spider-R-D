@@ -41,7 +41,7 @@ export default function FooterBar() {
         <Toolbar style={{ paddingBottom: 0 }}>
           <Typography className={classes.title}>
             <b style={{ paddingTop: 20 }}>
-              Weaved with &#128376; by{" "}
+              Weaved with 🕸 by{" "}
               <Link to="/" style={{ textDecoration: "none", color: "white" }}>
                 Spider
               </Link>

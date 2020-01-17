@@ -5,7 +5,7 @@ class Sparticle extends Component {
   componentDidMount() {
     const script = document.createElement("script");
     script.type = "text/javascript";
-    script.src = "js/indScript.min.js";
+    script.src = "js/indScript.js";
     script.async = true;
     this.instance.appendChild(script);
     document.body.appendChild(script);
@@ -13,7 +13,7 @@ class Sparticle extends Component {
 
   render() {
     return (
-      <div id="canvas_container" style={{ width: "100%"}}>
+      <div id="canvas_container" style={{ width: "100%" }}>
         <canvas
           id="c"
           ref={el => {

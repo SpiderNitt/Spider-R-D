@@ -8,17 +8,17 @@ var mouse = {
     down: false
 };
 
-var canvas_width = window.innerWidth; 
-var canvas_height = 600; 
+var canvas_width = window.innerWidth;
+var canvas_height = 600;
 
 
-var resolution = 30; 
+var resolution = 50;
 
-var pen_size = 50; 
+var pen_size = 50;
 
 var num_cols = 500;
 var num_rows = canvas_height / resolution;
-var speck_count = 6000; 
+var speck_count = 7000;
 
 var vec_cells = [];
 var particles = [];
@@ -133,10 +133,10 @@ function update_particle() {
 
             if (dist > limit) {
                 ctx.lineWidth = 1;
-                ctx.beginPath(); 
-                ctx.moveTo(p.x, p.y); 
+                ctx.beginPath();
+                ctx.moveTo(p.x, p.y);
                 ctx.lineTo(p.px, p.py);
-                ctx.stroke(); 
+                ctx.stroke();
             } else {
 
                 ctx.beginPath();
@@ -233,7 +233,7 @@ function update_pressure(cell_data) {
         cell_data.up_left.xv * 0.5
         + cell_data.left.xv
         + cell_data.down_left.xv * 0.5
-        - cell_data.up_right.xv * 0.5 
+        - cell_data.up_right.xv * 0.5
         - cell_data.right.xv
         - cell_data.down_right.xv * 0.5
     );
@@ -282,7 +282,7 @@ function cell(x, y, res) {
     this.y = y;
 
     this.r = res;
-    
+
     this.col = 0;
     this.row = 0;
 
@@ -304,7 +304,7 @@ function particle(x, y) {
 
 function mouse_down_handler(e) {
     e.preventDefault();
-    mouse.down = true; 
+    mouse.down = true;
 }
 
 
@@ -314,7 +314,7 @@ function mouse_up_handler() {
 
 
 function touch_end_handler(e) {
-    if (!e.touches) mouse.down = false; 
+    if (!e.touches) mouse.down = false;
 }
 
 

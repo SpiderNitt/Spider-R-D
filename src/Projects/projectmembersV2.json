@@ -1,64 +1,121 @@
 {
-    "projects": [{
+    "projects": [
+        {
             "id": 1,
             "project_name": "Image Segmentation using Spectral Clustering",
             "project_description": "This project focuses on understanding the concepts of Spectral Graph Theory, the math behind it and applying it to the diverse field of networks and topology.  Partitioning helps in decomposing complex systems into submodules which allows the manufacturer to develop and integrate different modules independently. Here, we implement spectral clustering to split an image into its main components.",
-            "members": ["Anagha Sethuraman", "Arvinth Saravanan"],
-            "profiles": ["algos"],
+            "members": [
+                "Anagha Sethuraman",
+                "Arvinth Saravanan"
+            ],
+            "profiles": [
+                "algos"
+            ],
             "image_link": "https://drive.google.com/open?id=1Ni8YADRLHwu-P8L0i2ROk2-L8XWKMiB9",
-            "desc_images": ["https://drive.google.com/open?id=1_iWIs2UR8qaCuRaIVkWH_PvOSOOxr9zR"],
+            "desc_images": [
+                "https://drive.google.com/open?id=1_iWIs2UR8qaCuRaIVkWH_PvOSOOxr9zR"
+            ],
             "desc_video": ""
         },
         {
             "id": 2,
             "project_name": "Fake News Classifier",
             "project_description": "The project aims to classify a given piece of news as real or fake. The model is trained using Natural Language Processing on a dataset of real and fake news ,which is used to predict the result.",
-            "members": ["Adithya K Krishna"],
-            "profiles": ["algos"],
+            "members": [
+                "Adithya K Krishna"
+            ],
+            "profiles": [
+                "algos"
+            ],
             "image_link": "https://drive.google.com/open?id=1VwHRnCd8rZOvla341euw_hZoH3SfvGWN",
-            "desc_images": ["https://drive.google.com/open?id=1TfPJvi0lcNCdsdggyGkLrF5LPO3iQnOF", " https://drive.google.com/open?id=1cnGnCIjDE9COTB9J5rAvHpg00jGU7p5O"],
+            "desc_images": [
+                "https://drive.google.com/open?id=1TfPJvi0lcNCdsdggyGkLrF5LPO3iQnOF",
+                " https://drive.google.com/open?id=1cnGnCIjDE9COTB9J5rAvHpg00jGU7p5O"
+            ],
             "desc_video": ""
         },
         {
             "id": 3,
             "project_name": "RTOS",
             "project_description": "Developing a Real-time kernel for ARM-Cortex M series processors which involves developing a scheduler and other operating system entities like synchronization primitives to provide a concurrent execution environment for processes",
-            "members": ["Abishek K R", "Abishek R", "Raj Kumar Bhagat", "Venkatesh TK"],
-            "profiles": ["tronix"],
+            "members": [
+                "Abishek K R",
+                "Abishek R",
+                "Raj Kumar Bhagat",
+                "Venkatesh TK"
+            ],
+            "profiles": [
+                "tronix"
+            ],
             "image_link": "https://drive.google.com/open?id=15HcC3JlEKqZABr7HV-7nIrn4VNOB8OH5",
-            "desc_images": ["https://drive.google.com/open?id=1QPUaAhHybWmLszBH1S4g0t4vX-SCRmRs"],
+            "desc_images": [
+                "https://drive.google.com/open?id=1QPUaAhHybWmLszBH1S4g0t4vX-SCRmRs"
+            ],
             "desc_video": ""
-        }, {
+        },
+        {
             "id": 4,
             "project_name": "Shadow Bot",
             "project_description": "An all-terrain vehicle with an adaptive suspension that is capable of climbing obstacles (walls).(https://github.com/spider-tronix/shadow-bot)",
-            "members": ["Senthur Raj", "Veejay karthik", "Manu Aatitya R P", "Jack Samuel S"],
-            "profiles": ["tronix"],
+            "members": [
+                "Senthur Raj",
+                "Veejay karthik",
+                "Manu Aatitya R P",
+                "Jack Samuel S"
+            ],
+            "profiles": [
+                "tronix"
+            ],
             "image_link": "https://drive.google.com/open?id=1dxCL9ky9vi_Pm7yRnw3QvAow-SVd8DTt",
-            "desc_images": ["https://drive.google.com/open?id=1mnhNPBGBggj1ZTTvaqvIYl4BYH2oDKPu", "https://drive.google.com/open?id=1NIaQ_c1KEJ8ILP9MxrbTAxeV3GfAuG74", "https://drive.google.com/open?id=1jX0XopQCylwktOWjUeBLyN4roQ1snW48"],
+            "desc_images": [
+                "https://drive.google.com/open?id=1mnhNPBGBggj1ZTTvaqvIYl4BYH2oDKPu",
+                "https://drive.google.com/open?id=1NIaQ_c1KEJ8ILP9MxrbTAxeV3GfAuG74",
+                "https://drive.google.com/open?id=1jX0XopQCylwktOWjUeBLyN4roQ1snW48"
+            ],
             "desc_video": ""
-        }, {
+        },
+        {
             "id": 5,
             "project_name": "Armadillo",
             "project_description": "Design and control of a wheel capable of varying its radius over a range of values using a novel transformation mechanism.",
-            "members": ["Senthur Raj", "Mukesh Gandhi", "Anbuselvan D", "Veejay Karthick"],
-            "profiles": ["tronix"],
+            "members": [
+                "Senthur Raj",
+                "Mukesh Gandhi",
+                "Anbuselvan D",
+                "Veejay Karthick"
+            ],
+            "profiles": [
+                "tronix"
+            ],
             "image_link": "https://drive.google.com/open?id=1Ahxyk1S2pbPyI1wZNFXQ865AvjRdwByb",
-            "desc_images": ["https://drive.google.com/open?id=1nzYxVV5_18i2stMRSgWxygyphVjpK3QN", "https://drive.google.com/open?id=1remaWCmg-gzSFv9lyoljSmDJrNNWCyOA"],
+            "desc_images": [
+                "https://drive.google.com/open?id=1nzYxVV5_18i2stMRSgWxygyphVjpK3QN",
+                "https://drive.google.com/open?id=1remaWCmg-gzSFv9lyoljSmDJrNNWCyOA"
+            ],
             "desc_video": ""
-        }, {
+        },
+        {
             "id": 6,
             "project_name": "Portable Braille",
             "project_description": "Braille is a system of raised dots that help the visually impaired people to read. Unfortunately, the number of text material available in Braille is critically low and costly to manufacture and maintain. With around 12 million blind people, India is a home to the world's largest number of blind people. Existing products like the refreshable Braille displays cost around $10,000 making it almost impossible for a common blind person in India to afford(especially for children in blind schools). This project aims at developing an affordable and a portable braille reader which can translate printed text material instantly into braille for the visually impaired to read.",
-            "members": ["Ruphan S", "Aditya Kumar Singh", "Raj Kumar Bhagat", "Yash Patel"],
-            "profiles": ["tronix"],
+            "members": [
+                "Ruphan S",
+                "Aditya Kumar Singh",
+                "Raj Kumar Bhagat",
+                "Yash Patel"
+            ],
+            "profiles": [
+                "tronix"
+            ],
             "image_link": "https://drive.google.com/open?id=1KSOMT2PFaSq3wLUlbPPGMP6jbScnYOn4",
-            "desc_images": ["https://drive.google.com/open?id=1HCnba1pCkbvrlL1PxZ4ZT3XsnDufRd_m"],
+            "desc_images": [
+                "https://drive.google.com/open?id=1HCnba1pCkbvrlL1PxZ4ZT3XsnDufRd_m"
+            ],
             "desc_video": ""
         }
     ],
-
-    "members": [{
+    "members": [
+        {
             "id": "1",
             "Name": "Rishav Roy",
             "Photo": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2F29873104_1766947800037743_8957874888158641978_o%20-%20Rishav%20Roy.jpg?alt=media&token=a5b4cc98-7928-4c53-b071-9357e9707a17",
@@ -288,7 +345,6 @@
             "Github": "https://github.com/Smrithi23",
             "Website": ""
         },
-
         {
             "id": "24",
             "Name": "Jerry J",
@@ -379,7 +435,6 @@
             "Github": "https://github.com/HarshitNITT",
             "Website": ""
         },
-
         {
             "id": "33",
             "Name": "Rajiv",
@@ -640,7 +695,6 @@
             "Github": "https://github.com/abishek27",
             "Website": ""
         },
-
         {
             "id": "59",
             "Name": "Chockalingam",
@@ -651,7 +705,6 @@
             "Github": "https://bitbucket.org/chocka/",
             "Website": ""
         },
-
         {
             "id": "60",
             "Name": "Bhavya Krishna",
@@ -872,7 +925,6 @@
             "Github": "https://github.com/sachin-101",
             "Website": ""
         },
-
         {
             "id": "82",
             "Name": "Rahul Bhope",
@@ -1053,6 +1105,5 @@
             "Github": "https://github.com/Srinidhi2000",
             "Website": ""
         }
-
     ]
 }
