@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import { Icon } from "react-icons-kit";
 import { medium } from "react-icons-kit/fa/medium";
 import { facebookOfficial } from "react-icons-kit/fa/facebookOfficial";
+import { linkedin2 } from "react-icons-kit/icomoon/linkedin2";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -53,6 +54,8 @@ export default function FooterBar() {
             <a
               href="https://medium.com/spidernitt"
               style={{ textDecoration: "None", color: "inherit" }}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <Icon icon={medium} size={"100%"}></Icon>
             </a>
@@ -61,8 +64,20 @@ export default function FooterBar() {
             <a
               href="https://www.facebook.com/SpiderNitt/"
               style={{ textDecoration: "None", color: "inherit" }}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <Icon icon={facebookOfficial} size={"100%"}></Icon>
+            </a>
+          </div>
+          <div style={{ width: 23, height: 23, paddingLeft: "10px" }}>
+            <a
+              href="https://www.linkedin.com/company/spider-r-d/"
+              style={{ textDecoration: "None", color: "inherit" }}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icon icon={linkedin2} size={"100%"}></Icon>
             </a>
           </div>
         </Toolbar>
