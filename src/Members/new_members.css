@@ -22,16 +22,6 @@
     font-family: "Raleway";
 }
 
-.card .details {
-    position: absolute;
-    top: 63px;
-    right: 0;
-    width: 35%;
-    transition: 0.5s;
-    transform-origin: right;
-    opacity: 0;
-}
-
 .card:hover {
     transition: all 0.3s ease;
     opacity: 0.9;
@@ -41,30 +31,42 @@
     transform: translateX(-10%);
 }
 
+.card .details {
+    position: absolute;
+    right: 10%;
+    top: 18%;
+    transition: 0.5s;
+    transform-origin: center right;
+    opacity: 0;
+}
+
 .card:hover .details {
     opacity: 1;
 }
 
 .linkedInIcon {
-    transform: translate(-40%);
+    transform: translate(-5%);
 }
 
 .githubIcon {
-    transform: translate(0);
+    transform: translate(28%);
 }
 
 .webIcon {
-    transform: translate(-40%);
+    transform: translate(-10%);
 }
 
 @media (min-width:1900px) {
-    .linkedInIcon {
-        transform: translate(-8%);
+    .card .linkedInIcon {
+        transform: translate(-55%);
     }
     .githubIcon {
-        transform: translate(30%);
+        transform: translate(-12%);
     }
     .webIcon {
-        transform: translate(-8%);
+        transform: translate(-62%);
     }
+    /*.card .details {
+        background-color: burlywood;
+    }*/
 }

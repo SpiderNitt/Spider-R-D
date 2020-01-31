@@ -9,7 +9,6 @@ import ProfileName from './profiles'
 import Batch from './batch'
 import { Profile, Year, members } from './spider_members'
 import TeamPage from './teamPage'
-import './new_members.css'
 
 const styles = theme => ({
   paper: {
