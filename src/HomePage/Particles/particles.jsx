@@ -23,11 +23,10 @@ class Sparticle extends Component {
 
         <img
           className="ima1"
-          src="images/SpiderLogo.png"
+          src="images/SpiderLogo.webp"
           alt="spiderlogo-main"
         />
         <br />
-        <img className="ima2" src="images/navlogo.png" alt="spiderlogo-2" />
       </div>
     );
   }
