@@ -303,7 +303,6 @@ function particle(x, y) {
 
 
 function mouse_down_handler(e) {
-    e.preventDefault();
     mouse.down = true;
 }
 

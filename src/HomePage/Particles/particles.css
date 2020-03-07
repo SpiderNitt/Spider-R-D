@@ -9,13 +9,10 @@
 
 .ima1 {
   width: 25vw;
-  margin: auto;
   position: absolute;
-  /* top: 25%; */
   top: 25vh;
-  left: 37%;
+  left: 37.5%;
   z-index: 100;
-  /* margin-left: -10vh; */
 }
 
 .ima2 {
@@ -48,7 +45,7 @@
 
 @media (min-height: 1000px) and (max-height: 1400px) {
   .ima1 {
-    top: 25%;
+    top: 34%;
     width: 40vw;
     left: 30vw;
   }
