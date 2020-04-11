@@ -87,6 +87,14 @@ export default function PrimarySearchAppBar() {
           Members
         </NavLink>
       </MenuItem>
+      <MenuItem>
+        <NavLink
+          style={{ textDecoration: "none", color: "#0E122B" }}
+          to="/inductions"
+        >
+          Inductions
+        </NavLink>
+      </MenuItem>
       {/* <MenuItem>
         <NavLink
           style={{ textDecoration: "none", color: "#0E122B" }}
@@ -154,6 +162,19 @@ export default function PrimarySearchAppBar() {
                 className={classes.menuButton}
               >
                 Members
+              </Button>
+            </NavLink>
+            <NavLink
+              exact
+              to="/inductions"
+              style={{ color: "#DADADE", textDecoration: "none" }}
+            >
+              <Button
+                key="inductions"
+                color="inherit"
+                className={classes.menuButton}
+              >
+                Inductions
               </Button>
             </NavLink>
             {/* <Button
