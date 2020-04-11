@@ -35,7 +35,7 @@ function App () {
 
     return (
         <div className="App">
-            <h1 className="about-header">Got any Questions? Check if we got them answered!</h1>
+            <h1 className="ind-header">Got any Questions? Check if we got them answered!</h1>
             <div className="faqs">
                 {faqs.map((faq, i) => (
                     <FAQ faq={faq} index={i} toggleFAQ={toggleFAQ} />
