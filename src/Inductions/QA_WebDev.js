@@ -24,12 +24,6 @@ function WebFaq() {
       open: false,
     },
     {
-      question: "What types of projects does the web dev profile work on?",
-      answer:
-        "We are engaged in a lot of projects starting from ones from the admin to hobby ones to projects that get published! Some projects involve primarily development, while some are research-oriented.",
-      open: false,
-    },
-    {
       question: "What is the orientation structure?",
       answer:
         "Everyone will be tutored on basic concepts of web development. The members of the profile are ready to help out anytime, to give one-to-one training.  There will be tasks which you can do over the long leave, during this quarantine.",

@@ -11,21 +11,21 @@ function AppFaq() {
       open: false,
     },
     {
-      question: "What are the pre-Requisite?",
+      question: "What are the pre-requisites?",
       answer:
-        " There are no Pre-Requisite we will be sharing all the resources for learning AppDev and will be having frequent online sessions to teach you.",
+        "There are no pre-requisites. We will be sharing all the resources for learning AppDev and will be having frequent online sessions to teach you.",
       open: false,
     },
     {
       question: "I’m entirely new to coding should I even apply?",
       answer:
-        "Sure why not! Anyways amid this lockdown, we are sure you have already binge-watched every series so why not just try this stuff also.",
+        "Yes definitely, there's no harm in trying out something new and always has a probability of discovering you have a nack for it. We are here to guide you and help you discover your true potential. Just so you know, we have team members who didn't have any coding experience prior to Inductions process.",
       open: false,
     },
     {
-      question: "I already know app dev why should I apply?",
+      question: "I already know app dev, why should I apply?",
       answer:
-        "We will be going up with the series in a well-organized and systematic way so even though you might know Appdev we are sure you’ll find something new to learn if not anyways this also encompasses a competition along with it so you can have fun there.",
+        "We will be going up with the series in a well-organized and systematic way so even though you might know Appdev we are sure you’ll find something new to learn. And still if you don't, this orientation program encompasses a competition also, so you can have fun there.",
       open: false,
     },
     {
