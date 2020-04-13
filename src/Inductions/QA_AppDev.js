@@ -7,7 +7,7 @@ function AppFaq() {
     {
       question: "What will I learn in AppDev under the mentorship programs?",
       answer:
-        "There are four domains in SpiderYou will learn to create applications for use on smartphones and tablets, get insight into how they actually work and A-Z of app design and development.",
+        "You will learn to create applications for use on smartphones and tablets, get insight into how they actually work and A-Z of app design and development.",
       open: false,
     },
     {
@@ -59,7 +59,7 @@ function AppFaq() {
     <div>
       <div className="faqs">
         {faqs.map((faq, i) => (
-          <FAQ faq={faq} index={i} toggleFAQ={toggleFAQ} />
+          <FAQ key={i} faq={faq} index={i} toggleFAQ={toggleFAQ} />
         ))}
       </div>
     </div>

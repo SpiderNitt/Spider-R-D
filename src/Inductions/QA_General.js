@@ -65,9 +65,15 @@ function GeneralFaq() {
       open: false,
     },
     {
+      question: "I don’t have a laptop. What do I do?",
+      answer:
+        "Nothing to worry about. We’ve designed the tasks to accommodate everyone. You will not be left out.",
+      open: false,
+    },
+    {
       question: "How is this going to help in the induction process?",
       answer:
-        "All these tasks would help you get a basic understanding of the domain that you are choosing and are planned in such a way that it will be helpful when you participate in you induction process.",
+        "All these tasks would help you get a basic understanding of the domain that you are choosing and are planned in such a way that it will be helpful when you participate in the induction process.",
       open: false,
     },
   ]);
@@ -89,7 +95,7 @@ function GeneralFaq() {
     <div>
       <div className="faqs">
         {faqs.map((faq, i) => (
-          <FAQ faq={faq} index={i} toggleFAQ={toggleFAQ} />
+          <FAQ key={i} faq={faq} index={i} toggleFAQ={toggleFAQ} />
         ))}
       </div>
     </div>

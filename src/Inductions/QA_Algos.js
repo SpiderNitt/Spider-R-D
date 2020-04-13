@@ -16,12 +16,7 @@ function AlgosFaq() {
         "Every one of you would be given a set of useful learning materials, covering everything from a grass-root level. You’ll be given programming tasks based on these topics, building your algorithmic problem-solving skills. We’ll be guiding you along the way and you can reach out to us if you face any difficulties.",
       open: false,
     },
-    {
-      question: "I don’t have a laptop. What do I do?",
-      answer:
-        "Nothing to worry about. We’ve designed the tasks to accommodate everyone. You will not be left out.",
-      open: false,
-    },
+
     {
       question: "Are there any prerequisites to apply?",
       answer: "None, except the will to learn.",
@@ -46,7 +41,7 @@ function AlgosFaq() {
     <div>
       <div className="faqs">
         {faqs.map((faq, i) => (
-          <FAQ faq={faq} index={i} toggleFAQ={toggleFAQ} />
+          <FAQ key={i} faq={faq} index={i} toggleFAQ={toggleFAQ} />
         ))}
       </div>
     </div>
