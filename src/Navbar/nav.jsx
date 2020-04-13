@@ -9,32 +9,32 @@ import Menu from "@material-ui/core/Menu";
 import MoreIcon from "@material-ui/icons/MoreVert";
 import { NavLink } from "react-router-dom";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   grow: {
     flexGrow: 1,
-    height: "64px"
+    height: "64px",
   },
   menuButton: {
-    marginRight: theme.spacing(2)
+    marginRight: theme.spacing(2),
   },
   title: {
     display: "none",
     [theme.breakpoints.up("sm")]: {
-      display: "block"
-    }
+      display: "block",
+    },
   },
   sectionDesktop: {
     display: "none",
     [theme.breakpoints.up("md")]: {
-      display: "flex"
-    }
+      display: "flex",
+    },
   },
   sectionMobile: {
     display: "flex",
     [theme.breakpoints.up("md")]: {
-      display: "none"
-    }
-  }
+      display: "none",
+    },
+  },
 }));
 
 export default function PrimarySearchAppBar() {
@@ -47,7 +47,7 @@ export default function PrimarySearchAppBar() {
     setMobileMoreAnchorEl(null);
   };
 
-  const handleMobileMenuOpen = event => {
+  const handleMobileMenuOpen = (event) => {
     setMobileMoreAnchorEl(event.currentTarget);
   };
 
@@ -88,11 +88,8 @@ export default function PrimarySearchAppBar() {
         </NavLink>
       </MenuItem>
       <MenuItem>
-        <NavLink
-          style={{ textDecoration: "none", color: "#0E122B" }}
-          to="/inductions"
-        >
-          Inductions
+        <NavLink style={{ textDecoration: "none", color: "#0E122B" }} to="/sop">
+          Spider Orientation Program
         </NavLink>
       </MenuItem>
       {/* <MenuItem>
@@ -166,7 +163,7 @@ export default function PrimarySearchAppBar() {
             </NavLink>
             <NavLink
               exact
-              to="/inductions"
+              to="/sop"
               style={{ color: "#DADADE", textDecoration: "none" }}
             >
               <Button
@@ -174,7 +171,7 @@ export default function PrimarySearchAppBar() {
                 color="inherit"
                 className={classes.menuButton}
               >
-                Inductions
+                Spider Orientation Program
               </Button>
             </NavLink>
             {/* <Button
