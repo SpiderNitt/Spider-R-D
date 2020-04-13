@@ -16,14 +16,14 @@ class Sparticle extends Component {
       <div id="canvas_container" style={{ width: "100%" }}>
         <canvas
           id="c"
-          ref={el => {
+          ref={(el) => {
             this.instance = el;
           }}
         />
 
         <img
           className="ima1"
-          src="images/SpiderLogo.webp"
+          src="images/SpiderLogo.png"
           alt="spiderlogo-main"
         />
         <br />

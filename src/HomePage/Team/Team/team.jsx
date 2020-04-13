@@ -11,7 +11,7 @@ function Team() {
         <center>
           <div id="ourTeam">
             <img
-              src="images/team.webp"
+              src="images/team.jpg"
               style={{ borderRadius: "20" }}
               width="78%"
               alt="Team members of Spider'18"
