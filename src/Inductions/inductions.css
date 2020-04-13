@@ -20,12 +20,12 @@
 
 .faqs {
   width: 100%;
-  max-width: 768px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
 .faqs .faq {
-  margin: 15px;
+  margin: 15px -15px;
   padding: 15px;
   background-color: #fff;
   border-radius: 8px;
@@ -97,4 +97,8 @@
 }
 .App {
   margin: 0 20px;
+}
+.taby{
+  width: 100%;
+  max-width: 800px;
 }
