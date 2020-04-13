@@ -4,7 +4,7 @@ export const Year = [
   "All",
   "B tech 4th year",
   "B tech 3rd Year",
-  "B tech 2nd Year"
+  "B tech 2nd Year",
 ];
 
 export const members = [
@@ -17,7 +17,7 @@ export const members = [
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/rishav-roy-bba81813b/",
     Github: "https://github.com/rishavroy97/",
-    Website: ""
+    Website: "",
   },
   {
     id: "2",
@@ -28,7 +28,7 @@ export const members = [
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/benedictflorance/",
     Github: "https://github.com/benedictflorance",
-    Website: "https://benedictflorance.github.io"
+    Website: "https://benedictflorance.github.io",
   },
   {
     id: "3",
@@ -39,7 +39,7 @@ export const members = [
     Year: "B tech 4th year",
     LinkedIn: "",
     Github: "",
-    Website: ""
+    Website: "",
   },
   {
     id: "4",
@@ -50,7 +50,7 @@ export const members = [
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/swathi-dhamodaran-8b9053b5",
     Github: "",
-    Website: ""
+    Website: "",
   },
   {
     id: "5",
@@ -61,7 +61,7 @@ export const members = [
     Year: "B tech 4th year",
     LinkedIn: "",
     Github: "https://github.com/saranthn",
-    Website: ""
+    Website: "",
   },
   {
     id: "6",
@@ -72,7 +72,7 @@ export const members = [
     Year: "B tech 4th year",
     LinkedIn: "",
     Github: "",
-    Website: ""
+    Website: "",
   },
   {
     id: "7",
@@ -83,7 +83,7 @@ export const members = [
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/kishore-v-a006ab153/",
     Github: "https://github.com/Kishorehere",
-    Website: ""
+    Website: "",
   },
   {
     id: "8",
@@ -94,7 +94,7 @@ export const members = [
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/sraghul127",
     Github: "https://github.com/Raghul127",
-    Website: "https://raghul127.github.io/"
+    Website: "https://raghul127.github.io/",
   },
   {
     id: "9",
@@ -105,7 +105,7 @@ export const members = [
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/na899",
     Github: "https://github.com/na899",
-    Website: ""
+    Website: "",
   },
   {
     id: "10",
@@ -116,7 +116,7 @@ export const members = [
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/vishal-s-126000145/",
     Github: "https://github.com/VishalS99",
-    Website: ""
+    Website: "",
   },
   {
     id: "11",
@@ -127,7 +127,7 @@ export const members = [
     Year: "B tech 3rd Year",
     LinkedIn: "https://linkedin.com/in/abhishek-kumar-922163162/",
     Github: "https://github.com/abhis324",
-    Website: ""
+    Website: "",
   },
   {
     id: "12",
@@ -138,7 +138,7 @@ export const members = [
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/mohamedsohail/",
     Github: "https://github.com/kamikazechaser",
-    Website: "https:kamikazechaser.github.io"
+    Website: "https:kamikazechaser.github.io",
   },
   {
     id: "13",
@@ -149,7 +149,7 @@ export const members = [
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/prakhar-singh-852110173/",
     Github: "https://github.com/prakhar242",
-    Website: ""
+    Website: "",
   },
   {
     id: "14",
@@ -160,7 +160,7 @@ export const members = [
     Year: "B tech 3rd Year",
     LinkedIn: "",
     Github: "",
-    Website: "https://gigatesseract.github.io/"
+    Website: "https://gigatesseract.github.io/",
   },
   {
     id: "15",
@@ -171,7 +171,7 @@ export const members = [
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/joel-johnson-36694015b/",
     Github: "https://github.com/quantum-jo",
-    Website: "joeljohnson.me"
+    Website: "joeljohnson.me",
   },
   {
     id: "16",
@@ -182,7 +182,7 @@ export const members = [
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/kamalesh-palanisamy-2b5265149/",
     Github: "https://github.com/kamalesh0406",
-    Website: "http://www.kamaleshp.com"
+    Website: "http://www.kamaleshp.com",
   },
   {
     id: "17",
@@ -193,7 +193,7 @@ export const members = [
     Year: "B tech 2nd Year",
     LinkedIn: "https://donothaveone.com",
     Github: "https://github.com/chakki1234",
-    Website: ""
+    Website: "",
   },
   {
     id: "18",
@@ -204,7 +204,7 @@ export const members = [
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/anjaneya-tripathi-610234183/",
     Github: "https://github.com/AnjaneyaTripathi",
-    Website: ""
+    Website: "",
   },
   {
     id: "19",
@@ -215,18 +215,7 @@ export const members = [
     Year: "B tech 2nd Year",
     LinkedIn: "https://in.linkedin.com/in/thrishik-senthilkumar-123918176",
     Github: "https://github.com/thrishik7",
-    Website: ""
-  },
-  {
-    id: "20",
-    Name: "Abhishek L",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FIMG_20190907_144004-compressor%20-%20Abhishek%20L.jpg?alt=media&token=8a214737-d397-4845-8ae9-be2dbcb67721",
-    Profile: "Web Dev",
-    Year: "B tech 2nd Year",
-    LinkedIn: "https://www.linkedin.com/in/abhishek-l-b2701b193/",
-    Github: "https://www.github.com/Abhishec177",
-    Website: "abhishec177.github.io"
+    Website: "",
   },
   {
     id: "21",
@@ -237,18 +226,7 @@ export const members = [
     Year: "B tech 2nd Year",
     LinkedIn: "https://linkedin.com/in/barath1999",
     Github: "https://www.github.com/barath99",
-    Website: "https://barath99.github.io"
-  },
-  {
-    id: "22",
-    Name: "Nandhini S R",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FNandhini%20S%20R%20-%20NANDHINI%20S%20R.jpg?alt=media&token=e98da567-0241-4621-971c-5934acbaf052",
-    Profile: "Web Dev",
-    Year: "B tech 2nd Year",
-    LinkedIn: "",
-    Github: "https://github.com/labyrinth-maven",
-    Website: ""
+    Website: "https://barath99.github.io",
   },
   {
     id: "23",
@@ -259,7 +237,7 @@ export const members = [
     Year: "B tech 2nd Year",
     LinkedIn: "https://linkedin.com/in/smrithi-prakash-452173193",
     Github: "https://github.com/Smrithi23",
-    Website: ""
+    Website: "",
   },
   {
     id: "24",
@@ -270,7 +248,7 @@ export const members = [
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/jerry-j-89aa52174/",
     Github: "https://github.com/Hank-learner",
-    Website: ""
+    Website: "",
   },
   {
     id: "25",
@@ -281,7 +259,7 @@ export const members = [
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/rajat-bhatta",
     Github: "https://github.com/barry-1928",
-    Website: ""
+    Website: "",
   },
   {
     id: "26",
@@ -292,7 +270,7 @@ export const members = [
     Year: "MCA 2nd year",
     LinkedIn: "https://www.linkedin.com/in/mritunjay-kumar-a5501b193/",
     Github: "https://github.com/mritunjay583",
-    Website: ""
+    Website: "",
   },
   {
     id: "27",
@@ -303,7 +281,7 @@ export const members = [
     Year: "MCA 2nd year",
     LinkedIn: "https://www.linkedin.com/in/kundan-mandloi-078627181/",
     Github: "https://github.com/Kunda31n",
-    Website: ""
+    Website: "",
   },
   {
     id: "28",
@@ -314,7 +292,7 @@ export const members = [
     Year: "MCA 2nd year",
     LinkedIn: "https://www.linkedin.com/in/harsh-bhadoria-989665144/",
     Github: "https://github.com/harshbhadoria011",
-    Website: ""
+    Website: "",
   },
   {
     id: "29",
@@ -325,7 +303,7 @@ export const members = [
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/anukul-chand-199369148/",
     Github: "https://github.com/cyberfreak5725",
-    Website: ""
+    Website: "",
   },
   {
     id: "30",
@@ -336,7 +314,7 @@ export const members = [
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/shivanichander/",
     Github: "https://github.com/shivanichander",
-    Website: ""
+    Website: "",
   },
   {
     id: "31",
@@ -347,7 +325,7 @@ export const members = [
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/sandipnair/",
     Github: "https://github.com/SanNare",
-    Website: "https://medium.com/@sandipnr0"
+    Website: "https://medium.com/@sandipnr0",
   },
   {
     id: "32",
@@ -358,7 +336,7 @@ export const members = [
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/harshit-babbar/",
     Github: "https://github.com/HarshitNITT",
-    Website: ""
+    Website: "",
   },
   {
     id: "33",
@@ -369,7 +347,7 @@ export const members = [
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/rajiv-ramachandran-51a510166/",
     Github: "https://github.com/rRajivramachandran",
-    Website: ""
+    Website: "",
   },
   {
     id: "34",
@@ -380,7 +358,7 @@ export const members = [
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/sri-harsha-t-v-b7484a157",
     Github: "https://github.com/tvs1998",
-    Website: ""
+    Website: "",
   },
   {
     id: "35",
@@ -391,7 +369,7 @@ export const members = [
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/shiwang-singh-33941515a",
     Github: "https://github.com/Shiwang9",
-    Website: ""
+    Website: "",
   },
   {
     id: "36",
@@ -402,7 +380,7 @@ export const members = [
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/dhruv-bodani-254a2b151",
     Github: "https://github.com/dB2510",
-    Website: ""
+    Website: "",
   },
   {
     id: "37",
@@ -413,7 +391,7 @@ export const members = [
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/arvindtatiparti/",
     Github: "https://github.com/r0uxt1",
-    Website: ""
+    Website: "",
   },
   {
     id: "38",
@@ -424,7 +402,7 @@ export const members = [
     Year: "B tech 3rd Year",
     LinkedIn: "https://linkedin.com/in/aditya-kumar-8218ab138",
     Github: "https://github.com/kumaraditya1999",
-    Website: ""
+    Website: "",
   },
   {
     id: "39",
@@ -435,7 +413,7 @@ export const members = [
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/harshit-mogalapalli-44025917b",
     Github: "https://github.com/harshimogalapalli",
-    Website: ""
+    Website: "",
   },
   {
     id: "40",
@@ -446,7 +424,7 @@ export const members = [
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/engiiiiinerd",
     Github: "https://github.com/EngiiiiiNERD",
-    Website: ""
+    Website: "",
   },
   {
     id: "41",
@@ -457,7 +435,7 @@ export const members = [
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/sohamroy15",
     Github: "https://www.github.com/wolflegend99",
-    Website: ""
+    Website: "",
   },
   {
     id: "42",
@@ -468,7 +446,7 @@ export const members = [
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/fasith/",
     Github: "https://github.com/Fasith",
-    Website: ""
+    Website: "",
   },
   {
     id: "43",
@@ -479,7 +457,7 @@ export const members = [
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/anoop-kumar-51284514b/",
     Github: "https://github.com/kumaranoop900",
-    Website: ""
+    Website: "",
   },
   {
     id: "44",
@@ -490,7 +468,7 @@ export const members = [
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/raj-kuvar-4ba9b6172",
     Github: "https://github.com/RAJ107",
-    Website: ""
+    Website: "",
   },
   {
     id: "45",
@@ -501,7 +479,7 @@ export const members = [
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/joel-antony-joseph-97377315b/",
     Github: "https://github.com/JoAMD",
-    Website: ""
+    Website: "",
   },
   {
     id: "46",
@@ -512,7 +490,7 @@ export const members = [
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/arvinth-saravanan-3241b0192/",
     Github: "https://github.com/Arvinth-s",
-    Website: ""
+    Website: "",
   },
   {
     id: "47",
@@ -523,7 +501,7 @@ export const members = [
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/harshit-agrawal-48b74a174/",
     Github: "https://github.com/HarshitCodex",
-    Website: ""
+    Website: "",
   },
   {
     id: "48",
@@ -534,7 +512,7 @@ export const members = [
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/venkataraman-v-392090193/",
     Github: "https://github.com/Venkataraman8",
-    Website: ""
+    Website: "",
   },
   {
     id: "49",
@@ -545,7 +523,7 @@ export const members = [
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/adithya-krishnakumar-3a6087193/",
     Github: "https://github.com/AdithyaK243",
-    Website: ""
+    Website: "",
   },
   {
     id: "50",
@@ -556,7 +534,7 @@ export const members = [
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/poorna-subramanian-90924b181",
     Github: "https://github.com/poorna20",
-    Website: ""
+    Website: "",
   },
   {
     id: "51",
@@ -567,7 +545,7 @@ export const members = [
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/anagha-sethuraman-192148179/",
     Github: "https://github.com/AnaghaSethuraman",
-    Website: ""
+    Website: "",
   },
   {
     id: "52",
@@ -578,7 +556,7 @@ export const members = [
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/imsenthur/",
     Github: "https://github.com/imsenthur",
-    Website: ""
+    Website: "",
   },
   {
     id: "53",
@@ -589,7 +567,7 @@ export const members = [
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/shubhamsaha",
     Github: "https://github.com/Helinskii",
-    Website: ""
+    Website: "",
   },
   {
     id: "54",
@@ -600,7 +578,7 @@ export const members = [
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/vibashan-vs-23321b142/",
     Github: "https://github.com/Vibashan",
-    Website: ""
+    Website: "",
   },
   {
     id: "55",
@@ -611,7 +589,7 @@ export const members = [
     Year: "B tech 4th year",
     LinkedIn: " https://www.linkedin.com/in/c-sundara-paripooranan-65343b15b",
     Github: "https://github.com/paripooranan",
-    Website: ""
+    Website: "",
   },
   {
     id: "56",
@@ -622,7 +600,7 @@ export const members = [
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/abishek-ramachandran-81745b126",
     Github: "https://github.com/Abishek0398",
-    Website: ""
+    Website: "",
   },
   {
     id: "57",
@@ -633,7 +611,7 @@ export const members = [
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/vivek-dc-35069b141",
     Github: "https://www.github.com/dc28vivek",
-    Website: ""
+    Website: "",
   },
   {
     id: "58",
@@ -644,7 +622,7 @@ export const members = [
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/abishek-r-468183178/",
     Github: "https://github.com/abishek27",
-    Website: ""
+    Website: "",
   },
   {
     id: "59",
@@ -655,7 +633,7 @@ export const members = [
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/chocka-lingam-4bb803148",
     Github: "https://bitbucket.org/chocka/",
-    Website: ""
+    Website: "",
   },
 
   {
@@ -667,7 +645,7 @@ export const members = [
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/bhavya-krishna-6277b251",
     Github: "https://github.com/BhavyaKrishna",
-    Website: ""
+    Website: "",
   },
   {
     id: "61",
@@ -678,7 +656,7 @@ export const members = [
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/aradhana-mohan-parvathy-64069413a/",
     Github: "https://github.com/MPARADHANA",
-    Website: ""
+    Website: "",
   },
   {
     id: "62",
@@ -689,7 +667,7 @@ export const members = [
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/amritha-s-b-43283015b",
     Github: "https://github.com/amritha-sb",
-    Website: ""
+    Website: "",
   },
   {
     id: "63",
@@ -700,7 +678,7 @@ export const members = [
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/mukesh-gandhi-8b7939128",
     Github: "https://github.com/MukkeshGandhi09",
-    Website: ""
+    Website: "",
   },
   {
     id: "64",
@@ -711,7 +689,7 @@ export const members = [
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/aditya-ravichander-b2584b178",
     Github: "https://github.com/adityaravichander",
-    Website: ""
+    Website: "",
   },
   {
     id: "65",
@@ -722,7 +700,7 @@ export const members = [
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/akil-m/",
     Github: "https://github.com/akilm",
-    Website: ""
+    Website: "",
   },
   {
     id: "66",
@@ -733,7 +711,7 @@ export const members = [
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/aditya-kumar-singh-645996152/",
     Github: "https://github.com/adityasingh3007",
-    Website: "https://adityasingh3007.github.io/"
+    Website: "https://adityasingh3007.github.io/",
   },
   {
     id: "67",
@@ -744,7 +722,7 @@ export const members = [
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/raj-kumar-bhagat-97b310170/",
     Github: "https://github.com/Rajk0520",
-    Website: ""
+    Website: "",
   },
   {
     id: "68",
@@ -755,7 +733,7 @@ export const members = [
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/kathirvelrajan22112002/",
     Github: "https://github.com/cbkathir",
-    Website: ""
+    Website: "",
   },
   {
     id: "69",
@@ -766,7 +744,7 @@ export const members = [
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/ruphan-s-37412673",
     Github: "https://github.com/ruphan",
-    Website: ""
+    Website: "",
   },
   {
     id: "70",
@@ -777,7 +755,7 @@ export const members = [
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/yash-patel-29379414a/",
     Github: "https://github.com/ComputerMaestro",
-    Website: ""
+    Website: "",
   },
   {
     id: "71",
@@ -788,7 +766,7 @@ export const members = [
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/manu-aatitya-r-p-78457412b/",
     Github: "https://github.com/manuaatitya",
-    Website: ""
+    Website: "",
   },
   {
     id: "72",
@@ -799,7 +777,7 @@ export const members = [
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/sudharsan-s-1a7a1317b/",
     Github: "https://github.com/sudharsan2000",
-    Website: ""
+    Website: "",
   },
   {
     id: "73",
@@ -810,7 +788,7 @@ export const members = [
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/sharan-sp-05735a168",
     Github: "https://github.com/Syzygianinfern0",
-    Website: ""
+    Website: "",
   },
   {
     id: "74",
@@ -821,7 +799,7 @@ export const members = [
     Year: "B tech 2nd Year",
     LinkedIn: "https://ca.linkedin.com/in/anbu52",
     Github: "https://github.com/anbu52",
-    Website: ""
+    Website: "",
   },
   {
     id: "75",
@@ -832,7 +810,7 @@ export const members = [
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/gaurav-singh-0b056117b",
     Github: "https://github.com/GauravSingh789",
-    Website: ""
+    Website: "",
   },
   {
     id: "76",
@@ -843,7 +821,7 @@ export const members = [
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/kirthika-srinivasan-6a9614181",
     Github: "https://github.com/kirthi-ka",
-    Website: ""
+    Website: "",
   },
   {
     id: "77",
@@ -854,7 +832,7 @@ export const members = [
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/akshaya-subramanian-a6a609185/",
     Github: "https://github.com/AkshayaCSubramanian",
-    Website: ""
+    Website: "",
   },
   {
     id: "78",
@@ -865,7 +843,7 @@ export const members = [
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/miriam-santhosh-kadavan-30927a193/",
     Github: "https://github.com/Githubmsk",
-    Website: ""
+    Website: "",
   },
   {
     id: "79",
@@ -876,7 +854,7 @@ export const members = [
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/jayamathangi-s-3464a8184",
     Github: "https://www.github.com/Jayamathangi",
-    Website: ""
+    Website: "",
   },
   {
     id: "80",
@@ -887,7 +865,7 @@ export const members = [
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/shyam-murugan/",
     Github: "https://github.com/shyam-king",
-    Website: ""
+    Website: "",
   },
   {
     id: "81",
@@ -898,7 +876,7 @@ export const members = [
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/sachin-kumar-837b2b17b/",
     Github: "https://github.com/sachin-101",
-    Website: ""
+    Website: "",
   },
   {
     id: "82",
@@ -909,7 +887,7 @@ export const members = [
     Year: "B tech 4th year",
     LinkedIn: "https://in.linkedin.com/in/rahul-bhope-3a0976130",
     Github: "https://github.com/rahulatulbhope",
-    Website: "https://rahulatulbhope.github.io/"
+    Website: "https://rahulatulbhope.github.io/",
   },
   {
     id: "83",
@@ -920,7 +898,7 @@ export const members = [
     Year: "MCA 2nd year",
     LinkedIn: "https://www.linkedin.com/in/arijit-biswas-b7a85a98",
     Github: "https://github.com/arijitbiswasraj/",
-    Website: ""
+    Website: "",
   },
   {
     id: "84",
@@ -931,7 +909,7 @@ export const members = [
     Year: "MCA 2nd year",
     LinkedIn: "https://www.linkedin.com/in/disha-raj-284a05116",
     Github: "https://github.com/DishaRaj",
-    Website: ""
+    Website: "",
   },
   {
     id: "85",
@@ -942,7 +920,7 @@ export const members = [
     Year: "MCA 2nd year",
     LinkedIn: "https://www.linkedin.com/in/shivam-tiwari-32018b175",
     Github: "https://github.com/shivamtiwari841797",
-    Website: ""
+    Website: "",
   },
   {
     id: "86",
@@ -953,7 +931,7 @@ export const members = [
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/abhilasha-nagpal",
     Github: "https://github.com/AbhilashaN",
-    Website: ""
+    Website: "",
   },
   {
     id: "87",
@@ -964,7 +942,7 @@ export const members = [
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/rakesh-v-647481b6",
     Github: "https://github.com/RakeshVaideeswaran",
-    Website: ""
+    Website: "",
   },
   {
     id: "88",
@@ -975,7 +953,7 @@ export const members = [
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/vaibhav-bairagi-a6ab97161",
     Github: "https://github.com/Vaibhavbairagi",
-    Website: ""
+    Website: "",
   },
   {
     id: "89",
@@ -986,7 +964,7 @@ export const members = [
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/amoghjahagirdar/",
     Github: "https://github.com/amogh-jrules",
-    Website: "https://amogh-jrules.github.io"
+    Website: "https://amogh-jrules.github.io",
   },
   {
     id: "90",
@@ -997,7 +975,7 @@ export const members = [
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/nitin-more/",
     Github: "https://github.com/NitinMore7",
-    Website: ""
+    Website: "",
   },
   {
     id: "91",
@@ -1008,7 +986,7 @@ export const members = [
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/ark-srivastava-252542160",
     Github: "https://github.com/rarsahki",
-    Website: ""
+    Website: "",
   },
   {
     id: "92",
@@ -1019,7 +997,7 @@ export const members = [
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/goutham-c-m-5a0621154/",
     Github: "https://github.com/gouthamcm",
-    Website: ""
+    Website: "",
   },
   {
     id: "93",
@@ -1030,7 +1008,7 @@ export const members = [
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/ayushsinghs/",
     Github: "https://github.com/ayush547",
-    Website: ""
+    Website: "",
   },
   {
     id: "94",
@@ -1041,7 +1019,7 @@ export const members = [
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/naren-sairam-941739173",
     Github: "https://github.com/nsi319",
-    Website: ""
+    Website: "",
   },
   {
     id: "95",
@@ -1052,7 +1030,7 @@ export const members = [
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/madhav-aggarwal-b16180181/",
     Github: "https://github.com/madhavaggar",
-    Website: ""
+    Website: "",
   },
   {
     id: "96",
@@ -1063,7 +1041,7 @@ export const members = [
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/harshit-singh-83110a193/",
     Github: "https://github.com/LightHarshit",
-    Website: ""
+    Website: "",
   },
   {
     id: "97",
@@ -1074,7 +1052,7 @@ export const members = [
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/khushali-patel-92b182179",
     Github: "https://github.com/khushali259",
-    Website: ""
+    Website: "",
   },
   {
     id: "98",
@@ -1085,7 +1063,7 @@ export const members = [
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/isha-waghulde-4529aa17b",
     Github: "https://github.com/ishawaghulde.",
-    Website: ""
+    Website: "",
   },
   {
     id: "99",
@@ -1096,7 +1074,7 @@ export const members = [
     Year: "B tech 2nd Year",
     LinkedIn: "http://www.linkedin.com/in/srinidhi-s-p-b005b4171",
     Github: "https://github.com/Srinidhi2000",
-    Website: ""
+    Website: "",
   },
   {
     id: "100",
@@ -1107,7 +1085,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/rishav-roy-bba81813b/",
     Github: "https://github.com/rishavroy97/",
-    Website: ""
+    Website: "",
   },
   {
     id: "101",
@@ -1118,7 +1096,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/benedictflorance/",
     Github: "https://github.com/benedictflorance",
-    Website: "https://benedictflorance.github.io"
+    Website: "https://benedictflorance.github.io",
   },
   {
     id: "102",
@@ -1129,7 +1107,7 @@ export const members = [
     Year: "All",
     LinkedIn: "",
     Github: "",
-    Website: ""
+    Website: "",
   },
   {
     id: "103",
@@ -1140,7 +1118,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/swathi-dhamodaran-8b9053b5",
     Github: "",
-    Website: ""
+    Website: "",
   },
   {
     id: "104",
@@ -1151,7 +1129,7 @@ export const members = [
     Year: "All",
     LinkedIn: "",
     Github: "https://github.com/saranthn",
-    Website: ""
+    Website: "",
   },
   {
     id: "105",
@@ -1162,7 +1140,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/sudarshan-parthasarathy-451420187",
     Github: "https://github.com/auxillary1902",
-    Website: "http://auxillary1902.github.io/"
+    Website: "http://auxillary1902.github.io/",
   },
   {
     id: "106",
@@ -1173,7 +1151,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/kishore-v-a006ab153/",
     Github: "https://github.com/Kishorehere",
-    Website: ""
+    Website: "",
   },
   {
     id: "107",
@@ -1184,7 +1162,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/sraghul127",
     Github: "https://github.com/Raghul127",
-    Website: "https://raghul127.github.io/"
+    Website: "https://raghul127.github.io/",
   },
   {
     id: "108",
@@ -1195,7 +1173,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/na899",
     Github: "https://github.com/na899",
-    Website: ""
+    Website: "",
   },
   {
     id: "109",
@@ -1206,7 +1184,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/vishal-s-126000145/",
     Github: "https://github.com/VishalS99",
-    Website: ""
+    Website: "",
   },
   {
     id: "110",
@@ -1217,7 +1195,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://linkedin.com/in/abhishek-kumar-922163162/",
     Github: "https://github.com/abhis324",
-    Website: ""
+    Website: "",
   },
   {
     id: "111",
@@ -1228,7 +1206,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/mohamedsohail/",
     Github: "https://github.com/kamikazechaser",
-    Website: "https://kamikazechaser.github.io"
+    Website: "https://kamikazechaser.github.io",
   },
   {
     id: "112",
@@ -1239,7 +1217,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/prakhar-singh-852110173/",
     Github: "https://github.com/prakhar242",
-    Website: ""
+    Website: "",
   },
   {
     id: "113",
@@ -1250,7 +1228,7 @@ export const members = [
     Year: "All",
     LinkedIn: "",
     Github: "",
-    Website: "https://gigatesseract.github.io/"
+    Website: "https://gigatesseract.github.io/",
   },
   {
     id: "114",
@@ -1261,7 +1239,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/joel-johnson-36694015b/",
     Github: "https://github.com/quantum-jo",
-    Website: "joeljohnson.me"
+    Website: "joeljohnson.me",
   },
   {
     id: "115",
@@ -1272,7 +1250,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/kamalesh-palanisamy-2b5265149/",
     Github: "https://github.com/kamalesh0406",
-    Website: "http://www.kamaleshp.com"
+    Website: "http://www.kamaleshp.com",
   },
   {
     id: "116",
@@ -1283,7 +1261,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://donothaveone.com",
     Github: "https://github.com/chakki1234",
-    Website: ""
+    Website: "",
   },
   {
     id: "117",
@@ -1294,7 +1272,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/anjaneya-tripathi-610234183/",
     Github: "https://github.com/AnjaneyaTripathi",
-    Website: ""
+    Website: "",
   },
   {
     id: "118",
@@ -1305,18 +1283,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://in.linkedin.com/in/thrishik-senthilkumar-123918176",
     Github: "https://github.com/thrishik7",
-    Website: ""
-  },
-  {
-    id: "119",
-    Name: "Abhishek L",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FIMG_20190907_144004-compressor%20-%20Abhishek%20L.jpg?alt=media&token=8a214737-d397-4845-8ae9-be2dbcb67721",
-    Profile: "Web Dev",
-    Year: "All",
-    LinkedIn: "https://www.linkedin.com/in/abhishek-l-b2701b193/",
-    Github: "https://www.github.com/Abhishec177",
-    Website: "https://abhishec177.github.io"
+    Website: "",
   },
   {
     id: "120",
@@ -1327,18 +1294,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://linkedin.com/in/barath1999",
     Github: "https://www.github.com/barath99",
-    Website: "https://barath99.github.io"
-  },
-  {
-    id: "121",
-    Name: "Nandhini S R",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FNandhini%20S%20R%20-%20NANDHINI%20S%20R.jpg?alt=media&token=e98da567-0241-4621-971c-5934acbaf052",
-    Profile: "Web Dev",
-    Year: "All",
-    LinkedIn: "",
-    Github: "https://github.com/labyrinth-maven",
-    Website: ""
+    Website: "https://barath99.github.io",
   },
   {
     id: "122",
@@ -1349,7 +1305,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://linkedin.com/in/smrithi-prakash-452173193",
     Github: "https://github.com/Smrithi23",
-    Website: ""
+    Website: "",
   },
   {
     id: "123",
@@ -1360,7 +1316,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/jerry-j-89aa52174/",
     Github: "https://github.com/Hank-learner",
-    Website: ""
+    Website: "",
   },
   {
     id: "124",
@@ -1371,7 +1327,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/rajat-bhatta",
     Github: "https://github.com/barry-1928",
-    Website: ""
+    Website: "",
   },
   {
     id: "125",
@@ -1382,7 +1338,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/mritunjay-kumar-a5501b193/",
     Github: "https://github.com/mritunjay583",
-    Website: ""
+    Website: "",
   },
   {
     id: "126",
@@ -1393,7 +1349,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/kundan-mandloi-078627181/",
     Github: "https://github.com/Kunda31n",
-    Website: ""
+    Website: "",
   },
   {
     id: "127",
@@ -1404,7 +1360,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/harsh-bhadoria-989665144/",
     Github: "https://github.com/harshbhadoria011",
-    Website: ""
+    Website: "",
   },
   {
     id: "128",
@@ -1415,7 +1371,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/anukul-chand-199369148/",
     Github: "https://github.com/cyberfreak5725",
-    Website: ""
+    Website: "",
   },
   {
     id: "129",
@@ -1426,7 +1382,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/shivanichander/",
     Github: "https://github.com/shivanichander",
-    Website: ""
+    Website: "",
   },
   {
     id: "130",
@@ -1437,7 +1393,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/sandipnair/",
     Github: "https://github.com/SanNare",
-    Website: "https://medium.com/@sandipnr0"
+    Website: "https://medium.com/@sandipnr0",
   },
   {
     id: "131",
@@ -1448,7 +1404,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/harshit-babbar/",
     Github: "https://github.com/HarshitNITT",
-    Website: ""
+    Website: "",
   },
   {
     id: "132",
@@ -1459,7 +1415,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/rajiv-ramachandran-51a510166/",
     Github: "https://github.com/rRajivramachandran",
-    Website: ""
+    Website: "",
   },
   {
     id: "133",
@@ -1470,7 +1426,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/sri-harsha-t-v-b7484a157",
     Github: "https://github.com/tvs1998",
-    Website: ""
+    Website: "",
   },
   {
     id: "134",
@@ -1481,7 +1437,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/shiwang-singh-33941515a",
     Github: "https://github.com/Shiwang9",
-    Website: ""
+    Website: "",
   },
   {
     id: "135",
@@ -1492,7 +1448,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/dhruv-bodani-254a2b151",
     Github: "https://github.com/dB2510",
-    Website: ""
+    Website: "",
   },
   {
     id: "136",
@@ -1503,7 +1459,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/arvindtatiparti/",
     Github: "https://github.com/r0uxt1",
-    Website: ""
+    Website: "",
   },
   {
     id: "137",
@@ -1514,7 +1470,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://linkedin.com/in/aditya-kumar-8218ab138",
     Github: "https://github.com/kumaraditya1999",
-    Website: ""
+    Website: "",
   },
   {
     id: "138",
@@ -1525,7 +1481,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/harshit-mogalapalli-44025917b",
     Github: "https://github.com/harshimogalapalli",
-    Website: ""
+    Website: "",
   },
   {
     id: "139",
@@ -1536,7 +1492,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/engiiiiinerd",
     Github: "https://github.com/EngiiiiiNERD",
-    Website: ""
+    Website: "",
   },
   {
     id: "140",
@@ -1547,7 +1503,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/sohamroy15",
     Github: "https://www.github.com/wolflegend99",
-    Website: ""
+    Website: "",
   },
   {
     id: "141",
@@ -1558,7 +1514,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/fasith/",
     Github: "https://github.com/Fasith",
-    Website: ""
+    Website: "",
   },
   {
     id: "142",
@@ -1569,7 +1525,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/anoop-kumar-51284514b/",
     Github: "https://github.com/kumaranoop900",
-    Website: ""
+    Website: "",
   },
   {
     id: "143",
@@ -1580,7 +1536,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/raj-kuvar-4ba9b6172",
     Github: "https://github.com/RAJ107",
-    Website: ""
+    Website: "",
   },
   {
     id: "144",
@@ -1591,7 +1547,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/joel-antony-joseph-97377315b/",
     Github: "https://github.com/JoAMD",
-    Website: ""
+    Website: "",
   },
   {
     id: "145",
@@ -1602,7 +1558,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/arvinth-saravanan-3241b0192/",
     Github: "https://github.com/Arvinth-s",
-    Website: ""
+    Website: "",
   },
   {
     id: "146",
@@ -1613,7 +1569,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/harshit-agrawal-48b74a174/",
     Github: "https://github.com/HarshitCodex",
-    Website: ""
+    Website: "",
   },
   {
     id: "147",
@@ -1624,7 +1580,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/venkataraman-v-392090193/",
     Github: "https://github.com/Venkataraman8",
-    Website: ""
+    Website: "",
   },
   {
     id: "148",
@@ -1635,7 +1591,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/adithya-krishnakumar-3a6087193/",
     Github: "https://github.com/AdithyaK243",
-    Website: ""
+    Website: "",
   },
   {
     id: "149",
@@ -1646,7 +1602,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/poorna-subramanian-90924b181",
     Github: "https://github.com/poorna20",
-    Website: ""
+    Website: "",
   },
   {
     id: "150",
@@ -1657,7 +1613,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/anagha-sethuraman-192148179/",
     Github: "https://github.com/AnaghaSethuraman",
-    Website: ""
+    Website: "",
   },
   {
     id: "151",
@@ -1668,7 +1624,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/imsenthur/",
     Github: "https://github.com/imsenthur",
-    Website: ""
+    Website: "",
   },
   {
     id: "152",
@@ -1679,7 +1635,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/shubhamsaha",
     Github: "https://github.com/Helinskii",
-    Website: ""
+    Website: "",
   },
   {
     id: "153",
@@ -1690,7 +1646,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/vibashan-vs-23321b142/",
     Github: "https://github.com/Vibashan",
-    Website: ""
+    Website: "",
   },
   {
     id: "154",
@@ -1701,7 +1657,7 @@ export const members = [
     Year: "All",
     LinkedIn: " https://www.linkedin.com/in/c-sundara-paripooranan-65343b15b",
     Github: "https://github.com/paripooranan",
-    Website: ""
+    Website: "",
   },
   {
     id: "155",
@@ -1712,7 +1668,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/abishek-ramachandran-81745b126",
     Github: "https://github.com/Abishek0398",
-    Website: ""
+    Website: "",
   },
   {
     id: "156",
@@ -1723,7 +1679,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/vivek-dc-35069b141",
     Github: "https://www.github.com/dc28vivek",
-    Website: ""
+    Website: "",
   },
   {
     id: "157",
@@ -1734,7 +1690,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/abishek-r-468183178/",
     Github: "https://github.com/abishek27",
-    Website: ""
+    Website: "",
   },
   {
     id: "158",
@@ -1745,7 +1701,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/chocka-lingam-4bb803148",
     Github: "https://bitbucket.org/chocka/",
-    Website: ""
+    Website: "",
   },
   {
     id: "159",
@@ -1756,7 +1712,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/bhavya-krishna-6277b251",
     Github: "https://github.com/BhavyaKrishna",
-    Website: ""
+    Website: "",
   },
   {
     id: "160",
@@ -1767,7 +1723,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/aradhana-mohan-parvathy-64069413a/",
     Github: "https://github.com/MPARADHANA",
-    Website: ""
+    Website: "",
   },
   {
     id: "161",
@@ -1778,7 +1734,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/amritha-s-b-43283015b",
     Github: "https://github.com/amritha-sb",
-    Website: ""
+    Website: "",
   },
   {
     id: "162",
@@ -1789,7 +1745,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/mukesh-gandhi-8b7939128",
     Github: "https://github.com/MukkeshGandhi09",
-    Website: ""
+    Website: "",
   },
   {
     id: "163",
@@ -1800,7 +1756,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/aditya-ravichander-b2584b178",
     Github: "https://github.com/adityaravichander",
-    Website: ""
+    Website: "",
   },
   {
     id: "164",
@@ -1811,7 +1767,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/akil-m/",
     Github: "https://github.com/akilm",
-    Website: ""
+    Website: "",
   },
   {
     id: "165",
@@ -1822,7 +1778,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/aditya-kumar-singh-645996152/",
     Github: "https://github.com/adityasingh3007",
-    Website: "https://adityasingh3007.github.io/"
+    Website: "https://adityasingh3007.github.io/",
   },
   {
     id: "166",
@@ -1833,7 +1789,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/raj-kumar-bhagat-97b310170/",
     Github: "https://github.com/Rajk0520",
-    Website: ""
+    Website: "",
   },
   {
     id: "167",
@@ -1844,7 +1800,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/kathirvelrajan22112002/",
     Github: "https://github.com/cbkathir",
-    Website: ""
+    Website: "",
   },
   {
     id: "168",
@@ -1855,7 +1811,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/ruphan-s-37412673",
     Github: "https://github.com/ruphan",
-    Website: ""
+    Website: "",
   },
   {
     id: "169",
@@ -1866,7 +1822,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/yash-patel-29379414a/",
     Github: "https://github.com/ComputerMaestro",
-    Website: ""
+    Website: "",
   },
   {
     id: "170",
@@ -1877,7 +1833,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/manu-aatitya-r-p-78457412b/",
     Github: "https://github.com/manuaatitya",
-    Website: ""
+    Website: "",
   },
   {
     id: "171",
@@ -1888,7 +1844,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/sudharsan-s-1a7a1317b/",
     Github: "https://github.com/sudharsan2000",
-    Website: ""
+    Website: "",
   },
   {
     id: "172",
@@ -1899,7 +1855,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/sharan-sp-05735a168",
     Github: "https://github.com/Syzygianinfern0",
-    Website: ""
+    Website: "",
   },
   {
     id: "173",
@@ -1910,7 +1866,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://ca.linkedin.com/in/anbu52",
     Github: "https://github.com/anbu52",
-    Website: ""
+    Website: "",
   },
   {
     id: "174",
@@ -1921,7 +1877,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/gaurav-singh-0b056117b",
     Github: "https://github.com/GauravSingh789",
-    Website: ""
+    Website: "",
   },
   {
     id: "175",
@@ -1932,7 +1888,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/kirthika-srinivasan-6a9614181",
     Github: "https://github.com/kirthi-ka",
-    Website: ""
+    Website: "",
   },
   {
     id: "176",
@@ -1943,7 +1899,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/akshaya-subramanian-a6a609185/",
     Github: "https://github.com/AkshayaCSubramanian",
-    Website: ""
+    Website: "",
   },
   {
     id: "177",
@@ -1954,7 +1910,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/miriam-santhosh-kadavan-30927a193/",
     Github: "https://github.com/Githubmsk",
-    Website: ""
+    Website: "",
   },
   {
     id: "178",
@@ -1965,7 +1921,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/jayamathangi-s-3464a8184",
     Github: "https://www.github.com/Jayamathangi",
-    Website: ""
+    Website: "",
   },
   {
     id: "179",
@@ -1976,7 +1932,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/shyam-murugan/",
     Github: "https://github.com/shyam-king",
-    Website: ""
+    Website: "",
   },
   {
     id: "180",
@@ -1987,7 +1943,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/sachin-kumar-837b2b17b/",
     Github: "https://github.com/sachin-101",
-    Website: ""
+    Website: "",
   },
   {
     id: "181",
@@ -1998,7 +1954,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://in.linkedin.com/in/rahul-bhope-3a0976130",
     Github: "https://github.com/rahulatulbhope",
-    Website: "https://rahulatulbhope.github.io/"
+    Website: "https://rahulatulbhope.github.io/",
   },
   {
     id: "182",
@@ -2009,7 +1965,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/arijit-biswas-b7a85a98",
     Github: "https://github.com/arijitbiswasraj/",
-    Website: ""
+    Website: "",
   },
   {
     id: "183",
@@ -2020,7 +1976,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/disha-raj-284a05116",
     Github: "https://github.com/DishaRaj",
-    Website: ""
+    Website: "",
   },
   {
     id: "184",
@@ -2031,7 +1987,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/shivam-tiwari-32018b175",
     Github: "https://github.com/shivamtiwari841797",
-    Website: ""
+    Website: "",
   },
   {
     id: "185",
@@ -2042,7 +1998,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/abhilasha-nagpal",
     Github: "https://github.com/AbhilashaN",
-    Website: ""
+    Website: "",
   },
   {
     id: "186",
@@ -2053,7 +2009,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/rakesh-v-647481b6",
     Github: "https://github.com/RakeshVaideeswaran",
-    Website: ""
+    Website: "",
   },
   {
     id: "187",
@@ -2064,7 +2020,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/vaibhav-bairagi-a6ab97161",
     Github: "https://github.com/Vaibhavbairagi",
-    Website: ""
+    Website: "",
   },
   {
     id: "188",
@@ -2075,7 +2031,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/amoghjahagirdar/",
     Github: "https://github.com/amogh-jrules",
-    Website: "https://amogh-jrules.github.io"
+    Website: "https://amogh-jrules.github.io",
   },
   {
     id: "189",
@@ -2086,7 +2042,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/nitin-more/",
     Github: "https://github.com/NitinMore7",
-    Website: ""
+    Website: "",
   },
   {
     id: "190",
@@ -2097,7 +2053,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/ark-srivastava-252542160",
     Github: "https://github.com/rarsahki",
-    Website: ""
+    Website: "",
   },
   {
     id: "191",
@@ -2108,7 +2064,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/goutham-c-m-5a0621154/",
     Github: "https://github.com/gouthamcm",
-    Website: ""
+    Website: "",
   },
   {
     id: "192",
@@ -2119,7 +2075,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/ayushsinghs/",
     Github: "https://github.com/ayush547",
-    Website: ""
+    Website: "",
   },
   {
     id: "193",
@@ -2130,7 +2086,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/naren-sairam-941739173",
     Github: "https://github.com/nsi319",
-    Website: ""
+    Website: "",
   },
   {
     id: "194",
@@ -2141,7 +2097,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/madhav-aggarwal-b16180181/",
     Github: "https://github.com/madhavaggar",
-    Website: ""
+    Website: "",
   },
   {
     id: "195",
@@ -2152,7 +2108,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/harshit-singh-83110a193/",
     Github: "https://github.com/LightHarshit",
-    Website: ""
+    Website: "",
   },
   {
     id: "196",
@@ -2163,7 +2119,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/khushali-patel-92b182179",
     Github: "https://github.com/khushali259",
-    Website: ""
+    Website: "",
   },
   {
     id: "197",
@@ -2174,7 +2130,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/isha-waghulde-4529aa17b",
     Github: "https://github.com/ishawaghulde.",
-    Website: ""
+    Website: "",
   },
   {
     id: "198",
@@ -2185,6 +2141,6 @@ export const members = [
     Year: "All",
     LinkedIn: "http://www.linkedin.com/in/srinidhi-s-p-b005b4171",
     Github: "https://github.com/Srinidhi2000",
-    Website: ""
-  }
+    Website: "",
+  },
 ];
