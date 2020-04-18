@@ -8,7 +8,11 @@ function TronixFaq() {
       question:
         "Profile Description",
       answer:
-        "Signal Processing and Machine Learning: This domain deals with signal processing methods and Machine Learning techniques. Fundamental concepts of Image Processing, Audio Processing, Machine learning will be taught.\n Robotics and Control:\n This domain focuses on robotics and its application. Fundamental concepts of Control Systems, Solid Modelling, Mathematical Modeling, and Simulations will be taught.\n Embedded Systems and Electronics:\n This domain is a combination of both hardware and software, based on microcontrollers, microprocessors, and other Integrated Circuits",
+        <p className="answer"><b>Signal Processing and Machine Learning:</b> This domain deals with signal processing methods and Machine
+        Learning techniques. Fundamental concepts of Image Processing, Audio Processing, Machine learning will be taught.<br/><br/> <b>Robotics and
+        Control:</b><br/> This domain focuses on robotics and its application. Fundamental concepts of Control Systems, Solid Modelling, 
+        Mathematical Modeling, and Simulations will be taught.<br/><br/><b> Embedded Systems and Electronics:</b><br/> This domain is a combination 
+        of both hardware and software, based on microcontrollers, microprocessors, and other Integrated Circuits</p>,
              open: false,
     },
     {

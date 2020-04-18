@@ -2,13 +2,18 @@ import React, { useState } from "react";
 import FAQ from "./faq";
 import "./inductions.css";
 
+
 function AlgosFaq() {
   const [faqs, setfaqs] = useState([
     {
       question:
         "Profile Description",
       answer:
-        "The Algorithms profile (or Algos) primarily focuses on competitive programming. We train for and participate in multiple programming contests, especially the ACM ICPC. With emphasis on improving the coding culture on campus, we conduct multiple contests, workshops and discussions throughout the year. But that’s not all! Members of our team have varied interests. We participate in hackathons and take up projects in multiple interesting fields like Machine Learning, Game Development and research.",
+        <p className="answer">The <b>Algorithms</b> profile (or Algos) primarily focuses on competitive programming. We train for and participate in multiple 
+          programming contests, especially the ACM ICPC. With emphasis on improving the coding culture on campus, we conduct multiple 
+          contests, workshops and discussions throughout the year. But that’s not all! Members of our team have varied interests. 
+          We participate in hackathons and take up projects in multiple interesting fields like Machine Learning,
+          Game Development and research.</p>,
              open: false,
     },
     {

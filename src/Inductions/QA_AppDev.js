@@ -8,7 +8,13 @@ function AppFaq() {
       question:
         "Profile Description",
       answer:
-        "Flutter is an open-source UI software development kit created by Google which is used to develop applications for Android, iOS, Windows, Mac, Linux, Google Fuchsia and the web. Flutter converts a single code to run on different platforms and is currently used by giants like Google and Alibaba for their apps. React Native is a cross-platform app development framework created by Facebook which is used to develop apps for  Android, iOS, Web and UWP by enabling developers to use React along with native platform capabilities.Native Android apps stand for apps specifically designed to run on android devices like smartphones, tablets and TVs etc. We'll develop native android apps in Android studio",
+        <p className="answer"><b>Flutter</b> is an open-source UI software development kit created by Google which is 
+        used to develop applications for Android, iOS, Windows, Mac, Linux, Google Fuchsia and the web.
+        Flutter converts a single code to run on different platforms and is currently used by giants like Google and Alibaba
+        for their apps.<br/><br/> <b>React Native</b> is a cross-platform app development framework created by Facebook which is used to develop apps for
+        Android, iOS, Web and UWP by enabling developers to use React along with native platform capabilities.<br/><br/><b>Native Android</b> apps stand
+        for apps specifically designed to run on android devices like smartphones, tablets and TVs etc. We'll develop native android apps
+        in Android studio</p>,
              open: false,
     },
     {

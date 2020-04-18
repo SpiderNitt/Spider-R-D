@@ -8,7 +8,9 @@ function WebFaq() {
       question:
         "Profile Description",
       answer:
-        "A cluster of spiders that weave amazing sites? Yep, that’s us, the web developers of Spider, R&D club of NITT. Can’t express your mind blowing ideas? Looks like it’s time to design, develop and deploy your very own site. Join us this summer as we mentor you to ideate and innovate. Stay webbed for more!",
+        <p className="answer">A cluster of spiders that weave amazing sites? Yep, that’s us, the <b>web</b> developers of Spider, 
+        R&D club of NITT. Can’t express your mind blowing ideas? Looks like it’s time to design, develop and deploy your very own site. 
+        Join us this summer as we mentor you to ideate and innovate. Stay webbed for more!</p>,
              open: false,
     },
     {
