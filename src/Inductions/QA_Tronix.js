@@ -6,6 +6,13 @@ function TronixFaq() {
   const [faqs, setfaqs] = useState([
     {
       question:
+        "Profile Description",
+      answer:
+        "Signal Processing and Machine Learning: This domain deals with signal processing methods and Machine Learning techniques. Fundamental concepts of Image Processing, Audio Processing, Machine learning will be taught.\n Robotics and Control:\n This domain focuses on robotics and its application. Fundamental concepts of Control Systems, Solid Modelling, Mathematical Modeling, and Simulations will be taught.\n Embedded Systems and Electronics:\n This domain is a combination of both hardware and software, based on microcontrollers, microprocessors, and other Integrated Circuits",
+             open: false,
+    },
+    {
+      question:
         "Are there any pre-requisites for applying to SOP in tronix profile?",
       answer:
         "There are no pre-requisites for applying, we’ll start everything from scratch and there will be mentors to guide you through the learning processing",

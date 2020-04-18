@@ -6,6 +6,13 @@ function WebFaq() {
   const [faqs, setfaqs] = useState([
     {
       question:
+        "Profile Description",
+      answer:
+        "A cluster of spiders that weave amazing sites? Yep, that’s us, the web developers of Spider, R&D club of NITT. Can’t express your mind blowing ideas? Looks like it’s time to design, develop and deploy your very own site. Join us this summer as we mentor you to ideate and innovate. Stay webbed for more!",
+             open: false,
+    },
+    {
+      question:
         "What is the Web Development Profile in Spider? What does it do?",
       answer:
         "The Web Development Profile in Spider is a group of like-minded individuals interested in the art of Web Development- i.e expressing ideas through web.  We build websites such as this, take up interesting admin projects as well as hobby projects that always involve learning something new. ",

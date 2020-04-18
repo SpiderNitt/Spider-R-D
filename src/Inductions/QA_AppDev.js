@@ -5,6 +5,13 @@ import "./inductions.css";
 function AppFaq() {
   const [faqs, setfaqs] = useState([
     {
+      question:
+        "Profile Description",
+      answer:
+        "Flutter is an open-source UI software development kit created by Google which is used to develop applications for Android, iOS, Windows, Mac, Linux, Google Fuchsia and the web. Flutter converts a single code to run on different platforms and is currently used by giants like Google and Alibaba for their apps. React Native is a cross-platform app development framework created by Facebook which is used to develop apps for  Android, iOS, Web and UWP by enabling developers to use React along with native platform capabilities.Native Android apps stand for apps specifically designed to run on android devices like smartphones, tablets and TVs etc. We'll develop native android apps in Android studio",
+             open: false,
+    },
+    {
       question: "What will I learn in AppDev under the mentorship programs?",
       answer:
         "You will learn to create applications for use on smartphones and tablets, get insight into how they actually work and A-Z of app design and development.",

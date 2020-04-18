@@ -161,7 +161,7 @@ export default function PrimarySearchAppBar() {
                 Members
               </Button>
             </NavLink>
-            {/* <NavLink
+            <NavLink
               exact
               to="/sop"
               style={{ color: "#DADADE", textDecoration: "none" }}
@@ -173,7 +173,7 @@ export default function PrimarySearchAppBar() {
               >
                 Spider Orientation Program
               </Button>
-            </NavLink> */}
+            </NavLink>
             {/* <Button
               key="contactUs"
               color="inherit"

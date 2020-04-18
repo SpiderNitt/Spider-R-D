@@ -5,6 +5,13 @@ import "./inductions.css";
 function AlgosFaq() {
   const [faqs, setfaqs] = useState([
     {
+      question:
+        "Profile Description",
+      answer:
+        "The Algorithms profile (or Algos) primarily focuses on competitive programming. We train for and participate in multiple programming contests, especially the ACM ICPC. With emphasis on improving the coding culture on campus, we conduct multiple contests, workshops and discussions throughout the year. But that’s not all! Members of our team have varied interests. We participate in hackathons and take up projects in multiple interesting fields like Machine Learning, Game Development and research.",
+             open: false,
+    },
+    {
       question: "What does the Algorithms profile do?",
       answer:
         "The primary activity we take up is competitive programming. We extensively take part in online programming contests, hold discussions on these and improve upon our problem-solving skills. We also conduct Knowledge Sharing Sessions(KSS) which provides a great opportunity for members to learn new topics. Every year our teams train for and participate in the prestigious ACM ICPC. Members of our team also participate in hackathons and take up projects in a multitude of interesting fields including but not limited to Machine Learning, Game Development, research paper publications.",
