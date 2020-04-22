@@ -3,9 +3,6 @@ import "./inductions.css";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import Tab from "./tabs";
-import Button from '@material-ui/core/Button';
-
-
 
 const myStyles = makeStyles((theme) => ({
   root: {
@@ -37,19 +34,20 @@ function App() {
       >
         Spider Orientation Program
       </Typography>
-      <Typography
+      {/* <Typography
         component="h3"
         variant="h5"
         align="center"
         color="textPrimary"
         className={classes.follow}
       >
-        Follow the link below to Register for the program! <br/><br></br>
-        <Button variant="contained" color="primary" href="https://spider.nitt.edu/orientation/#">
-        Register for SOP
+        SOP is live! Click the link to download the app now. <br />
+        <br></br>
+        <Button variant="contained" color="primary" href="#">
+          Register for SOP
         </Button>
-      </Typography>
-      
+      </Typography> */}
+      {console.log("SOP App on the way. Stay tuned!")}
       <div className="App">
         <h2 className="ind-content"> Got any Questions?</h2>
         <h3 className="ind-content"> Check if we got them answered!</h3>
