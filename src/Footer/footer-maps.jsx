@@ -1,24 +1,24 @@
 import React, { Component } from "react";
 import GoogleMapReact from "google-map-react";
-import './footer-maps.css';
+import "./footer-maps.css";
 
 class SimpleMap extends Component {
   static defaultProps = {
     center: {
       lat: 10.7600909,
-      lng: 78.8178183
+      lng: 78.8178183,
     },
-    zoom: 16
+    zoom: 16,
   };
 
   renderMarkers(map, maps) {
     new maps.Marker({
       position: {
         lat: 10.7600909,
-        lng: 78.8178183
+        lng: 78.8178183,
       },
       map,
-      title: "Spider Labs, CSE Department"
+      title: "Spider Labs, CSE Department",
     });
   }
 
@@ -31,6 +31,7 @@ class SimpleMap extends Component {
           defaultCenter={this.props.center}
           defaultZoom={this.props.zoom}
           onGoogleApiLoaded={({ map, maps }) => this.renderMarkers(map, maps)}
+          yesIWantToUseGoogleMapApiInternals={true}
         ></GoogleMapReact>
       </div>
     );

@@ -1,21 +1,20 @@
-import React , { Component } from 'react';
-import AutoGrid from './body.js';
+import React, { Component } from "react";
+import AutoGrid from "./body.js";
 import FooterBar from "../Footer/footer-bottom";
 
-class ProjectsPage extends Component { 
+class ProjectsPage extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
   }
 
-  render()
-  {
-    return ( 
-      <div style={{overflow:'hidden'}}> 
+  render() {
+    return (
+      <div style={{ overflow: "hidden" }}>
         <center>
-        <AutoGrid/>
-        </center>   
-        <FooterBar />   
-      </div>      
+          <AutoGrid />
+        </center>
+        <FooterBar />
+      </div>
     );
   }
 }
