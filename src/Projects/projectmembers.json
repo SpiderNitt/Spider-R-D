@@ -6,7 +6,7 @@
       "project_description": "This project focuses on understanding the concepts of Spectral Graph Theory, the math behind it and applying it to the diverse field of networks and topology.  Partitioning helps in decomposing complex systems into submodules which allows the manufacturer to develop and integrate different modules independently. Here, we implement spectral clustering to split an image into its main components.",
       "members": ["Anagha Sethuraman", "Arvinth Saravanan"],
       "profiles": ["algos"],
-      "image_link": "https://docs.google.com/uc?id=1Ni8YADRLHwu-P8L0i2ROk2-L8XWKMiB9",
+      "image_link": "images/projects/SpectralClustering - Anagha Sethuraman-min.jpg",
       "desc_images": [
         "https://docs.google.com/uc?id=1_iWIs2UR8qaCuRaIVkWH_PvOSOOxr9zR"
       ],
@@ -18,7 +18,7 @@
       "project_description": "The project aims to classify a given piece of news as real or fake. The model is trained using Natural Language Processing on a dataset of real and fake news ,which is used to predict the result.",
       "members": ["Adithya K Krishna"],
       "profiles": ["algos"],
-      "image_link": "https://docs.google.com/uc?id=1VwHRnCd8rZOvla341euw_hZoH3SfvGWN",
+      "image_link": "images/projects/Fake_real-1_gebpwg - Adithya Krishnakumar-min.png",
       "desc_images": [
         "https://docs.google.com/uc?id=1TfPJvi0lcNCdsdggyGkLrF5LPO3iQnOF",
         " https://docs.google.com/uc?id=1cnGnCIjDE9COTB9J5rAvHpg00jGU7p5O"
@@ -36,7 +36,7 @@
         "Venkatesh TK"
       ],
       "profiles": ["tronix"],
-      "image_link": "https://docs.google.com/uc?id=15HcC3JlEKqZABr7HV-7nIrn4VNOB8OH5",
+      "image_link": "images/projects/rtos - Abishek K R-min.jpeg",
       "desc_images": [
         "https://docs.google.com/uc?id=1QPUaAhHybWmLszBH1S4g0t4vX-SCRmRs"
       ],
@@ -53,7 +53,7 @@
         "Jack Samuel S"
       ],
       "profiles": ["tronix"],
-      "image_link": "https://docs.google.com/uc?id=1dxCL9ky9vi_Pm7yRnw3QvAow-SVd8DTt",
+      "image_link": "images/projects/shadow bot - MANU AATITYA-min.png",
       "desc_images": [
         "https://docs.google.com/uc?id=1mnhNPBGBggj1ZTTvaqvIYl4BYH2oDKPu",
         "https://docs.google.com/uc?id=1NIaQ_c1KEJ8ILP9MxrbTAxeV3GfAuG74",
@@ -72,7 +72,7 @@
         "Veejay Karthick"
       ],
       "profiles": ["tronix"],
-      "image_link": "https://docs.google.com/uc?id=1Ahxyk1S2pbPyI1wZNFXQ865AvjRdwByb",
+      "image_link": "images/projects/armadillo - Mukesh Gandhi-min.png",
       "desc_images": [
         "https://docs.google.com/uc?id=1nzYxVV5_18i2stMRSgWxygyphVjpK3QN",
         "https://docs.google.com/uc?id=1remaWCmg-gzSFv9lyoljSmDJrNNWCyOA"
@@ -90,7 +90,7 @@
         "Yash Patel"
       ],
       "profiles": ["tronix"],
-      "image_link": "https://docs.google.com/uc?id=1KSOMT2PFaSq3wLUlbPPGMP6jbScnYOn4",
+      "image_link": "images/projects/img - Ruphan S.jpeg",
       "desc_images": [
         "https://docs.google.com/uc?id=1HCnba1pCkbvrlL1PxZ4ZT3XsnDufRd_m"
       ],
@@ -109,8 +109,11 @@
         "Shivani Chander"
       ],
       "profiles": ["tronix"],
-      "image_link": "images/Beebots/1.jpeg",
-      "desc_images": ["images/Beebots/2.jpeg", "images/Beebots/3.jpeg"],
+      "image_link": "images/projects/Beebots/1.jpeg",
+      "desc_images": [
+        "images/projects/Beebots/2.jpeg",
+        "images/projects/Beebots/3.jpeg"
+      ],
       "desc_video": ""
     }
   ],
