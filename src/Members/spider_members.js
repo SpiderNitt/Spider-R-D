@@ -158,8 +158,8 @@ export const members = [
       "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FIMG_20180605_151114%20-%20N%20Pr%C3%A3v%C4%93%C3%AB%C3%B1%20%C3%87h%C3%A4%C3%B1dh%C3%A2r.jpg?alt=media&token=d3a2ef7d-4a3f-48b8-8e32-3ace8d6b23c7",
     Profile: "Web Dev",
     Year: "B tech 3rd Year",
-    LinkedIn: "",
-    Github: "",
+    LinkedIn: "https://www.linkedin.com/in/praveen27/",
+    Github: "https://github.com/gigatesseract/",
     Website: "https://gigatesseract.github.io/",
   },
   {
