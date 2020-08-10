@@ -88,9 +88,12 @@ export default function PrimarySearchAppBar() {
         </NavLink>
       </MenuItem>
       <MenuItem>
-        <NavLink style={{ textDecoration: "none", color: "#0E122B" }} to="/sop">
-          Spider Orientation Program
-        </NavLink>
+        <a
+          style={{ textDecoration: "none", color: "#0E122B" }}
+          href="https://inductions.spider.nitt.edu"
+        >
+          Spider Inductions 2020
+        </a>
       </MenuItem>
       {/* <MenuItem>
         <NavLink
@@ -161,9 +164,8 @@ export default function PrimarySearchAppBar() {
                 Members
               </Button>
             </NavLink>
-            <NavLink
-              exact
-              to="/sop"
+            <a
+              href="https://inductions.spider.nitt.edu"
               style={{ color: "#DADADE", textDecoration: "none" }}
             >
               <Button
@@ -171,28 +173,9 @@ export default function PrimarySearchAppBar() {
                 color="inherit"
                 className={classes.menuButton}
               >
-                Spider Orientation Program
+                Spider Inductions 2020
               </Button>
-            </NavLink>
-            {/* <Button
-              key="contactUs"
-              color="inherit"
-              className={classes.menuButton}
-              onClick={() => {
-                if (document.getElementById("Footer-Contacts")) {
-                  document
-                    .getElementById("Footer-Contacts")
-                    .scrollIntoView({ behavior: "smooth" });
-                } else {
-                  window.location.href = "/";
-                  document
-                    .getElementById("Footer-Contacts")
-                    .scrollIntoView({ behavior: "smooth" });
-                }
-              }}
-            >
-              Contact Us
-            </Button> */}
+            </a>
           </div>
           <div className={classes.sectionMobile}>
             <IconButton

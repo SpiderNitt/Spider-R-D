@@ -32,7 +32,7 @@ function App() {
         color="textPrimary"
         className={classes.root}
       >
-        Spider Orientation Program
+        Spider Inductions 2020
       </Typography>
       {/* <Typography
         component="h3"
@@ -47,7 +47,7 @@ function App() {
           Register for SOP
         </Button>
       </Typography> */}
-      {console.log("SOP App on the way. Stay tuned!")}
+      {console.log("Spider Inductions 2020")}
       <div className="App">
         <h2 className="ind-content"> Got any Questions?</h2>
         <h3 className="ind-content"> Check if we got them answered!</h3>
