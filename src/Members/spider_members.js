@@ -11,8 +11,7 @@ export const members = [
   {
     id: "1",
     Name: "Rishav Roy",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2F29873104_1766947800037743_8957874888158641978_o%20-%20Rishav%20Roy.jpg?alt=media&token=a5b4cc98-7928-4c53-b071-9357e9707a17",
+    Photo: "images/Members/Rishav Roy.jpg",
     Profile: "Web Dev",
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/rishav-roy-bba81813b/",
@@ -22,8 +21,7 @@ export const members = [
   {
     id: "2",
     Name: "Benedict Florance",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fbenedict%20-%20Benedict%20Florance.jpeg?alt=media&token=fbe3aecd-9729-4134-b98e-4d71bf4d7676",
+    Photo: "images/Members/Benedict Florance.jpeg",
     Profile: "Web Dev",
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/benedictflorance/",
@@ -33,8 +31,7 @@ export const members = [
   {
     id: "3",
     Name: "Somesh Sundaram",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Ftemp%20-%20Somesh%20Sundaram.jpg?alt=media&token=a9e43d6a-f4b4-442f-be4a-86e1ec6ca808",
+    Photo: "images/Members/Somesh Sundaram.jpg",
     Profile: "Web Dev",
     Year: "B tech 4th year",
     LinkedIn: "",
@@ -44,8 +41,7 @@ export const members = [
   {
     id: "4",
     Name: "Swathi Dhamodaran",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FIMG-20190901-WA0014%20-%20Swathi%20Dhamodaran.jpg?alt=media&token=434da40a-ff43-4844-b1ed-e1b45a70d6d1",
+    Photo: "images/Members/Swathi Dhamodaran.jpg",
     Profile: "Web Dev",
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/swathi-dhamodaran-8b9053b5",
@@ -55,8 +51,7 @@ export const members = [
   {
     id: "5",
     Name: "Saravanan T",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FIMG_0858%20-%20T%20.%20Saravanan%20thanu.jpg?alt=media&token=c32ce068-fdc1-4588-bbec-966c30c616a4",
+    Photo: "images/Members/Saravanan Thanu.jpg",
     Profile: "Web Dev",
     Year: "B tech 4th year",
     LinkedIn: "",
@@ -66,8 +61,7 @@ export const members = [
   {
     id: "6",
     Name: "Sudarshan",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fsrc_media_CACHE_images_avatars_Sudarshan_Parthasarathy_-_Web_Dev_9b52dbac2f2441fbb827b60d80473b4d.jpg?alt=media&token=ff79d37a-7a71-4576-8463-525f89cf2caa",
+    Photo: "images/Members/Sudarshan Parthasarathy.jpg",
     Profile: "Web Dev",
     Year: "B tech 4th year",
     LinkedIn: "",
@@ -77,8 +71,7 @@ export const members = [
   {
     id: "7",
     Name: "Kishore",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FLinkedin%20-%20Kishore%20V.JPG?alt=media&token=ca78bb9a-5c7a-456d-8ab2-38bbc1eda44c",
+    Photo: "images/Members/Kishore V.jpg",
     Profile: "Web Dev",
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/kishore-v-a006ab153/",
@@ -88,8 +81,7 @@ export const members = [
   {
     id: "8",
     Name: "S Raghul",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FRaghul%20-%20Raghul%20Sivavenkatesh.jpg?alt=media&token=217d275a-b7cb-4ff3-9106-ca0fbcf2c1d5",
+    Photo: "images/Members/Raghul Sivavenkatesh.jpg",
     Profile: "Web Dev",
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/sraghul127",
@@ -99,8 +91,7 @@ export const members = [
   {
     id: "9",
     Name: "P Naveena",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FNaveena%20-%20photos%20n.jpg?alt=media&token=90383664-0dab-4eac-8d87-a5ddee7e7ab8",
+    Photo: "images/Members/Naveena.jpg",
     Profile: "Web Dev",
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/na899",
@@ -110,30 +101,18 @@ export const members = [
   {
     id: "10",
     Name: "Vishal Saranathan",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FVishalSaranathan%20-%20Vishal%20Saranathan.jpg?alt=media&token=3606d4a9-3bf2-4a52-bfb7-12a744c3d527",
+    Photo: "images/Members/Vishal Saranathan.jpg",
     Profile: "Web Dev",
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/vishal-s-126000145/",
     Github: "https://github.com/VishalS99",
     Website: "",
   },
-  {
-    id: "11",
-    Name: "Abhishek Kumar",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FAbhishekKumar%20-%20Abhishek%20Kumar.jpg?alt=media&token=e3024118-f5f9-4122-bed9-8f84e02341dc",
-    Profile: "Web Dev",
-    Year: "B tech 3rd Year",
-    LinkedIn: "https://linkedin.com/in/abhishek-kumar-922163162/",
-    Github: "https://github.com/abhis324",
-    Website: "",
-  },
+
   {
     id: "12",
     Name: "Mohamed Sohail",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fa%20-%20Mohammed%20Sohail.jpg?alt=media&token=5272602b-f1ae-4880-9ced-dd3d1e9c26df",
+    Photo: "images/Members/Mohammed Sohail.jpg",
     Profile: "Web Dev",
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/mohamedsohail/",
@@ -143,8 +122,7 @@ export const members = [
   {
     id: "13",
     Name: "Prakhar Singh",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FPrakhar%20Singh%20%20-%20Prakhar%20Singh.jpg?alt=media&token=913181fb-20ed-4baf-be96-710acd3c5aed",
+    Photo: "images/Members/Prakhar Singh.jpg",
     Profile: "Web Dev",
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/prakhar-singh-852110173/",
@@ -154,8 +132,7 @@ export const members = [
   {
     id: "14",
     Name: "N Praveen Chandhar",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FIMG_20180605_151114%20-%20N%20Pr%C3%A3v%C4%93%C3%AB%C3%B1%20%C3%87h%C3%A4%C3%B1dh%C3%A2r.jpg?alt=media&token=d3a2ef7d-4a3f-48b8-8e32-3ace8d6b23c7",
+    Photo: "images/Members/N Praveen Chandhar.jpg",
     Profile: "Web Dev",
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/praveen27/",
@@ -165,8 +142,7 @@ export const members = [
   {
     id: "15",
     Name: "Joel Johnson",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FJoel%20Johnson%20-%20Joel%20Johnson.jpeg?alt=media&token=0ca3ee5c-6379-4049-a19c-1d8baf137eee",
+    Photo: "images/Members/Joel Johnson.jpeg",
     Profile: "Web Dev",
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/joel-johnson-36694015b/",
@@ -176,8 +152,7 @@ export const members = [
   {
     id: "16",
     Name: "Kamalesh Palanisamy",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FKamaleshP%20-%20kamalesh%20palanisamy.jpg?alt=media&token=671ce82e-7670-49f3-a331-eb8323fc543e",
+    Photo: "images/Members/Kamalesh Palanisamy.jpg",
     Profile: "Web Dev",
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/kamalesh-palanisamy-2b5265149/",
@@ -187,8 +162,7 @@ export const members = [
   {
     id: "17",
     Name: "Anish C ",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fimage%20-%20chakkirala%20anish.jpg?alt=media&token=f2cd1180-f0af-4531-930e-f51771911eb3",
+    Photo: "images/Members/Chakkirala Anish.jpg",
     Profile: "Web Dev",
     Year: "B tech 2nd Year",
     LinkedIn: "https://donothaveone.com",
@@ -198,8 +172,7 @@ export const members = [
   {
     id: "18",
     Name: "Anjaneya Tripathi",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FWhatsApp%20Image%202019-09-01%20at%209.11.12%20PM%20-%20Anjaneya%20Tripathi.jpeg?alt=media&token=e0f37cde-2e42-48ce-93e3-4fa8c9bf3c54",
+    Photo: "images/Members/Anjaneya Tripathi.jpeg",
     Profile: "Web Dev",
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/anjaneya-tripathi-610234183/",
@@ -209,8 +182,7 @@ export const members = [
   {
     id: "19",
     Name: "Thrishik Senthilkumar",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FIMG-20190606-WA0028%20-%20Thrishik%20Senthilkumar.jpg?alt=media&token=3fc84871-7933-45f4-8df4-6c3d68a5d53d",
+    Photo: "images/Members/Thrishik Senthilkumar.jpg",
     Profile: "Web Dev",
     Year: "B tech 2nd Year",
     LinkedIn: "https://in.linkedin.com/in/thrishik-senthilkumar-123918176",
@@ -220,8 +192,7 @@ export const members = [
   {
     id: "21",
     Name: "Barath Kumar S",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/self-pic-faa7e.appspot.com/o/barath4.png?alt=media&token=54b858fb-3b8b-416b-9356-d5a88ffa86ab",
+    Photo: "images/Members/Barath.png",
     Profile: "Web Dev",
     Year: "B tech 2nd Year",
     LinkedIn: "https://linkedin.com/in/barath1999",
@@ -231,8 +202,7 @@ export const members = [
   {
     id: "23",
     Name: "Smrithi Prakash",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fsmrithi-picture.PNG?alt=media&token=055c6e19-9f06-4194-9ba1-ac6c7e4ad3d5",
+    Photo: "images/Members/Smrithi.png",
     Profile: "Web Dev",
     Year: "B tech 2nd Year",
     LinkedIn: "https://linkedin.com/in/smrithi-prakash-452173193",
@@ -242,8 +212,7 @@ export const members = [
   {
     id: "24",
     Name: "Jerry J",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fjerry.PNG?alt=media&token=664894f2-eeb2-474d-a811-7d3b0191741b",
+    Photo: "images/Members/Jerry.png",
     Profile: "Web Dev",
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/jerry-j-89aa52174/",
@@ -253,8 +222,7 @@ export const members = [
   {
     id: "25",
     Name: "Rajat Bhatta",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FRajat%20Bhatta%20-%20RAJAT%20BHATTA.jpg?alt=media&token=b73ccff4-34e5-4d1e-9456-92fb4af2a124",
+    Photo: "images/Members/Rajat Bhatta.jpg",
     Profile: "Algos",
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/rajat-bhatta",
@@ -264,8 +232,7 @@ export const members = [
   {
     id: "26",
     Name: "Mritunjay Kumar",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fpassport%20-%20mritunjay%20kumar.jpg?alt=media&token=58129913-4a7f-49c6-a110-908a44fd8c49",
+    Photo: "images/Members/Mritunjay Kumar.jpg",
     Profile: "Algos",
     Year: "MCA 2nd year",
     LinkedIn: "https://www.linkedin.com/in/mritunjay-kumar-a5501b193/",
@@ -275,8 +242,7 @@ export const members = [
   {
     id: "27",
     Name: "Kundan",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FKundan..Kundan.Mandloi.jpg?alt=media&token=b33c1a10-55ac-4506-b835-abe2b9b8db5e",
+    Photo: "images/Members/Kundan Mandloi.jpg",
     Profile: "Algos",
     Year: "MCA 2nd year",
     LinkedIn: "https://www.linkedin.com/in/kundan-mandloi-078627181/",
@@ -286,8 +252,7 @@ export const members = [
   {
     id: "28",
     Name: "Harsh Bhadoria",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FHarsh%20Bhadoria1%20-%20Harsh%20bhadoria.jpg?alt=media&token=1dc7d966-28aa-45b6-b5fa-2b9f9333d3e5",
+    Photo: "images/Members/Harsh Bhadoria.jpg",
     Profile: "Algos",
     Year: "MCA 2nd year",
     LinkedIn: "https://www.linkedin.com/in/harsh-bhadoria-989665144/",
@@ -297,8 +262,7 @@ export const members = [
   {
     id: "29",
     Name: "Anukul Chand",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FIMG-20190910-WA0004%20-%20Anukul%20Chand.jpg?alt=media&token=53f126b0-27b3-431a-aabb-468135664c20",
+    Photo: "images/Members/Anukul Chand.jpg",
     Profile: "Algos",
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/anukul-chand-199369148/",
@@ -308,8 +272,7 @@ export const members = [
   {
     id: "30",
     Name: "Shivani Chander",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FShivani%20Chander%20-%20Shivani%20Chander.jpg?alt=media&token=9ea78a07-3cfd-4288-814b-5c0c233f557d",
+    Photo: "images/Members/Shivani Chander.jpg",
     Profile: "Algos",
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/shivanichander/",
@@ -319,8 +282,7 @@ export const members = [
   {
     id: "31",
     Name: "Sandip Nair",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fsandip%20-%20Sandip%20Nair.jpg?alt=media&token=9fa83c60-d18a-4d5c-a133-ffb24fc9f00c",
+    Photo: "images/Members/Sandip Nair.jpg",
     Profile: "Algos",
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/sandipnair/",
@@ -330,8 +292,7 @@ export const members = [
   {
     id: "32",
     Name: "Harshit Babbar",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FHarshit_Babbar%20-%20harshit%20babbar.jpg?alt=media&token=5fa428a3-572e-4257-ab36-426e4621b9d6",
+    Photo: "images/Members/Harshit Babbar.jpg",
     Profile: "Algos",
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/harshit-babbar/",
@@ -341,8 +302,7 @@ export const members = [
   {
     id: "33",
     Name: "Rajiv",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fdecent%20photo%20-%20R%20Rajiv.jpeg?alt=media&token=8aeea9ac-d572-4e1d-80f7-6b6153399616",
+    Photo: "images/Members/R Rajiv.jpeg",
     Profile: "Algos",
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/rajiv-ramachandran-51a510166/",
@@ -352,8 +312,7 @@ export const members = [
   {
     id: "34",
     Name: "Sri Harsha T.V",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FSRI%20HARSHA%20TV%20-%20SRI%20HARSHA%20T%20V.jpeg?alt=media&token=ebbe4748-d240-4529-94f3-5d4265bb63cb",
+    Photo: "images/Members/Sri Harsha T V.jpeg",
     Profile: "Algos",
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/sri-harsha-t-v-b7484a157",
@@ -363,8 +322,7 @@ export const members = [
   {
     id: "35",
     Name: "Shiwang Singh",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FShiwang%20(1)%20-%20Shiwang%20Singh.jpg?alt=media&token=23c9dd4b-7cb5-450d-ac06-776b3767e1c1",
+    Photo: "images/Members/Shivam Tiwari.jpg",
     Profile: "Algos",
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/shiwang-singh-33941515a",
@@ -374,8 +332,7 @@ export const members = [
   {
     id: "36",
     Name: "Dhruv Bodani",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FDhruv%20-%20Dhruv%20Bodani.jpg?alt=media&token=9da0b7da-c7c5-42ee-9349-f6f9d0f2ab56",
+    Photo: "images/Members/Dhruv Bodani.jpg",
     Profile: "Algos",
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/dhruv-bodani-254a2b151",
@@ -385,8 +342,7 @@ export const members = [
   {
     id: "37",
     Name: "Arvind Tatiparti",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fx%20-%20Arvind%20Tatiparti.jpg?alt=media&token=74f0f1f6-ee30-4ba0-9a16-ee75c70a8f33",
+    Photo: "images/Members/Arvind Tatiparti.jpg",
     Profile: "Algos",
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/arvindtatiparti/",
@@ -396,8 +352,7 @@ export const members = [
   {
     id: "38",
     Name: "Aditya Kumar",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2F20190419_142434%20-%20Aditya%20Kumar.jpg?alt=media&token=223d9c66-e650-4491-9a9d-897366712042",
+    Photo: "images/Members/Aditya Kumar.jpg",
     Profile: "Algos",
     Year: "B tech 3rd Year",
     LinkedIn: "https://linkedin.com/in/aditya-kumar-8218ab138",
@@ -407,8 +362,7 @@ export const members = [
   {
     id: "39",
     Name: "Harshit Mogalapalli ",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fharshitmogalapalli%20-%20Harshit%20Mogalapalli.jpg?alt=media&token=f90bc44c-f2d8-4f48-88b6-055056d04e88",
+    Photo: "images/Members/Harshit Mogalapalli.jpg",
     Profile: "Algos",
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/harshit-mogalapalli-44025917b",
@@ -418,8 +372,7 @@ export const members = [
   {
     id: "40",
     Name: "Chidanand Dev Suryawanshi",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FChidanand_Dev_Suryawanshi%20-%20Chidanand%20Dev%20Suryawanshi.jpg?alt=media&token=708912d4-b33a-4086-be21-d9d030136169",
+    Photo: "images/Members/Chidanand Dev Suryawanshi.jpg",
     Profile: "Algos",
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/engiiiiinerd",
@@ -429,8 +382,7 @@ export const members = [
   {
     id: "41",
     Name: "Soham Roy",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FIMG_20181123_063542%20-%20Soham%20Roy.jpg?alt=media&token=8ed6d8ca-50fe-4ae5-803c-98f5ee8bc6c3",
+    Photo: "images/Members/Soham Roy.jpg",
     Profile: "Algos",
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/sohamroy15",
@@ -440,8 +392,7 @@ export const members = [
   {
     id: "42",
     Name: "Fasith",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FFasith%20-%20Fasith%20Ali.jpeg?alt=media&token=23a98a34-de0f-4a80-904f-8273920c6159",
+    Photo: "images/Members/Fasith Ali.jpeg",
     Profile: "Algos",
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/fasith/",
@@ -451,8 +402,7 @@ export const members = [
   {
     id: "43",
     Name: "Anoop Kumar",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fpassport_photo%20-%20Anoop%20Kumar.jpg?alt=media&token=8d308d7e-a5c6-400a-a285-d509e44f10c7",
+    Photo: "images/Members/Anoop Kumar.jpg",
     Profile: "Algos",
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/anoop-kumar-51284514b/",
@@ -462,8 +412,7 @@ export const members = [
   {
     id: "44",
     Name: "Raj Kuvar Yadav",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FIMG_20190908_054706~5%20-%20raj%20kuvar.jpg?alt=media&token=518380c5-a212-476b-9396-a3ce22c7aa1b",
+    Photo: "images/Members/Raj Kuvar.jpg",
     Profile: "Algos",
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/raj-kuvar-4ba9b6172",
@@ -473,8 +422,7 @@ export const members = [
   {
     id: "45",
     Name: "Joel Antony Joseph",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FJoelAntonyJoseph%20-%20Joel%20Antony%20Joseph.jpg?alt=media&token=1c899679-b688-4067-93cc-4cdef9e0d077",
+    Photo: "images/Members/Joel Antony Joseph.jpg",
     Profile: "Algos",
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/joel-antony-joseph-97377315b/",
@@ -484,8 +432,7 @@ export const members = [
   {
     id: "46",
     Name: "Arvinth Saravanan",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fprofile%20-%20Arvinth%20Saravanan.jpg?alt=media&token=ff16b585-d064-4e8e-8fa1-e93bb1956fe1",
+    Photo: "images/Members/Arvinth Saravanan.jpg",
     Profile: "Algos",
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/arvinth-saravanan-3241b0192/",
@@ -495,8 +442,7 @@ export const members = [
   {
     id: "47",
     Name: "Harshit Agrawal",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FHarshit_Agrawal%20-%20Harshit%20Agrawal.jpeg?alt=media&token=099c8bdf-4b8d-43f8-a927-41ddd0098398",
+    Photo: "images/Members/Harshit Agrawal.jpeg",
     Profile: "Algos",
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/harshit-agrawal-48b74a174/",
@@ -506,8 +452,7 @@ export const members = [
   {
     id: "48",
     Name: "Venkataraman V",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FV%20Venkataraman%20-%20Venkataraman%20V.jpeg?alt=media&token=60840ea1-23fe-4142-9a1d-f7ec389f091f",
+    Photo: "images/Members/Venkataraman V.jpeg",
     Profile: "Algos",
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/venkataraman-v-392090193/",
@@ -517,8 +462,7 @@ export const members = [
   {
     id: "49",
     Name: "Adithya K Krishna",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FAdithya%20K%20Krishna%20-%20Adithya%20Krishnakumar.jpg?alt=media&token=30bc96e4-98f3-4c98-a197-491cc182e757",
+    Photo: "images/Members/Adithya Krishnakumar.jpg",
     Profile: "Algos",
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/adithya-krishnakumar-3a6087193/",
@@ -528,8 +472,7 @@ export const members = [
   {
     id: "50",
     Name: "Poorna Subramanian",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FPoorna-1296x864%20-%20Poorna%20subramanian.JPG?alt=media&token=f4de1b64-5cac-4ea5-80c7-13c599e1f491",
+    Photo: "images/Members/Poorna subramanian.jpg",
     Profile: "Algos",
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/poorna-subramanian-90924b181",
@@ -539,8 +482,7 @@ export const members = [
   {
     id: "51",
     Name: "Anagha Sethuraman",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FAnagha%20-%20Anagha%20Sethuraman.jpg?alt=media&token=153dda55-822f-4a6a-8ccb-9062385b20cf",
+    Photo: "images/Members/Anagha Sethuraman.jpg",
     Profile: "Algos",
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/anagha-sethuraman-192148179/",
@@ -550,8 +492,7 @@ export const members = [
   {
     id: "52",
     Name: "Senthur Raj",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FSenthur-Raj%20-%20Senthur%20raj.jpg?alt=media&token=f32252f4-9c71-4ebf-b2ad-f5ea93b778f1",
+    Photo: "images/Members/Senthur-Raj - Senthur raj.jpg",
     Profile: "Tronix",
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/imsenthur/",
@@ -561,8 +502,7 @@ export const members = [
   {
     id: "53",
     Name: "Shubham Saha",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FShubham%20Saha%20-%20Shubham%20Saha.jpg?alt=media&token=b78985f5-5b01-4d38-9919-d2c4c14ccda6",
+    Photo: "images/Members/Shubham Saha.jpg",
     Profile: "Tronix",
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/shubhamsaha",
@@ -572,8 +512,7 @@ export const members = [
   {
     id: "54",
     Name: "Vibashan",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2F2019-04-23-01-04-33-782%20-%20Vibashan%20VS.jpg?alt=media&token=444086d9-498e-4353-974d-3429c6c3c3b8",
+    Photo: "images/Members/Vibashan VS.jpg",
     Profile: "Tronix",
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/vibashan-vs-23321b142/",
@@ -583,8 +522,7 @@ export const members = [
   {
     id: "55",
     Name: "C Sundara Paripooranan",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2F%E2%80%AA%2B91%2094424%2072132%E2%80%AC%2020180722_090326%20-%20Sundara%20Paripooranan.jpg?alt=media&token=cebd0cd0-6122-4ab2-b584-4e3657d68241",
+    Photo: "images/Members/Sundara Paripooranan.jpg",
     Profile: "Tronix",
     Year: "B tech 4th year",
     LinkedIn: " https://www.linkedin.com/in/c-sundara-paripooranan-65343b15b",
@@ -594,8 +532,7 @@ export const members = [
   {
     id: "56",
     Name: "Abishek K R",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FAbishek%20K%20R%20-%20Abishek%20K%20R.jpg?alt=media&token=a5a9b0cb-8cad-4bf9-922a-81660cf6db7f",
+    Photo: "images/Members/Abishek K R.jpg",
     Profile: "Tronix",
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/abishek-ramachandran-81745b126",
@@ -605,8 +542,7 @@ export const members = [
   {
     id: "57",
     Name: "D C Vivek",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FScreenshot_2019-09-08-16-35-07-423_com.google.android.apps.photos%20-%20Vivek%20Dc.png?alt=media&token=9b0d20cf-9fc8-4f44-bffd-7800913507b3",
+    Photo: "images/Members/Vivek Dc.png",
     Profile: "Tronix",
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/vivek-dc-35069b141",
@@ -616,8 +552,7 @@ export const members = [
   {
     id: "58",
     Name: "Abishek R",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FAbishek%20-%20abishek%20rajasekaran.png?alt=media&token=f0eeecbd-8a68-4e67-8f4c-a110e2241e8a",
+    Photo: "images/Members/Abishek Rajasekaran.png",
     Profile: "Tronix",
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/abishek-r-468183178/",
@@ -627,8 +562,7 @@ export const members = [
   {
     id: "59",
     Name: "Chockalingam",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FIMG_20190804_183630..chocka.lingam.jpg?alt=media&token=06dd8274-3962-4fb1-8654-2cd6969cfccc",
+    Photo: "images/Members/Chocka Lingam.jpg",
     Profile: "Tronix",
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/chocka-lingam-4bb803148",
@@ -639,8 +573,7 @@ export const members = [
   {
     id: "60",
     Name: "Bhavya Krishna",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FIMG_20190910_213734%20-%20Bhavya%20Krishna.jpg?alt=media&token=6420485b-3623-44f1-bcb8-def3605fc98e",
+    Photo: "images/Members/Bhavya Krishna.jpg",
     Profile: "Tronix",
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/bhavya-krishna-6277b251",
@@ -650,8 +583,7 @@ export const members = [
   {
     id: "61",
     Name: "Aradhana M P",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FAradhana%20M%20P%20-%20aradhana%20Mp.jpg?alt=media&token=b7ba7a48-bc7c-4dca-a883-fe0fd34194fd",
+    Photo: "images/Members/Aradhana M P.jpg",
     Profile: "Tronix",
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/aradhana-mohan-parvathy-64069413a/",
@@ -661,8 +593,7 @@ export const members = [
   {
     id: "62",
     Name: "Amritha S B",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FAmritha%20-%20Amritha%20Bhaskaran.jpg?alt=media&token=89621623-5898-4e56-a4c8-c3873309437b",
+    Photo: "images/Members/Amritha Bhaskaran.jpg",
     Profile: "Tronix",
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/amritha-s-b-43283015b",
@@ -672,8 +603,7 @@ export const members = [
   {
     id: "63",
     Name: "Mukesh Gandhi",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FMukesh%20%20-%20Mukesh%20Gandhi.jpg?alt=media&token=a84bc701-8e77-4a96-a274-7852d129924f",
+    Photo: "images/Members/Mukesh Gandhi.jpg",
     Profile: "Tronix",
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/mukesh-gandhi-8b7939128",
@@ -683,8 +613,7 @@ export const members = [
   {
     id: "64",
     Name: "Aditya R",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FAditya_R%20-%20Aditya%20Ravi.jpg?alt=media&token=2ceb47e6-6bbf-4600-8bb3-154c3a11ef9d",
+    Photo: "images/Members/Aditya Ravi.jpg",
     Profile: "Tronix",
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/aditya-ravichander-b2584b178",
@@ -694,8 +623,7 @@ export const members = [
   {
     id: "65",
     Name: "Akil M",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FAkil%20M%20-%20Akil%20M.jpg?alt=media&token=712a1ff6-4e9c-4541-8481-d26934542c16",
+    Photo: "images/Members/Akil M.jpg",
     Profile: "Tronix",
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/akil-m/",
@@ -705,8 +633,7 @@ export const members = [
   {
     id: "66",
     Name: "Aditya Kumar Singh",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FAdityaKumarSingh%20-%20Aditya%20Singh.jpg?alt=media&token=68202c0f-198b-4782-9fa5-50e4e7202f52",
+    Photo: "images/Members/Aditya Singh.jpg",
     Profile: "Tronix",
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/aditya-kumar-singh-645996152/",
@@ -716,8 +643,7 @@ export const members = [
   {
     id: "67",
     Name: "Raj Kumar Bhagat",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fraj%20spider%20-%20Raj%20kumar.jpg?alt=media&token=2448f2c6-8f81-4747-8b46-0f7e7621390e",
+    Photo: "images/Members/Raj kumar.jpg",
     Profile: "Tronix",
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/raj-kumar-bhagat-97b310170/",
@@ -727,8 +653,7 @@ export const members = [
   {
     id: "68",
     Name: "Kathirvel Rajan B",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FCBK%20-%20kathirvel%20rajan.jpeg?alt=media&token=94412995-250e-4911-a6bc-1633b9d8de1b",
+    Photo: "images/Members/CBK - kathirvel rajan.jpeg",
     Profile: "Tronix",
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/kathirvelrajan22112002/",
@@ -738,8 +663,7 @@ export const members = [
   {
     id: "69",
     Name: "Ruphan S",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FRuphan%20-%20Ruphan%20S.jpg?alt=media&token=edc36412-39bd-4be5-add9-c9a1531122e2",
+    Photo: "images/Members/Ruphan S.jpg",
     Profile: "Tronix",
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/ruphan-s-37412673",
@@ -749,8 +673,7 @@ export const members = [
   {
     id: "70",
     Name: "Yash Patel",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Findex%20-%20yash%20patel.png?alt=media&token=259941d6-e9fd-48a4-8757-4c9ef69e169c",
+    Photo: "images/Members/Yash Patel.png",
     Profile: "Tronix",
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/yash-patel-29379414a/",
@@ -760,8 +683,7 @@ export const members = [
   {
     id: "71",
     Name: "Manu Aatitya R P",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Frsz_1dsc_0740%20-%20MANU%20AATITYA.jpg?alt=media&token=5313e137-2817-450d-9e9c-674370e97228",
+    Photo: "images/Members/Manu Aatitya.jpg",
     Profile: "Tronix",
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/manu-aatitya-r-p-78457412b/",
@@ -771,8 +693,7 @@ export const members = [
   {
     id: "72",
     Name: "Sudharsan S",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fname%20-%20Sudharsan%20Sundararaj.jpeg?alt=media&token=23f8ed65-07ce-4067-ac86-1c7668c00a95",
+    Photo: "images/Members/Sudharsan Sundararaj.jpeg",
     Profile: "Tronix",
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/sudharsan-s-1a7a1317b/",
@@ -782,8 +703,7 @@ export const members = [
   {
     id: "73",
     Name: "S P Sharan",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/self-pic-faa7e.appspot.com/o/sharan.jpg?alt=media&token=a232e1f8-595a-4843-afca-e7e3b25e7b48",
+    Photo: "images/Members/Sharan SP.jpg",
     Profile: "Tronix",
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/sharan-sp-05735a168",
@@ -793,8 +713,7 @@ export const members = [
   {
     id: "74",
     Name: "Anbuselvan D",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FAnbu%20-%20Anbu%20selvan.jpeg?alt=media&token=c72e64e9-9305-4aca-a00a-0b16abc2810c",
+    Photo: "images/Members/Anbu Selvan.jpeg",
     Profile: "Tronix",
     Year: "B tech 2nd Year",
     LinkedIn: "https://ca.linkedin.com/in/anbu52",
@@ -804,8 +723,7 @@ export const members = [
   {
     id: "75",
     Name: "Kumar Gaurav Singh",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FGaurav%20-%20Gaurav%20Singh.jpg?alt=media&token=f21c13bf-b6f1-4d74-b849-5321bbc8343e",
+    Photo: "images/Members/Gaurav Singh.jpg",
     Profile: "Tronix",
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/gaurav-singh-0b056117b",
@@ -815,8 +733,7 @@ export const members = [
   {
     id: "76",
     Name: "Kirthika Srinivasan ",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FKirthika%20-%20Kirthika%20Srinivasan.jpg?alt=media&token=c5d406a0-de83-4429-b9f9-cf94c5d2a0b3",
+    Photo: "images/Members/Kirthika Srinivasan.jpg",
     Profile: "Tronix",
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/kirthika-srinivasan-6a9614181",
@@ -826,8 +743,7 @@ export const members = [
   {
     id: "77",
     Name: "Akshaya Subramanian",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FAkshaya%20-%20Akshaya%20Subramanian.jpeg?alt=media&token=8b7097b9-dc16-4126-b687-4b3849d5e77f",
+    Photo: "images/Members/Akshaya Subramanian.jpeg",
     Profile: "Tronix",
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/akshaya-subramanian-a6a609185/",
@@ -837,8 +753,7 @@ export const members = [
   {
     id: "78",
     Name: "Miriam Santhosh Kadavan",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FmiriamImage1.jpg?alt=media&token=46e68478-d1cd-4bbb-8e6a-ec6baf6f3874",
+    Photo: "images/Members/Miriam.jpg",
     Profile: "Tronix",
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/miriam-santhosh-kadavan-30927a193/",
@@ -848,8 +763,7 @@ export const members = [
   {
     id: "79",
     Name: "Jayamathangi Srinivasan",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FJayamathangi%20-%20Jayamathangi%20Srinivasan.jpg?alt=media&token=76ad2581-7980-4d47-b210-1ea4b16ae42c",
+    Photo: "images/Members/Jayamathangi Srinivasan.jpg",
     Profile: "Tronix",
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/jayamathangi-s-3464a8184",
@@ -859,8 +773,7 @@ export const members = [
   {
     id: "80",
     Name: "M Shyam",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fshyam..Shyam.Murugan.jpg?alt=media&token=75d81ccc-a34e-4eb0-ad64-1e5d27c218f8",
+    Photo: "images/Members/Shyam Murugan.jpg",
     Profile: "Tronix",
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/shyam-murugan/",
@@ -870,8 +783,7 @@ export const members = [
   {
     id: "81",
     Name: "Sachin Kumar",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fsachin%20-%20Sachin%20Kumar.jpg?alt=media&token=08ba7f0f-4311-44dc-acfc-d2b793539c89",
+    Photo: "images/Members/Sachin Kumar.jpg",
     Profile: "Tronix",
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/sachin-kumar-837b2b17b/",
@@ -881,8 +793,7 @@ export const members = [
   {
     id: "82",
     Name: "Rahul Bhope",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2F%2B91%2080979%2097207%2020190907_222209%20-%20Rahul%20Bhope.jpg?alt=media&token=2a2c9dd1-ee7f-4ad2-ac21-682a4041e311",
+    Photo: "images/Members/Rahul Bhope.jpg",
     Profile: "App Dev",
     Year: "B tech 4th year",
     LinkedIn: "https://in.linkedin.com/in/rahul-bhope-3a0976130",
@@ -892,8 +803,7 @@ export const members = [
   {
     id: "83",
     Name: "Arijit Biswas",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2F%2B91%2089459%2000669%2020190802_004213%20-%20Arijit%20Biswas.jpg?alt=media&token=14b4c92a-9c22-4c8c-a6c2-52df705d6154",
+    Photo: "images/Members/Arijit Biswas.jpg",
     Profile: "App Dev",
     Year: "MCA 2nd year",
     LinkedIn: "https://www.linkedin.com/in/arijit-biswas-b7a85a98",
@@ -903,8 +813,7 @@ export const members = [
   {
     id: "84",
     Name: "Disha Raj",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FIMG.20190901.WA0008..Disha.Raj.jpg?alt=media&token=a03215dc-7592-45ff-8479-5f5113d8bc8d",
+    Photo: "images/Members/Disha Raj.jpg",
     Profile: "App Dev",
     Year: "MCA 2nd year",
     LinkedIn: "https://www.linkedin.com/in/disha-raj-284a05116",
@@ -914,8 +823,7 @@ export const members = [
   {
     id: "85",
     Name: "Shivam Tiwari",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fshivam%20photo%20-%20shivam%20tiwari.jpg?alt=media&token=dab5e538-7607-4df0-8ea6-2e8a95e13074",
+    Photo: "images/Members/Shivam Tiwari.jpg",
     Profile: "App Dev",
     Year: "MCA 2nd year",
     LinkedIn: "https://www.linkedin.com/in/shivam-tiwari-32018b175",
@@ -925,8 +833,7 @@ export const members = [
   {
     id: "86",
     Name: "Abhilasha Nagpal",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FAbhilasha_Nagpal%20-%20Abhilasha%20Nagpal.jpg?alt=media&token=a8e4a5d1-e290-41f8-b7c6-2c50dce416a9",
+    Photo: "images/Members/Abhilasha_Nagpal - Abhilasha Nagpal.jpg",
     Profile: "App Dev",
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/abhilasha-nagpal",
@@ -936,8 +843,7 @@ export const members = [
   {
     id: "87",
     Name: "Rakesh Vaideeswaran",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FRakesh%20-%20Rakesh%20Vaideeswaran.jpg?alt=media&token=9ab4d7f5-7afc-46b5-941b-709fa320125f",
+    Photo: "images/Members/Rakesh Vaideeswaran.jpg",
     Profile: "App Dev",
     Year: "B tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/rakesh-v-647481b6",
@@ -947,8 +853,7 @@ export const members = [
   {
     id: "88",
     Name: "Vaibhav Bairagi",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FIMG_20190902_222600%20-%20vaibhav%20bairagi.jpg?alt=media&token=fe73a916-cced-4bf9-a0a0-a1a1d8f4bf13",
+    Photo: "images/Members/Vaibhav Bairagi.jpg",
     Profile: "App Dev",
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/vaibhav-bairagi-a6ab97161",
@@ -958,8 +863,7 @@ export const members = [
   {
     id: "89",
     Name: "Amogh J",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Famogh%20-%20Amogh%20Jahagirdar.jpg?alt=media&token=fae3592d-bbf9-4727-8d10-b87caf301a90",
+    Photo: "images/Members/Amogh Jahagirdar.jpg",
     Profile: "App Dev",
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/amoghjahagirdar/",
@@ -969,8 +873,7 @@ export const members = [
   {
     id: "90",
     Name: "Nitin More",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fnitin%20-%20Nitin%20More.jpg?alt=media&token=d01f44c9-36b8-468c-8cfe-545c531c99cb",
+    Photo: "images/Members/Nitin More.jpg",
     Profile: "App Dev",
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/nitin-more/",
@@ -980,8 +883,7 @@ export const members = [
   {
     id: "91",
     Name: "Ark Srivastava",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fpic%20-%20ARK%20SRIVATSVAVA.jpg?alt=media&token=d96df8ca-0cde-458f-a3e9-da0b69a72331",
+    Photo: "images/Members/Ark  Srivatsvava.jpg",
     Profile: "App Dev",
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/ark-srivastava-252542160",
@@ -991,8 +893,7 @@ export const members = [
   {
     id: "92",
     Name: "Goutham C M",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FWhatsApp%20Image%202018-09-26%20at%209.21.46%20PM%20-%20goutham%20cm.jpeg?alt=media&token=1df99fb2-e200-44aa-b961-b0051d85201c",
+    Photo: "images/Members/Goutham CM.jpeg",
     Profile: "App Dev",
     Year: "B tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/goutham-c-m-5a0621154/",
@@ -1002,8 +903,7 @@ export const members = [
   {
     id: "93",
     Name: "Ayush Singh",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FAyushSingh%20-%20Ayush%20Singh.jpg?alt=media&token=1f6796b1-3751-40ca-9cb9-789ebc156e63",
+    Photo: "images/Members/Ayush Singh.jpg",
     Profile: "App Dev",
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/ayushsinghs/",
@@ -1013,8 +913,7 @@ export const members = [
   {
     id: "94",
     Name: "Naren Sairam",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fnaren%20-%20Naren%20Sairam.jpg?alt=media&token=af4bcbfe-0304-43e9-967b-915873051988",
+    Photo: "images/Members/Naren Sairam.jpg",
     Profile: "App Dev",
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/naren-sairam-941739173",
@@ -1024,8 +923,7 @@ export const members = [
   {
     id: "95",
     Name: "Madhav Aggarwal",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FMadhav.jpg%20-%20Madhav%20Aggarwal.jpg?alt=media&token=d866cd09-36b9-41f9-ba2c-abdcd7c7616b",
+    Photo: "images/Members/Madhav Aggarwal.jpg",
     Profile: "App Dev",
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/madhav-aggarwal-b16180181/",
@@ -1035,8 +933,7 @@ export const members = [
   {
     id: "96",
     Name: "Harshit Singh",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FIMG_3415%20-%20Harshit%20Singh.JPG?alt=media&token=fbf7265d-8cb6-4fd0-8ac5-37c05fe1430d",
+    Photo: "images/Members/Harshit Singh.jpg",
     Profile: "App Dev",
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/harshit-singh-83110a193/",
@@ -1046,8 +943,7 @@ export const members = [
   {
     id: "97",
     Name: "Khushali Patel",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fkhushali%20-%20Khushali%20Patel.JPG?alt=media&token=c30dba13-e675-49cd-8c22-0fee1d9287a3",
+    Photo: "images/Members/Khushali Patel.jpg",
     Profile: "App Dev",
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/khushali-patel-92b182179",
@@ -1057,8 +953,7 @@ export const members = [
   {
     id: "98",
     Name: "Isha Waghulde",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fisha%20-%20Isha%20Waghulde.jpg?alt=media&token=124694d7-837d-4759-ab72-5f12e6b2c9c2",
+    Photo: "images/Members/Isha Waghulde.jpg",
     Profile: "App Dev",
     Year: "B tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/isha-waghulde-4529aa17b",
@@ -1068,8 +963,7 @@ export const members = [
   {
     id: "99",
     Name: "S P Srinidhi",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FSrinidhi.jpg?alt=media&token=23f775c2-3a19-4ac9-87fe-0b219be26a62",
+    Photo: "images/Members/Srinidhi.jpg",
     Profile: "App Dev",
     Year: "B tech 2nd Year",
     LinkedIn: "http://www.linkedin.com/in/srinidhi-s-p-b005b4171",
@@ -1079,8 +973,7 @@ export const members = [
   {
     id: "100",
     Name: "Rishav Roy",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2F29873104_1766947800037743_8957874888158641978_o%20-%20Rishav%20Roy.jpg?alt=media&token=a5b4cc98-7928-4c53-b071-9357e9707a17",
+    Photo: "images/Members/Rishav Roy.jpg",
     Profile: "Web Dev",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/rishav-roy-bba81813b/",
@@ -1090,8 +983,7 @@ export const members = [
   {
     id: "101",
     Name: "Benedict Florance",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fbenedict%20-%20Benedict%20Florance.jpeg?alt=media&token=fbe3aecd-9729-4134-b98e-4d71bf4d7676",
+    Photo: "images/Members/Benedict Florance.jpeg",
     Profile: "Web Dev",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/benedictflorance/",
@@ -1101,8 +993,7 @@ export const members = [
   {
     id: "102",
     Name: "Somesh Sundaram",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Ftemp%20-%20Somesh%20Sundaram.jpg?alt=media&token=a9e43d6a-f4b4-442f-be4a-86e1ec6ca808",
+    Photo: "images/Members/Somesh Sundaram.jpg",
     Profile: "Web Dev",
     Year: "All",
     LinkedIn: "",
@@ -1112,8 +1003,7 @@ export const members = [
   {
     id: "103",
     Name: "Swathi Dhamodaran",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FIMG-20190901-WA0014%20-%20Swathi%20Dhamodaran.jpg?alt=media&token=434da40a-ff43-4844-b1ed-e1b45a70d6d1",
+    Photo: "images/Members/Swathi Dhamodaran.jpg",
     Profile: "Web Dev",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/swathi-dhamodaran-8b9053b5",
@@ -1123,8 +1013,7 @@ export const members = [
   {
     id: "104",
     Name: "Saravanan T",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FIMG_0858%20-%20T%20.%20Saravanan%20thanu.jpg?alt=media&token=c32ce068-fdc1-4588-bbec-966c30c616a4",
+    Photo: "images/Members/Saravanan Thanu.jpg",
     Profile: "Web Dev",
     Year: "All",
     LinkedIn: "",
@@ -1134,19 +1023,17 @@ export const members = [
   {
     id: "105",
     Name: "Sudarshan",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fsrc_media_CACHE_images_avatars_Sudarshan_Parthasarathy_-_Web_Dev_9b52dbac2f2441fbb827b60d80473b4d.jpg?alt=media&token=ff79d37a-7a71-4576-8463-525f89cf2caa",
+    Photo: "images/Members/Sudarshan Parthasarathy.jpg",
     Profile: "Web Dev",
     Year: "All",
-    LinkedIn: "https://www.linkedin.com/in/sudarshan-parthasarathy-451420187",
-    Github: "https://github.com/auxillary1902",
-    Website: "http://auxillary1902.github.io/",
+    LinkedIn: "",
+    Github: "",
+    Website: "",
   },
   {
     id: "106",
     Name: "Kishore",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FLinkedin%20-%20Kishore%20V.JPG?alt=media&token=ca78bb9a-5c7a-456d-8ab2-38bbc1eda44c",
+    Photo: "images/Members/Kishore V.jpg",
     Profile: "Web Dev",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/kishore-v-a006ab153/",
@@ -1156,8 +1043,7 @@ export const members = [
   {
     id: "107",
     Name: "S Raghul",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FRaghul%20-%20Raghul%20Sivavenkatesh.jpg?alt=media&token=217d275a-b7cb-4ff3-9106-ca0fbcf2c1d5",
+    Photo: "images/Members/Raghul Sivavenkatesh.jpg",
     Profile: "Web Dev",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/sraghul127",
@@ -1167,8 +1053,7 @@ export const members = [
   {
     id: "108",
     Name: "P Naveena",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FNaveena%20-%20photos%20n.jpg?alt=media&token=90383664-0dab-4eac-8d87-a5ddee7e7ab8",
+    Photo: "images/Members/Naveena.jpg",
     Profile: "Web Dev",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/na899",
@@ -1178,41 +1063,28 @@ export const members = [
   {
     id: "109",
     Name: "Vishal Saranathan",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FVishalSaranathan%20-%20Vishal%20Saranathan.jpg?alt=media&token=3606d4a9-3bf2-4a52-bfb7-12a744c3d527",
+    Photo: "images/Members/Vishal Saranathan.jpg",
     Profile: "Web Dev",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/vishal-s-126000145/",
     Github: "https://github.com/VishalS99",
     Website: "",
   },
+
   {
     id: "110",
-    Name: "Abhishek Kumar",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FAbhishekKumar%20-%20Abhishek%20Kumar.jpg?alt=media&token=e3024118-f5f9-4122-bed9-8f84e02341dc",
-    Profile: "Web Dev",
-    Year: "All",
-    LinkedIn: "https://linkedin.com/in/abhishek-kumar-922163162/",
-    Github: "https://github.com/abhis324",
-    Website: "",
-  },
-  {
-    id: "111",
     Name: "Mohamed Sohail",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fa%20-%20Mohammed%20Sohail.jpg?alt=media&token=5272602b-f1ae-4880-9ced-dd3d1e9c26df",
+    Photo: "images/Members/Mohammed Sohail.jpg",
     Profile: "Web Dev",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/mohamedsohail/",
     Github: "https://github.com/kamikazechaser",
-    Website: "https://kamikazechaser.github.io",
+    Website: "https:kamikazechaser.github.io",
   },
   {
-    id: "112",
+    id: "111",
     Name: "Prakhar Singh",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FPrakhar%20Singh%20%20-%20Prakhar%20Singh.jpg?alt=media&token=913181fb-20ed-4baf-be96-710acd3c5aed",
+    Photo: "images/Members/Prakhar Singh.jpg",
     Profile: "Web Dev",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/prakhar-singh-852110173/",
@@ -1220,21 +1092,19 @@ export const members = [
     Website: "",
   },
   {
-    id: "113",
+    id: "112",
     Name: "N Praveen Chandhar",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FIMG_20180605_151114%20-%20N%20Pr%C3%A3v%C4%93%C3%AB%C3%B1%20%C3%87h%C3%A4%C3%B1dh%C3%A2r.jpg?alt=media&token=d3a2ef7d-4a3f-48b8-8e32-3ace8d6b23c7",
+    Photo: "images/Members/N Praveen Chandhar.jpg",
     Profile: "Web Dev",
     Year: "All",
-    LinkedIn: "",
-    Github: "",
+    LinkedIn: "https://www.linkedin.com/in/praveen27/",
+    Github: "https://github.com/gigatesseract/",
     Website: "https://gigatesseract.github.io/",
   },
   {
-    id: "114",
+    id: "113",
     Name: "Joel Johnson",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FJoel%20Johnson%20-%20Joel%20Johnson.jpeg?alt=media&token=0ca3ee5c-6379-4049-a19c-1d8baf137eee",
+    Photo: "images/Members/Joel Johnson.jpeg",
     Profile: "Web Dev",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/joel-johnson-36694015b/",
@@ -1242,10 +1112,9 @@ export const members = [
     Website: "joeljohnson.me",
   },
   {
-    id: "115",
+    id: "114",
     Name: "Kamalesh Palanisamy",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FKamaleshP%20-%20kamalesh%20palanisamy.jpg?alt=media&token=671ce82e-7670-49f3-a331-eb8323fc543e",
+    Photo: "images/Members/Kamalesh Palanisamy.jpg",
     Profile: "Web Dev",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/kamalesh-palanisamy-2b5265149/",
@@ -1253,10 +1122,9 @@ export const members = [
     Website: "http://www.kamaleshp.com",
   },
   {
-    id: "116",
+    id: "115",
     Name: "Anish C ",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fimage%20-%20chakkirala%20anish.jpg?alt=media&token=f2cd1180-f0af-4531-930e-f51771911eb3",
+    Photo: "images/Members/Chakkirala Anish.jpg",
     Profile: "Web Dev",
     Year: "All",
     LinkedIn: "https://donothaveone.com",
@@ -1264,10 +1132,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "117",
+    id: "116",
     Name: "Anjaneya Tripathi",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FWhatsApp%20Image%202019-09-01%20at%209.11.12%20PM%20-%20Anjaneya%20Tripathi.jpeg?alt=media&token=e0f37cde-2e42-48ce-93e3-4fa8c9bf3c54",
+    Photo: "images/Members/Anjaneya Tripathi.jpeg",
     Profile: "Web Dev",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/anjaneya-tripathi-610234183/",
@@ -1275,10 +1142,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "118",
+    id: "117",
     Name: "Thrishik Senthilkumar",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FIMG-20190606-WA0028%20-%20Thrishik%20Senthilkumar.jpg?alt=media&token=3fc84871-7933-45f4-8df4-6c3d68a5d53d",
+    Photo: "images/Members/Thrishik Senthilkumar.jpg",
     Profile: "Web Dev",
     Year: "All",
     LinkedIn: "https://in.linkedin.com/in/thrishik-senthilkumar-123918176",
@@ -1286,10 +1152,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "120",
+    id: "118",
     Name: "Barath Kumar S",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/self-pic-faa7e.appspot.com/o/barath4.png?alt=media&token=54b858fb-3b8b-416b-9356-d5a88ffa86ab",
+    Photo: "images/Members/Barath.png",
     Profile: "Web Dev",
     Year: "All",
     LinkedIn: "https://linkedin.com/in/barath1999",
@@ -1297,10 +1162,9 @@ export const members = [
     Website: "https://barath99.github.io",
   },
   {
-    id: "122",
+    id: "119",
     Name: "Smrithi Prakash",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fsmrithi-picture.PNG?alt=media&token=055c6e19-9f06-4194-9ba1-ac6c7e4ad3d5",
+    Photo: "images/Members/Smrithi.png",
     Profile: "Web Dev",
     Year: "All",
     LinkedIn: "https://linkedin.com/in/smrithi-prakash-452173193",
@@ -1308,10 +1172,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "123",
+    id: "120",
     Name: "Jerry J",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fjerry.PNG?alt=media&token=664894f2-eeb2-474d-a811-7d3b0191741b",
+    Photo: "images/Members/Jerry.png",
     Profile: "Web Dev",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/jerry-j-89aa52174/",
@@ -1319,10 +1182,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "124",
+    id: "121",
     Name: "Rajat Bhatta",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FRajat%20Bhatta%20-%20RAJAT%20BHATTA.jpg?alt=media&token=b73ccff4-34e5-4d1e-9456-92fb4af2a124",
+    Photo: "images/Members/Rajat Bhatta.jpg",
     Profile: "Algos",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/rajat-bhatta",
@@ -1330,10 +1192,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "125",
+    id: "122",
     Name: "Mritunjay Kumar",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fpassport%20-%20mritunjay%20kumar.jpg?alt=media&token=58129913-4a7f-49c6-a110-908a44fd8c49",
+    Photo: "images/Members/Mritunjay Kumar.jpg",
     Profile: "Algos",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/mritunjay-kumar-a5501b193/",
@@ -1341,10 +1202,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "126",
+    id: "123",
     Name: "Kundan",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FKundan..Kundan.Mandloi.jpg?alt=media&token=b33c1a10-55ac-4506-b835-abe2b9b8db5e",
+    Photo: "images/Members/Kundan Mandloi.jpg",
     Profile: "Algos",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/kundan-mandloi-078627181/",
@@ -1352,10 +1212,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "127",
+    id: "124",
     Name: "Harsh Bhadoria",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FHarsh%20Bhadoria1%20-%20Harsh%20bhadoria.jpg?alt=media&token=1dc7d966-28aa-45b6-b5fa-2b9f9333d3e5",
+    Photo: "images/Members/Harsh Bhadoria.jpg",
     Profile: "Algos",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/harsh-bhadoria-989665144/",
@@ -1363,10 +1222,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "128",
+    id: "125",
     Name: "Anukul Chand",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FIMG-20190910-WA0004%20-%20Anukul%20Chand.jpg?alt=media&token=53f126b0-27b3-431a-aabb-468135664c20",
+    Photo: "images/Members/Anukul Chand.jpg",
     Profile: "Algos",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/anukul-chand-199369148/",
@@ -1374,10 +1232,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "129",
+    id: "126",
     Name: "Shivani Chander",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FShivani%20Chander%20-%20Shivani%20Chander.jpg?alt=media&token=9ea78a07-3cfd-4288-814b-5c0c233f557d",
+    Photo: "images/Members/Shivani Chander.jpg",
     Profile: "Algos",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/shivanichander/",
@@ -1385,10 +1242,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "130",
+    id: "127",
     Name: "Sandip Nair",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fsandip%20-%20Sandip%20Nair.jpg?alt=media&token=9fa83c60-d18a-4d5c-a133-ffb24fc9f00c",
+    Photo: "images/Members/Sandip Nair.jpg",
     Profile: "Algos",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/sandipnair/",
@@ -1396,10 +1252,9 @@ export const members = [
     Website: "https://medium.com/@sandipnr0",
   },
   {
-    id: "131",
+    id: "128",
     Name: "Harshit Babbar",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FHarshit_Babbar%20-%20harshit%20babbar.jpg?alt=media&token=5fa428a3-572e-4257-ab36-426e4621b9d6",
+    Photo: "images/Members/Harshit Babbar.jpg",
     Profile: "Algos",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/harshit-babbar/",
@@ -1407,10 +1262,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "132",
+    id: "129",
     Name: "Rajiv",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fdecent%20photo%20-%20R%20Rajiv.jpeg?alt=media&token=8aeea9ac-d572-4e1d-80f7-6b6153399616",
+    Photo: "images/Members/R Rajiv.jpeg",
     Profile: "Algos",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/rajiv-ramachandran-51a510166/",
@@ -1418,10 +1272,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "133",
+    id: "130",
     Name: "Sri Harsha T.V",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FSRI%20HARSHA%20TV%20-%20SRI%20HARSHA%20T%20V.jpeg?alt=media&token=ebbe4748-d240-4529-94f3-5d4265bb63cb",
+    Photo: "images/Members/Sri Harsha T V.jpeg",
     Profile: "Algos",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/sri-harsha-t-v-b7484a157",
@@ -1429,10 +1282,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "134",
+    id: "131",
     Name: "Shiwang Singh",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FShiwang%20(1)%20-%20Shiwang%20Singh.jpg?alt=media&token=23c9dd4b-7cb5-450d-ac06-776b3767e1c1",
+    Photo: "images/Members/Shivam Tiwari.jpg",
     Profile: "Algos",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/shiwang-singh-33941515a",
@@ -1440,10 +1292,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "135",
+    id: "132",
     Name: "Dhruv Bodani",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FDhruv%20-%20Dhruv%20Bodani.jpg?alt=media&token=9da0b7da-c7c5-42ee-9349-f6f9d0f2ab56",
+    Photo: "images/Members/Dhruv Bodani.jpg",
     Profile: "Algos",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/dhruv-bodani-254a2b151",
@@ -1451,10 +1302,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "136",
+    id: "133",
     Name: "Arvind Tatiparti",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fx%20-%20Arvind%20Tatiparti.jpg?alt=media&token=74f0f1f6-ee30-4ba0-9a16-ee75c70a8f33",
+    Photo: "images/Members/Arvind Tatiparti.jpg",
     Profile: "Algos",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/arvindtatiparti/",
@@ -1462,10 +1312,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "137",
+    id: "134",
     Name: "Aditya Kumar",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2F20190419_142434%20-%20Aditya%20Kumar.jpg?alt=media&token=223d9c66-e650-4491-9a9d-897366712042",
+    Photo: "images/Members/Aditya Kumar.jpg",
     Profile: "Algos",
     Year: "All",
     LinkedIn: "https://linkedin.com/in/aditya-kumar-8218ab138",
@@ -1473,10 +1322,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "138",
+    id: "135",
     Name: "Harshit Mogalapalli ",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fharshitmogalapalli%20-%20Harshit%20Mogalapalli.jpg?alt=media&token=f90bc44c-f2d8-4f48-88b6-055056d04e88",
+    Photo: "images/Members/Harshit Mogalapalli.jpg",
     Profile: "Algos",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/harshit-mogalapalli-44025917b",
@@ -1484,10 +1332,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "139",
+    id: "136",
     Name: "Chidanand Dev Suryawanshi",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FChidanand_Dev_Suryawanshi%20-%20Chidanand%20Dev%20Suryawanshi.jpg?alt=media&token=708912d4-b33a-4086-be21-d9d030136169",
+    Photo: "images/Members/Chidanand Dev Suryawanshi.jpg",
     Profile: "Algos",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/engiiiiinerd",
@@ -1495,10 +1342,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "140",
+    id: "137",
     Name: "Soham Roy",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FIMG_20181123_063542%20-%20Soham%20Roy.jpg?alt=media&token=8ed6d8ca-50fe-4ae5-803c-98f5ee8bc6c3",
+    Photo: "images/Members/Soham Roy.jpg",
     Profile: "Algos",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/sohamroy15",
@@ -1506,10 +1352,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "141",
+    id: "138",
     Name: "Fasith",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FFasith%20-%20Fasith%20Ali.jpeg?alt=media&token=23a98a34-de0f-4a80-904f-8273920c6159",
+    Photo: "images/Members/Fasith Ali.jpeg",
     Profile: "Algos",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/fasith/",
@@ -1517,10 +1362,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "142",
+    id: "139",
     Name: "Anoop Kumar",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fpassport_photo%20-%20Anoop%20Kumar.jpg?alt=media&token=8d308d7e-a5c6-400a-a285-d509e44f10c7",
+    Photo: "images/Members/Anoop Kumar.jpg",
     Profile: "Algos",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/anoop-kumar-51284514b/",
@@ -1528,10 +1372,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "143",
+    id: "140",
     Name: "Raj Kuvar Yadav",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FIMG_20190908_054706~5%20-%20raj%20kuvar.jpg?alt=media&token=518380c5-a212-476b-9396-a3ce22c7aa1b",
+    Photo: "images/Members/Raj Kuvar.jpg",
     Profile: "Algos",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/raj-kuvar-4ba9b6172",
@@ -1539,10 +1382,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "144",
+    id: "141",
     Name: "Joel Antony Joseph",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FJoelAntonyJoseph%20-%20Joel%20Antony%20Joseph.jpg?alt=media&token=1c899679-b688-4067-93cc-4cdef9e0d077",
+    Photo: "images/Members/Joel Antony Joseph.jpg",
     Profile: "Algos",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/joel-antony-joseph-97377315b/",
@@ -1550,10 +1392,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "145",
+    id: "141",
     Name: "Arvinth Saravanan",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fprofile%20-%20Arvinth%20Saravanan.jpg?alt=media&token=ff16b585-d064-4e8e-8fa1-e93bb1956fe1",
+    Photo: "images/Members/Arvinth Saravanan.jpg",
     Profile: "Algos",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/arvinth-saravanan-3241b0192/",
@@ -1561,10 +1402,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "146",
+    id: "142",
     Name: "Harshit Agrawal",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FHarshit_Agrawal%20-%20Harshit%20Agrawal.jpeg?alt=media&token=099c8bdf-4b8d-43f8-a927-41ddd0098398",
+    Photo: "images/Members/Harshit Agrawal.jpeg",
     Profile: "Algos",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/harshit-agrawal-48b74a174/",
@@ -1572,10 +1412,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "147",
+    id: "143",
     Name: "Venkataraman V",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FV%20Venkataraman%20-%20Venkataraman%20V.jpeg?alt=media&token=60840ea1-23fe-4142-9a1d-f7ec389f091f",
+    Photo: "images/Members/Venkataraman V.jpeg",
     Profile: "Algos",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/venkataraman-v-392090193/",
@@ -1583,10 +1422,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "148",
+    id: "144",
     Name: "Adithya K Krishna",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FAdithya%20K%20Krishna%20-%20Adithya%20Krishnakumar.jpg?alt=media&token=30bc96e4-98f3-4c98-a197-491cc182e757",
+    Photo: "images/Members/Adithya Krishnakumar.jpg",
     Profile: "Algos",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/adithya-krishnakumar-3a6087193/",
@@ -1594,10 +1432,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "149",
+    id: "145",
     Name: "Poorna Subramanian",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FPoorna-1296x864%20-%20Poorna%20subramanian.JPG?alt=media&token=f4de1b64-5cac-4ea5-80c7-13c599e1f491",
+    Photo: "images/Members/Poorna subramanian.jpg",
     Profile: "Algos",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/poorna-subramanian-90924b181",
@@ -1605,10 +1442,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "150",
+    id: "146",
     Name: "Anagha Sethuraman",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FAnagha%20-%20Anagha%20Sethuraman.jpg?alt=media&token=153dda55-822f-4a6a-8ccb-9062385b20cf",
+    Photo: "images/Members/Anagha Sethuraman.jpg",
     Profile: "Algos",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/anagha-sethuraman-192148179/",
@@ -1616,10 +1452,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "151",
+    id: "147",
     Name: "Senthur Raj",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FSenthur-Raj%20-%20Senthur%20raj.jpg?alt=media&token=f32252f4-9c71-4ebf-b2ad-f5ea93b778f1",
+    Photo: "images/Members/Senthur-Raj - Senthur raj.jpg",
     Profile: "Tronix",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/imsenthur/",
@@ -1627,10 +1462,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "152",
+    id: "148",
     Name: "Shubham Saha",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FShubham%20Saha%20-%20Shubham%20Saha.jpg?alt=media&token=b78985f5-5b01-4d38-9919-d2c4c14ccda6",
+    Photo: "images/Members/Shubham Saha.jpg",
     Profile: "Tronix",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/shubhamsaha",
@@ -1638,10 +1472,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "153",
+    id: "149",
     Name: "Vibashan",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2F2019-04-23-01-04-33-782%20-%20Vibashan%20VS.jpg?alt=media&token=444086d9-498e-4353-974d-3429c6c3c3b8",
+    Photo: "images/Members/Vibashan VS.jpg",
     Profile: "Tronix",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/vibashan-vs-23321b142/",
@@ -1649,10 +1482,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "154",
+    id: "150",
     Name: "C Sundara Paripooranan",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2F%E2%80%AA%2B91%2094424%2072132%E2%80%AC%2020180722_090326%20-%20Sundara%20Paripooranan.jpg?alt=media&token=cebd0cd0-6122-4ab2-b584-4e3657d68241",
+    Photo: "images/Members/Sundara Paripooranan.jpg",
     Profile: "Tronix",
     Year: "All",
     LinkedIn: " https://www.linkedin.com/in/c-sundara-paripooranan-65343b15b",
@@ -1660,10 +1492,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "155",
+    id: "151",
     Name: "Abishek K R",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FAbishek%20K%20R%20-%20Abishek%20K%20R.jpg?alt=media&token=a5a9b0cb-8cad-4bf9-922a-81660cf6db7f",
+    Photo: "images/Members/Abishek K R.jpg",
     Profile: "Tronix",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/abishek-ramachandran-81745b126",
@@ -1671,10 +1502,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "156",
+    id: "152",
     Name: "D C Vivek",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FScreenshot_2019-09-08-16-35-07-423_com.google.android.apps.photos%20-%20Vivek%20Dc.png?alt=media&token=9b0d20cf-9fc8-4f44-bffd-7800913507b3",
+    Photo: "images/Members/Vivek Dc.png",
     Profile: "Tronix",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/vivek-dc-35069b141",
@@ -1682,10 +1512,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "157",
+    id: "153",
     Name: "Abishek R",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FAbishek%20-%20abishek%20rajasekaran.png?alt=media&token=f0eeecbd-8a68-4e67-8f4c-a110e2241e8a",
+    Photo: "images/Members/Abishek Rajasekaran.png",
     Profile: "Tronix",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/abishek-r-468183178/",
@@ -1693,21 +1522,20 @@ export const members = [
     Website: "",
   },
   {
-    id: "158",
+    id: "154",
     Name: "Chockalingam",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FIMG_20190804_183630..chocka.lingam.jpg?alt=media&token=06dd8274-3962-4fb1-8654-2cd6969cfccc",
+    Photo: "images/Members/Chocka Lingam.jpg",
     Profile: "Tronix",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/chocka-lingam-4bb803148",
     Github: "https://bitbucket.org/chocka/",
     Website: "",
   },
+
   {
-    id: "159",
+    id: "155",
     Name: "Bhavya Krishna",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FIMG_20190910_213734%20-%20Bhavya%20Krishna.jpg?alt=media&token=6420485b-3623-44f1-bcb8-def3605fc98e",
+    Photo: "images/Members/Bhavya Krishna.jpg",
     Profile: "Tronix",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/bhavya-krishna-6277b251",
@@ -1715,10 +1543,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "160",
+    id: "156",
     Name: "Aradhana M P",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FAradhana%20M%20P%20-%20aradhana%20Mp.jpg?alt=media&token=b7ba7a48-bc7c-4dca-a883-fe0fd34194fd",
+    Photo: "images/Members/Aradhana M P.jpg",
     Profile: "Tronix",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/aradhana-mohan-parvathy-64069413a/",
@@ -1726,10 +1553,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "161",
+    id: "157",
     Name: "Amritha S B",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FAmritha%20-%20Amritha%20Bhaskaran.jpg?alt=media&token=89621623-5898-4e56-a4c8-c3873309437b",
+    Photo: "images/Members/Amritha Bhaskaran.jpg",
     Profile: "Tronix",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/amritha-s-b-43283015b",
@@ -1737,10 +1563,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "162",
+    id: "158",
     Name: "Mukesh Gandhi",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FMukesh%20%20-%20Mukesh%20Gandhi.jpg?alt=media&token=a84bc701-8e77-4a96-a274-7852d129924f",
+    Photo: "images/Members/Mukesh Gandhi.jpg",
     Profile: "Tronix",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/mukesh-gandhi-8b7939128",
@@ -1748,10 +1573,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "163",
+    id: "159",
     Name: "Aditya R",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FAditya_R%20-%20Aditya%20Ravi.jpg?alt=media&token=2ceb47e6-6bbf-4600-8bb3-154c3a11ef9d",
+    Photo: "images/Members/Aditya Ravi.jpg",
     Profile: "Tronix",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/aditya-ravichander-b2584b178",
@@ -1759,10 +1583,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "164",
+    id: "160",
     Name: "Akil M",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FAkil%20M%20-%20Akil%20M.jpg?alt=media&token=712a1ff6-4e9c-4541-8481-d26934542c16",
+    Photo: "images/Members/Akil M.jpg",
     Profile: "Tronix",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/akil-m/",
@@ -1770,10 +1593,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "165",
+    id: "161",
     Name: "Aditya Kumar Singh",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FAdityaKumarSingh%20-%20Aditya%20Singh.jpg?alt=media&token=68202c0f-198b-4782-9fa5-50e4e7202f52",
+    Photo: "images/Members/Aditya Singh.jpg",
     Profile: "Tronix",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/aditya-kumar-singh-645996152/",
@@ -1781,10 +1603,9 @@ export const members = [
     Website: "https://adityasingh3007.github.io/",
   },
   {
-    id: "166",
+    id: "162",
     Name: "Raj Kumar Bhagat",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fraj%20spider%20-%20Raj%20kumar.jpg?alt=media&token=2448f2c6-8f81-4747-8b46-0f7e7621390e",
+    Photo: "images/Members/Raj kumar.jpg",
     Profile: "Tronix",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/raj-kumar-bhagat-97b310170/",
@@ -1792,10 +1613,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "167",
+    id: "163",
     Name: "Kathirvel Rajan B",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FCBK%20-%20kathirvel%20rajan.jpeg?alt=media&token=94412995-250e-4911-a6bc-1633b9d8de1b",
+    Photo: "images/Members/CBK - kathirvel rajan.jpeg",
     Profile: "Tronix",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/kathirvelrajan22112002/",
@@ -1803,10 +1623,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "168",
+    id: "164",
     Name: "Ruphan S",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FRuphan%20-%20Ruphan%20S.jpg?alt=media&token=edc36412-39bd-4be5-add9-c9a1531122e2",
+    Photo: "images/Members/Ruphan S.jpg",
     Profile: "Tronix",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/ruphan-s-37412673",
@@ -1814,10 +1633,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "169",
+    id: "165",
     Name: "Yash Patel",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Findex%20-%20yash%20patel.png?alt=media&token=259941d6-e9fd-48a4-8757-4c9ef69e169c",
+    Photo: "images/Members/Yash Patel.png",
     Profile: "Tronix",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/yash-patel-29379414a/",
@@ -1825,10 +1643,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "170",
+    id: "166",
     Name: "Manu Aatitya R P",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Frsz_1dsc_0740%20-%20MANU%20AATITYA.jpg?alt=media&token=5313e137-2817-450d-9e9c-674370e97228",
+    Photo: "images/Members/Manu Aatitya.jpg",
     Profile: "Tronix",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/manu-aatitya-r-p-78457412b/",
@@ -1836,10 +1653,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "171",
+    id: "167",
     Name: "Sudharsan S",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fname%20-%20Sudharsan%20Sundararaj.jpeg?alt=media&token=23f8ed65-07ce-4067-ac86-1c7668c00a95",
+    Photo: "images/Members/Sudharsan Sundararaj.jpeg",
     Profile: "Tronix",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/sudharsan-s-1a7a1317b/",
@@ -1847,10 +1663,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "172",
+    id: "168",
     Name: "S P Sharan",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/self-pic-faa7e.appspot.com/o/sharan.jpg?alt=media&token=a232e1f8-595a-4843-afca-e7e3b25e7b48",
+    Photo: "images/Members/Sharan SP.jpg",
     Profile: "Tronix",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/sharan-sp-05735a168",
@@ -1858,10 +1673,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "173",
+    id: "169",
     Name: "Anbuselvan D",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FAnbu%20-%20Anbu%20selvan.jpeg?alt=media&token=c72e64e9-9305-4aca-a00a-0b16abc2810c",
+    Photo: "images/Members/Anbu Selvan.jpeg",
     Profile: "Tronix",
     Year: "All",
     LinkedIn: "https://ca.linkedin.com/in/anbu52",
@@ -1869,10 +1683,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "174",
+    id: "170",
     Name: "Kumar Gaurav Singh",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FGaurav%20-%20Gaurav%20Singh.jpg?alt=media&token=f21c13bf-b6f1-4d74-b849-5321bbc8343e",
+    Photo: "images/Members/Gaurav Singh.jpg",
     Profile: "Tronix",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/gaurav-singh-0b056117b",
@@ -1880,10 +1693,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "175",
+    id: "171",
     Name: "Kirthika Srinivasan ",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FKirthika%20-%20Kirthika%20Srinivasan.jpg?alt=media&token=c5d406a0-de83-4429-b9f9-cf94c5d2a0b3",
+    Photo: "images/Members/Kirthika Srinivasan.jpg",
     Profile: "Tronix",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/kirthika-srinivasan-6a9614181",
@@ -1891,10 +1703,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "176",
+    id: "172",
     Name: "Akshaya Subramanian",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FAkshaya%20-%20Akshaya%20Subramanian.jpeg?alt=media&token=8b7097b9-dc16-4126-b687-4b3849d5e77f",
+    Photo: "images/Members/Akshaya Subramanian.jpeg",
     Profile: "Tronix",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/akshaya-subramanian-a6a609185/",
@@ -1902,10 +1713,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "177",
+    id: "173",
     Name: "Miriam Santhosh Kadavan",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FmiriamImage1.jpg?alt=media&token=46e68478-d1cd-4bbb-8e6a-ec6baf6f3874",
+    Photo: "images/Members/Miriam.jpg",
     Profile: "Tronix",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/miriam-santhosh-kadavan-30927a193/",
@@ -1913,10 +1723,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "178",
+    id: "174",
     Name: "Jayamathangi Srinivasan",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FJayamathangi%20-%20Jayamathangi%20Srinivasan.jpg?alt=media&token=76ad2581-7980-4d47-b210-1ea4b16ae42c",
+    Photo: "images/Members/Jayamathangi Srinivasan.jpg",
     Profile: "Tronix",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/jayamathangi-s-3464a8184",
@@ -1924,10 +1733,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "179",
+    id: "175",
     Name: "M Shyam",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fshyam..Shyam.Murugan.jpg?alt=media&token=75d81ccc-a34e-4eb0-ad64-1e5d27c218f8",
+    Photo: "images/Members/Shyam Murugan.jpg",
     Profile: "Tronix",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/shyam-murugan/",
@@ -1935,10 +1743,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "180",
+    id: "176",
     Name: "Sachin Kumar",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fsachin%20-%20Sachin%20Kumar.jpg?alt=media&token=08ba7f0f-4311-44dc-acfc-d2b793539c89",
+    Photo: "images/Members/Sachin Kumar.jpg",
     Profile: "Tronix",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/sachin-kumar-837b2b17b/",
@@ -1946,10 +1753,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "181",
+    id: "177",
     Name: "Rahul Bhope",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2F%2B91%2080979%2097207%2020190907_222209%20-%20Rahul%20Bhope.jpg?alt=media&token=2a2c9dd1-ee7f-4ad2-ac21-682a4041e311",
+    Photo: "images/Members/Rahul Bhope.jpg",
     Profile: "App Dev",
     Year: "All",
     LinkedIn: "https://in.linkedin.com/in/rahul-bhope-3a0976130",
@@ -1957,10 +1763,9 @@ export const members = [
     Website: "https://rahulatulbhope.github.io/",
   },
   {
-    id: "182",
+    id: "178",
     Name: "Arijit Biswas",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2F%2B91%2089459%2000669%2020190802_004213%20-%20Arijit%20Biswas.jpg?alt=media&token=14b4c92a-9c22-4c8c-a6c2-52df705d6154",
+    Photo: "images/Members/Arijit Biswas.jpg",
     Profile: "App Dev",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/arijit-biswas-b7a85a98",
@@ -1968,10 +1773,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "183",
+    id: "179",
     Name: "Disha Raj",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FIMG.20190901.WA0008..Disha.Raj.jpg?alt=media&token=a03215dc-7592-45ff-8479-5f5113d8bc8d",
+    Photo: "images/Members/Disha Raj.jpeg",
     Profile: "App Dev",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/disha-raj-284a05116",
@@ -1979,10 +1783,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "184",
+    id: "180",
     Name: "Shivam Tiwari",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fshivam%20photo%20-%20shivam%20tiwari.jpg?alt=media&token=dab5e538-7607-4df0-8ea6-2e8a95e13074",
+    Photo: "images/Members/Shivam Tiwari.jpg",
     Profile: "App Dev",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/shivam-tiwari-32018b175",
@@ -1990,10 +1793,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "185",
+    id: "181",
     Name: "Abhilasha Nagpal",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FAbhilasha_Nagpal%20-%20Abhilasha%20Nagpal.jpg?alt=media&token=a8e4a5d1-e290-41f8-b7c6-2c50dce416a9",
+    Photo: "images/Members/Abhilasha_Nagpal - Abhilasha Nagpal.jpg",
     Profile: "App Dev",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/abhilasha-nagpal",
@@ -2001,10 +1803,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "186",
+    id: "182",
     Name: "Rakesh Vaideeswaran",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FRakesh%20-%20Rakesh%20Vaideeswaran.jpg?alt=media&token=9ab4d7f5-7afc-46b5-941b-709fa320125f",
+    Photo: "images/Members/Rakesh Vaideeswaran.jpg",
     Profile: "App Dev",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/rakesh-v-647481b6",
@@ -2012,10 +1813,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "187",
+    id: "183",
     Name: "Vaibhav Bairagi",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FIMG_20190902_222600%20-%20vaibhav%20bairagi.jpg?alt=media&token=fe73a916-cced-4bf9-a0a0-a1a1d8f4bf13",
+    Photo: "images/Members/Vaibhav Bairagi.jpg",
     Profile: "App Dev",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/vaibhav-bairagi-a6ab97161",
@@ -2023,10 +1823,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "188",
+    id: "184",
     Name: "Amogh J",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Famogh%20-%20Amogh%20Jahagirdar.jpg?alt=media&token=fae3592d-bbf9-4727-8d10-b87caf301a90",
+    Photo: "images/Members/Amogh Jahagirdar.jpg",
     Profile: "App Dev",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/amoghjahagirdar/",
@@ -2034,10 +1833,9 @@ export const members = [
     Website: "https://amogh-jrules.github.io",
   },
   {
-    id: "189",
+    id: "185",
     Name: "Nitin More",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fnitin%20-%20Nitin%20More.jpg?alt=media&token=d01f44c9-36b8-468c-8cfe-545c531c99cb",
+    Photo: "images/Members/Nitin More.jpg",
     Profile: "App Dev",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/nitin-more/",
@@ -2045,10 +1843,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "190",
+    id: "186",
     Name: "Ark Srivastava",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fpic%20-%20ARK%20SRIVATSVAVA.jpg?alt=media&token=d96df8ca-0cde-458f-a3e9-da0b69a72331",
+    Photo: "images/Members/Ark  Srivatsvava.jpg",
     Profile: "App Dev",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/ark-srivastava-252542160",
@@ -2056,10 +1853,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "191",
+    id: "187",
     Name: "Goutham C M",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FWhatsApp%20Image%202018-09-26%20at%209.21.46%20PM%20-%20goutham%20cm.jpeg?alt=media&token=1df99fb2-e200-44aa-b961-b0051d85201c",
+    Photo: "images/Members/Goutham CM.jpeg",
     Profile: "App Dev",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/goutham-c-m-5a0621154/",
@@ -2067,10 +1863,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "192",
+    id: "188",
     Name: "Ayush Singh",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FAyushSingh%20-%20Ayush%20Singh.jpg?alt=media&token=1f6796b1-3751-40ca-9cb9-789ebc156e63",
+    Photo: "images/Members/Ayush Singh.jpg",
     Profile: "App Dev",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/ayushsinghs/",
@@ -2078,10 +1873,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "193",
+    id: "189",
     Name: "Naren Sairam",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fnaren%20-%20Naren%20Sairam.jpg?alt=media&token=af4bcbfe-0304-43e9-967b-915873051988",
+    Photo: "images/Members/Naren Sairam.jpg",
     Profile: "App Dev",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/naren-sairam-941739173",
@@ -2089,10 +1883,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "194",
+    id: "190",
     Name: "Madhav Aggarwal",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FMadhav.jpg%20-%20Madhav%20Aggarwal.jpg?alt=media&token=d866cd09-36b9-41f9-ba2c-abdcd7c7616b",
+    Photo: "images/Members/Madhav Aggarwal.jpg",
     Profile: "App Dev",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/madhav-aggarwal-b16180181/",
@@ -2100,10 +1893,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "195",
+    id: "191",
     Name: "Harshit Singh",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FIMG_3415%20-%20Harshit%20Singh.JPG?alt=media&token=fbf7265d-8cb6-4fd0-8ac5-37c05fe1430d",
+    Photo: "images/Members/Harshit Singh.jpg",
     Profile: "App Dev",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/harshit-singh-83110a193/",
@@ -2111,10 +1903,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "196",
+    id: "192",
     Name: "Khushali Patel",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fkhushali%20-%20Khushali%20Patel.JPG?alt=media&token=c30dba13-e675-49cd-8c22-0fee1d9287a3",
+    Photo: "images/Members/Khushali Patel.jpg",
     Profile: "App Dev",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/khushali-patel-92b182179",
@@ -2122,10 +1913,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "197",
+    id: "193",
     Name: "Isha Waghulde",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2Fisha%20-%20Isha%20Waghulde.jpg?alt=media&token=124694d7-837d-4759-ab72-5f12e6b2c9c2",
+    Photo: "images/Members/Isha Waghulde.jpg",
     Profile: "App Dev",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/isha-waghulde-4529aa17b",
@@ -2133,10 +1923,9 @@ export const members = [
     Website: "",
   },
   {
-    id: "198",
+    id: "194",
     Name: "S P Srinidhi",
-    Photo:
-      "https://firebasestorage.googleapis.com/v0/b/learn-firebase-8dd10.appspot.com/o/images%2FSrinidhi.jpg?alt=media&token=23f775c2-3a19-4ac9-87fe-0b219be26a62",
+    Photo: "images/Members/Srinidhi.jpg",
     Profile: "App Dev",
     Year: "All",
     LinkedIn: "http://www.linkedin.com/in/srinidhi-s-p-b005b4171",
