@@ -87,14 +87,7 @@ export default function PrimarySearchAppBar() {
           Members
         </NavLink>
       </MenuItem>
-      <MenuItem>
-        <a
-          style={{ textDecoration: "none", color: "#0E122B" }}
-          href="https://inductions.spider.nitt.edu"
-        >
-          Spider Inductions 2020
-        </a>
-      </MenuItem>
+
       {/* <MenuItem>
         <NavLink
           style={{ textDecoration: "none", color: "#0E122B" }}
@@ -164,18 +157,6 @@ export default function PrimarySearchAppBar() {
                 Members
               </Button>
             </NavLink>
-            <a
-              href="https://inductions.spider.nitt.edu"
-              style={{ color: "#DADADE", textDecoration: "none" }}
-            >
-              <Button
-                key="inductions"
-                color="inherit"
-                className={classes.menuButton}
-              >
-                Spider Inductions 2020
-              </Button>
-            </a>
           </div>
           <div className={classes.sectionMobile}>
             <IconButton

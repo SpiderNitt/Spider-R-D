@@ -27,73 +27,73 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import Details from "./projectmembers.json";
 import { albumStyles } from "./projects.css";
 
-const myStyles = makeStyles(theme => ({
+const myStyles = makeStyles((theme) => ({
   paper: {
     padding: theme.spacing(2),
     textAlign: "center",
-    color: theme.palette.text.secondary
+    color: theme.palette.text.secondary,
   },
   heroContent: {
     backgroundColor: theme.palette.background.paper,
-    padding: theme.spacing(4, 0, 6)
+    padding: theme.spacing(4, 0, 6),
   },
   root: {
     fontFamily: "raleway",
     fontWeight: "bold",
-    flexGrow: 1
+    flexGrow: 1,
   },
   default: {
-    fontFamily: "raleway"
+    fontFamily: "raleway",
   },
   icon: {
-    marginRight: theme.spacing(2)
+    marginRight: theme.spacing(2),
   },
 
   content: {
     background: "#E2E2E2",
     borderRadius: 10,
-    opacity: 1
+    opacity: 1,
   },
   avatar: {
-    margin: 10
+    margin: 10,
   },
   bigAvatar: {
     margin: 10,
     width: 60,
-    height: 60
+    height: 60,
   },
   member: {
-    padding: 10
+    padding: 10,
   },
   dialog: {
     background: "#0D132A",
     color: "white",
-    borderRadius: 0
+    borderRadius: 0,
   },
   heroButtons: {
-    marginTop: theme.spacing(4)
+    marginTop: theme.spacing(4),
   },
   cardGrid: {
     paddingTop: theme.spacing(8),
-    paddingBottom: theme.spacing(8)
+    paddingBottom: theme.spacing(8),
   },
   card: {
     height: "100%",
     display: "flex",
-    flexDirection: "column"
+    flexDirection: "column",
   },
   cardMedia: {
-    paddingTop: "56.25%"
+    paddingTop: "56.25%",
   },
   cardContent: {
-    flexGrow: 1
+    flexGrow: 1,
   },
   profiles: {
-    color: "black"
+    color: "black",
   },
   logos: {
-    padding: 5
-  }
+    padding: 5,
+  },
 }));
 
 let Projects = JSON.stringify(Details);
@@ -107,7 +107,7 @@ function Album(props) {
   const [open, setOpen] = React.useState(false);
   const [scroll, setScroll] = React.useState("paper");
 
-  const handleClickOpen = scrollType => () => {
+  const handleClickOpen = (scrollType) => () => {
     setOpen(true);
     setScroll(scrollType);
   };
@@ -127,8 +127,9 @@ function Album(props) {
           />
           <div className={classes.overlay}></div>
           <div className={classes.desclogo}>
-            {// eslint-disable-next-line
-              props.projectProfiles.map(send => {
+            {
+              // eslint-disable-next-line
+              props.projectProfiles.map((send) => {
                 if (send === "webdev") {
                   return <AndroidIcon className={classes.icons} />;
                 }
@@ -141,7 +142,8 @@ function Album(props) {
                 if (send === "algos") {
                   return <AccountTreeIcon className={classes.icons} />;
                 }
-              })}
+              })
+            }
           </div>
         </div>
 
@@ -202,14 +204,14 @@ function Album(props) {
                 </ExpansionPanelSummary>
                 <ExpansionPanelDetails>
                   <Grid container justify="center" alignItems="center">
-                    {props.projectMembers.map(send =>
+                    {props.projectMembers.map((send, key1) =>
                       // eslint-disable-next-line
-                      props.spiderMembers.map(key => {
+                      props.spiderMembers.map((key, key2) => {
                         var link;
                         if (send === key.Name) {
                           link = key.Photo;
                           return (
-                            <div className={classes.member}>
+                            <div className={classes.member} key={key1 + key2}>
                               <center>
                                 <Avatar
                                   alt="Member"
@@ -241,7 +243,7 @@ function Album(props) {
                 <ExpansionPanelDetails>
                   <div className={classes.images}>
                     <center>
-                      {props.projectImages.map(send => {
+                      {props.projectImages.map((send) => {
                         return (
                           <img
                             src={send}
@@ -250,8 +252,6 @@ function Album(props) {
                           />
                         );
                       })}
-
-
                     </center>{" "}
                   </div>
                 </ExpansionPanelDetails>
@@ -347,7 +347,7 @@ export default function ProjectItems() {
         </div>
         <Container className={classes.cardGrid} maxWidth="md">
           <Grid container spacing={4}>
-            {projectData.projects.map(post => (
+            {projectData.projects.map((post) => (
               <Grid item xs={12} sm={6} md={4}>
                 <Album
                   key={post.id}
