@@ -5,6 +5,7 @@ export const Year = [
   "B Tech 4th year",
   "B Tech 3rd Year",
   "B Tech 2nd Year",
+  "MCA 2nd year",
 ];
 
 export const members = [
@@ -1256,6 +1257,16 @@ export const members = [
     Github: "https://github.com/SiddharthRaoA",
     Website: "",
   },
+  {
+    id: "127",
+    Name: "Premkumar N",
+    Photo: "images/Members/Premkumar.jpg",
+    Profile: "Tronix",
+    Year: "B Tech 2nd Year",
+    LinkedIn: "https://www.linkedin.com/in/prem-kumar-6ba457136/",
+    Github: "https://github.com/pk1510/",
+    Website: "",
+  },
   // ---------------------------------------------------------------------------------------------------------
   // ------------------------------------------------ ALL ----------------------------------------------------
   // ---------------------------------------------------------------------------------------------------------
@@ -2457,6 +2468,7 @@ export const members = [
     Github: "https://github.com/HR-5",
     Website: "",
   },
+
   // Exception
   {
     id: "122",
@@ -2505,6 +2517,16 @@ export const members = [
     Year: "All",
     LinkedIn: "https: //www.linkedin.com/in/siddharth-rao-a-b3b140198",
     Github: "https://github.com/SiddharthRaoA",
+    Website: "",
+  },
+  {
+    id: "127",
+    Name: "Premkumar N",
+    Photo: "images/Members/Premkumar.jpg",
+    Profile: "Tronix",
+    Year: "All",
+    LinkedIn: "https://www.linkedin.com/in/prem-kumar-6ba457136/",
+    Github: "https://github.com/pk1510/",
     Website: "",
   },
 ];

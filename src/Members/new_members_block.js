@@ -1,119 +1,127 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component, Fragment } from "react";
 
-import CssBaseline from '@material-ui/core/CssBaseline';
-import Typography from '@material-ui/core/Typography';
-import { withStyles } from '@material-ui/core/styles';
-import Container from '@material-ui/core/Container';
+import CssBaseline from "@material-ui/core/CssBaseline";
+import Typography from "@material-ui/core/Typography";
+import { withStyles } from "@material-ui/core/styles";
+import Container from "@material-ui/core/Container";
 
-import ProfileName from './profiles'
-import Batch from './batch'
-import { Profile, Year, members } from './spider_members'
-import TeamPage from './teamPage'
+import ProfileName from "./profiles";
+import Batch from "./batch";
+import { Profile, Year, members } from "./spider_members";
+import TeamPage from "./teamPage";
 
-const styles = theme => ({
+const styles = (theme) => ({
   paper: {
     padding: theme.spacing(2),
     textAlign: "center",
-    color: theme.palette.text.secondary
+    color: theme.palette.text.secondary,
   },
   heroContent: {
     backgroundColor: theme.palette.background.paper,
     padding: theme.spacing(4, 0, 6),
-    marginBottom:0
+    marginBottom: 0,
   },
   root: {
     fontFamily: "raleway",
     fontWeight: "bold",
-    flexGrow: 1
+    flexGrow: 1,
   },
   default: {
     fontFamily: "raleway",
   },
   cardGrid: {
-    paddingLeft: '180px',
-    paddingRight: '180px',
+    paddingLeft: "180px",
+    paddingRight: "180px",
   },
   heroButtons: {
     marginTop: theme.spacing(4),
   },
 });
 
-
 class MembersBlock extends Component {
-
-    constructor(props) {
-    super(props)
+  constructor(props) {
+    super(props);
     this.state = {
-      profileName: 'Tronix',
-      yearName: 'All',
-      Profile, Year, members
-    }
+      profileName: "Tronix",
+      yearName: "All",
+      Profile,
+      Year,
+      members,
+    };
   }
 
   getData() {
     setTimeout(() => {
       this.setState({
-        profileName: 'Web Dev'
-      })
-    }, 500)
+        profileName: "Web Dev",
+      });
+    }, 500);
   }
 
   componentDidMount() {
     this.getData();
   }
 
-
-  handleProfileSelected = profileName => {
+  handleProfileSelected = (profileName) => {
     this.setState({
-      profileName
-    })
-  }
+      profileName,
+    });
+  };
 
-
-  handleYearSelected = yearName => {
+  handleYearSelected = (yearName) => {
     this.setState({
-      yearName
-    })
-  }
+      yearName,
+    });
+  };
 
-  render()
-  {
+  render() {
     const { profileName, yearName } = this.state;
-    const {classes} = this.props;
+    const { classes } = this.props;
 
-  return (
-    <Fragment>
-      <CssBaseline />
+    return (
+      <Fragment>
+        <CssBaseline />
         <div className={classes.heroContent}>
           <Container maxWidth="md">
-            <Typography component="h1" variant="h2" align="center" color="textPrimary" className={classes.root} gutterBottom>
+            <Typography
+              component="h1"
+              variant="h2"
+              align="center"
+              color="textPrimary"
+              className={classes.root}
+              gutterBottom
+            >
               Members
-              </Typography>
+            </Typography>
             <div className={classes.heroButtons}>
               <ProfileName
-            profileName={profileName}
-            Profile={Profile}
-            onSelect={this.handleProfileSelected} />
-          <br/>
-          <Batch
-            yearName={yearName}
-            Year={Year}
-            onSelect={this.handleYearSelected} />
-          <br/>
+                profileName={profileName}
+                Profile={Profile}
+                onSelect={this.handleProfileSelected}
+              />
+              <br />
+              <Batch
+                yearName={yearName}
+                Year={Year}
+                onSelect={this.handleYearSelected}
+              />
+              <br />
             </div>
           </Container>
         </div>
-        <Container className={classes.cardGrid} maxWidth='xl'>
-        <br/>
+        <Container className={classes.cardGrid} maxWidth="xl">
+          <br />
           <TeamPage
             members={members}
             profileName={profileName}
             yearName={yearName}
           />
         </Container>
-        <br/><br/>
-    </Fragment>
-  )}
+        <br />
+        <br />
+      </Fragment>
+    );
+  }
 }
 
-export default withStyles(styles, {withTheme: true})(MembersBlock);
+export default withStyles(styles, { withTheme: true })(MembersBlock);
