@@ -1220,7 +1220,7 @@ export const members = [
   {
     id: "123",
     Name: "Aryan Wadhavekar",
-    Photo: "images/Members/Rishabh Taparia.jpg",
+    Photo: "images/Members/Aryan Wadhavekar.jpg",
     Profile: "App Dev",
     Year: "B Tech 2nd Year",
     LinkedIn: "https://www.linkedin.com/in/aryan-wadhavekar-9ab63b1b2",
@@ -2471,7 +2471,7 @@ export const members = [
   {
     id: "123",
     Name: "Aryan Wadhavekar",
-    Photo: "images/Members/Rishabh Taparia.jpg",
+    Photo: "images/Members/Aryan Wadhavekar.jpg",
     Profile: "App Dev",
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/aryan-wadhavekar-9ab63b1b2",
