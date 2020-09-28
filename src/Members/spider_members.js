@@ -955,16 +955,7 @@ export const members = [
     Github: "https://github.com/suryathanush",
     Website: "",
   },
-  {
-    id: "97",
-    Name: "Himanshu Nandan",
-    Photo: "images/Members/Himanshu Nandan.jpg",
-    Profile: "Tronix",
-    Year: "B Tech 2nd Year",
-    LinkedIn: "https://www.linkedin.com/in/himanshu-nandan-4b628a18a",
-    Github: "https://github.com/himanshunandan292",
-    Website: "",
-  },
+
   {
     id: "98",
     Name: "Arijit Biswas",
@@ -2216,16 +2207,7 @@ export const members = [
     Github: "https://github.com/suryathanush",
     Website: "",
   },
-  {
-    id: "97",
-    Name: "Himanshu Nandan",
-    Photo: "images/Members/Himanshu Nandan.jpg",
-    Profile: "Tronix",
-    Year: "All",
-    LinkedIn: "https://www.linkedin.com/in/himanshu-nandan-4b628a18a",
-    Github: "https://github.com/himanshunandan292",
-    Website: "",
-  },
+
   {
     id: "98",
     Name: "Arijit Biswas",
