@@ -16,7 +16,7 @@ function Footer() {
       </div>
       <Grid container spacing={0}>
         <Grid item xs={12} sm={6} className="map-grid">
-          <MapComponent/>
+          <MapComponent />
         </Grid>
         <Grid item xs={12} sm={6}>
           <br />
@@ -49,16 +49,16 @@ function Footer() {
             <br />
           </Typography>
           <Typography align="center" variant="body1" gutterBottom>
-            Shubham Saha
+            Aditya Kumar Singh
             <br /> President, Spider
             <br />
-            Mobile :9629916025
+            Mobile :9470186194
           </Typography>
           <Typography align="center" variant="body1" gutterBottom>
-            Shivani Chander
+            Karthik Soma
             <br /> Inter-Profile Coordinator, Spider
             <br />
-            Mobile :7401161825
+            Mobile :8778813014
           </Typography>
         </Grid>
       </Grid>

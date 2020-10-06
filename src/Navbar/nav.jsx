@@ -87,11 +87,7 @@ export default function PrimarySearchAppBar() {
           Members
         </NavLink>
       </MenuItem>
-      <MenuItem>
-        <NavLink style={{ textDecoration: "none", color: "#0E122B" }} to="/sop">
-          Spider Orientation Program
-        </NavLink>
-      </MenuItem>
+
       {/* <MenuItem>
         <NavLink
           style={{ textDecoration: "none", color: "#0E122B" }}
@@ -161,38 +157,6 @@ export default function PrimarySearchAppBar() {
                 Members
               </Button>
             </NavLink>
-            <NavLink
-              exact
-              to="/sop"
-              style={{ color: "#DADADE", textDecoration: "none" }}
-            >
-              <Button
-                key="inductions"
-                color="inherit"
-                className={classes.menuButton}
-              >
-                Spider Orientation Program
-              </Button>
-            </NavLink>
-            {/* <Button
-              key="contactUs"
-              color="inherit"
-              className={classes.menuButton}
-              onClick={() => {
-                if (document.getElementById("Footer-Contacts")) {
-                  document
-                    .getElementById("Footer-Contacts")
-                    .scrollIntoView({ behavior: "smooth" });
-                } else {
-                  window.location.href = "/";
-                  document
-                    .getElementById("Footer-Contacts")
-                    .scrollIntoView({ behavior: "smooth" });
-                }
-              }}
-            >
-              Contact Us
-            </Button> */}
           </div>
           <div className={classes.sectionMobile}>
             <IconButton

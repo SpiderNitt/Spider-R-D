@@ -1,18 +1,15 @@
-import React from 'react';
-import Paper from '@material-ui/core/Paper';
-import Tabs from '@material-ui/core/Tabs';
-import Tab from '@material-ui/core/Tab';
-
+import React from "react";
+import Paper from "@material-ui/core/Paper";
+import Tabs from "@material-ui/core/Tabs";
+import Tab from "@material-ui/core/Tab";
 
 export default ({ yearName, Year, onSelect }) => {
+  const index = yearName ? Year.findIndex((group) => group === yearName) : 0;
 
-  const index = yearName ? Year.findIndex(group => group === yearName) : 0
-
-  const onIndexSelect = (e, index) =>
-    onSelect(Year[index])
+  const onIndexSelect = (e, index) => onSelect(Year[index]);
 
   return (
-    <Paper className='tabs' style={{ backgroundColor: "white" }}>
+    <Paper className="tabs" style={{ backgroundColor: "white" }}>
       <Tabs
         value={index}
         onChange={onIndexSelect}
@@ -21,10 +18,11 @@ export default ({ yearName, Year, onSelect }) => {
         centered
       >
         <Tab label="All" />
-        <Tab label="2019-20" />
         <Tab label="2020-21" />
         <Tab label="2021-22" />
+        <Tab label="2022-23" />
+        <Tab label="MCA 2020-21" />
       </Tabs>
     </Paper>
   );
-}
+};
