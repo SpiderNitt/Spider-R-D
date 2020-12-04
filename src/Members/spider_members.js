@@ -47,7 +47,7 @@ export const members = [
     Year: "B Tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/vishal-s-126000145/",
     Github: "https://github.com/VishalS99",
-    Website: "",
+    Website: "https://vishals99.github.io",
   },
 
   {
@@ -1299,7 +1299,7 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/vishal-s-126000145/",
     Github: "https://github.com/VishalS99",
-    Website: "",
+    Website: "https://vishals99.github.io",
   },
 
   {
