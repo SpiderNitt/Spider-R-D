@@ -25,7 +25,7 @@ const myStyles = makeStyles((theme) => ({
 function App() {
   const classes = myStyles();
   return (
-    <div>
+    <div style={{padding: "1% 3%", backgroundColor: "#fff"}}>
       <Typography
         component="h1"
         variant="h3"
@@ -38,30 +38,47 @@ function App() {
       <Typography
         component="h3"
         variant="h5"
-        align="center"
+        align="left"
         color="textPrimary"
         className={classes.follow}
       >
         Tired of being locked at your home and attending eternal live classes? Don't worry, we at Spider have the perfect break designed for you all. Spider Week is a brand new event consisting of amazing Workshops, exciting competitions and a lot more. It is a fantastic opportunity for everyone to learn and showcase their skills. Join us for a captivating week with amazing workshops, thrilling events, lots of interesting prizes to escape your boredom. <br />
         <br></br>
-        List of events:
+      </Typography>
+      <Typography
+        component="h3"
+        variant="h5"
+        align="center"
+        color="textPrimary"
+        className={classes.follow}
+      >
+        Register for each event using the links below:
         <br></br>
         <br></br>
-        <div>Spider UNOverse</div>
-        <div>casCADe</div>
-        <div>Spideysense</div>
-        <div>Capture the Flag</div>
-        <div>The World is your Canvas</div>
-        <div>Clash of Code</div>
-        <div>Spider Web Development Workshop</div>
-        <div>Algos ICY Cup</div>
-        <div>Blind Coding</div>
-        <div>Code Connoisseurs</div>
+        <div style={{color: "0E122B"}}>WEB DEV</div>
+        <br/>
+        <a href="https://forms.gle/GLyAAu686qN8LM95A" style={{textDecoration: "none", color: "#616161"}}>The World is your Canvas(.js)</a><br/>
+        <a href="https://forms.gle/z1mvfvNd5oHCnFsE8" style={{textDecoration: "none", color: "#616161"}}>Trivia Quiz</a><br/>
+        <a href="https://forms.gle/JwDGewMkhBpSVp9g7" style={{textDecoration: "none", color: "#616161"}}>Blind Coding</a><br/>
+        <a href="https://forms.gle/Qpqy4QXp8H4SQaXx9" style={{textDecoration: "none", color: "#616161"}}>Spider Web Development Workshop</a><br/>
+        <a href="https://forms.gle/kZBuu2BFsqFemNxd7" style={{textDecoration: "none", color: "#616161"}}>Capture the Flag</a><br/>
+        <br/>
+        <div style={{color: "0E122B"}}>ALGORITHMS</div>
+        <br/>
+        <a href="https://www.hackerrank.com/icy-cup21" style={{textDecoration: "none", color: "#616161"}}>Algos ICY Cup</a><br/>
+        <br/>
+        <div style={{color: "0E122B"}}>TRONIX</div>
+        <br/>
+        <a href="https://forms.gle/Z29mMLx9qfDoA29V9" style={{textDecoration: "none", color: "#616161"}}>Clash of Code</a><br/>
+        <a href="https://forms.gle/Z29mMLx9qfDoA29V9" style={{textDecoration: "none", color: "#616161"}}>Spider UNOverse</a><br/>
+        <a href="https://forms.gle/Z29mMLx9qfDoA29V9" style={{textDecoration: "none", color: "#616161"}}>casCADe</a><br/>
+        <a href="https://forms.gle/Z29mMLx9qfDoA29V9" style={{textDecoration: "none", color: "#616161"}}>Spideysense</a><br/>
+        <br/>
+        <div style={{color: "0E122B"}}>APP DEV</div>
+        <br/>
+        <a href="https://forms.gle/YJBJGSkEd4GgHbvT8" style={{textDecoration: "none", color: "#616161"}}>Code Connoisseurs</a><br/>
         <br></br>
-        <br></br>
-        <Button variant="contained" color="primary" href="#">
-          Register for Spider Week
-        </Button>
+        Can't wait to you see you all!
       </Typography>
       {console.log("Spider Week 2021")}
       {/* <div className="App">
