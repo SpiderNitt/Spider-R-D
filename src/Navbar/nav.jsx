@@ -88,14 +88,14 @@ export default function PrimarySearchAppBar() {
         </NavLink>
       </MenuItem>
 
-      {/* <MenuItem>
+      <MenuItem>
         <NavLink
-          style={{ textDecoration: "none", color: "#0E122B" }}
-          to="/contactus"
+          style={{ textDecoration: "none", color: "#FFD700" }}
+          to="/spiderweek"
         >
-          Contact us
+          Spider Week
         </NavLink>
-      </MenuItem> */}
+      </MenuItem>
     </Menu>
   );
 
@@ -155,6 +155,19 @@ export default function PrimarySearchAppBar() {
                 className={classes.menuButton}
               >
                 Members
+              </Button>
+            </NavLink>
+            <NavLink
+              exact
+              to="/spiderweek"
+              style={{ color: "#FFD700", textDecoration: "none" }}
+            >
+              <Button
+                key="members"
+                color="inherit"
+                className={classes.menuButton}
+              >
+                Spider Week
               </Button>
             </NavLink>
           </div>
