@@ -680,6 +680,15 @@ export const members = [
     Github: "https://github.com/adityasingh3007",
     Website: "https://adityasingh3007.github.io/",
   },
+  {
+    id: "128",
+    Name: "Karthik Soma",
+    Photo: "images/new-core/soma.jpeg",
+    Profile: "Tronix",
+    Year: "B Tech 4th year",
+    LinkedIn: "https://www.linkedin.com/in/karthik-soma-b92166162/",
+    Website: ""
+  },
 
   {
     id: "70",
@@ -1911,6 +1920,15 @@ export const members = [
     LinkedIn: "https://www.linkedin.com/in/aditya-ravichander-b2584b178",
     Github: "https://github.com/adityaravichander",
     Website: "",
+  },
+  {
+    id: "128",
+    Name: "Karthik Soma",
+    Photo: "images/new-core/soma.jpeg",
+    Profile: "Tronix",
+    Year: "All",
+    LinkedIn: "https://www.linkedin.com/in/karthik-soma-b92166162/",
+    Website: ""
   },
   {
     id: "68",

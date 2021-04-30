@@ -101,7 +101,7 @@
       "project_name": "BEEBOTS",
       "project_description": "A robotic system based on two emerging fields of technology: SWARM ROBOTICS and BLOCKCHAIN. The research paper was accepted at The 6th International Conference on Control, Automation and Robotics ( IEEE ICCAR 2020 ) to be held during April 20-23, 2020 (Singapore)",
       "members": [
-        "Soma karthik",
+        "Karthik Soma",
         "Aditya R",
         "Akil M",
         "N Praveen Chandhar",
@@ -113,6 +113,343 @@
       "desc_images": [
         "images/Projects/Beebots/2.jpeg",
         "images/Projects/Beebots/3.jpeg"
+      ],
+      "desc_video": ""
+    },
+    {
+      "id": 8,
+      "project_name": "Scanner App",
+      "project_description": "A document scanner for effective document capturing and storage. Allows user to share files in multiple formats and has features to improve document quality. Project can replace CamScanner.",
+      "members": [
+          "Abhinav Kothari",
+          "Vaasu Gambhir",
+          "Haemanth V",
+          "S P Srinidhi",
+          "Khushali Patel",
+          "Madhav Aggarwal"
+      ],
+      "profiles": ["webdev"],
+      "image_link": "images/Projects/Scanner/Scanner_main_pic.jpg",
+      "desc_images": [
+        "images/Projects/Scanner/Scanner_main_pic.jpg",
+        "images/Projects/Scanner/Scanner_pic_1.jpg",
+        "images/Projects/Scanner/Scanner_pic_2.jpg",
+        "images/Projects/Scanner/Scanner_pic_3.jpg",
+        "images/Projects/Scanner/Scanner_pic_4.jpg"
+      ],
+      "desc_video": ""
+    },
+    {
+      "id": 9,
+      "project_name": "RECAL UAE App",
+      "project_description": "An app to keep in touch with the alumni of REC/NITT in the Middle East. The app allows alumni to connect and network with other alumni, build new connections, do social and professional networking, interact with mentors, get employment support and volunteer for events",
+      "members": [
+          "Naren Sairam",
+          "Khushali Patel",
+          "Isha Waghulde",
+          "S P Srinidhi",
+          "Madhav Aggarwal"
+      ],
+      "profiles": ["webdev"],
+      "image_link": "images/Projects/Recal_UAE_App/recal_app_main.jpeg",
+      "desc_images": [
+        "images/Projects/Recal_UAE_App/recal_app_main.jpeg",
+        "images/Projects/Recal_UAE_App/recal_app_1.png",
+        "images/Projects/Recal_UAE_App/recal_app_2.png",
+        "images/Projects/Recal_UAE_App/recal_app_3.png",
+        "images/Projects/Recal_UAE_App/recal_app_4.png",
+        "images/Projects/Recal_UAE_App/recal_app_5.png"
+      ],
+      "desc_video": ""
+    },
+    {
+      "id": 10,
+      "project_name": "Orientation '20 App",
+      "project_description": "Orientation App is all about the events and affairs that will ease a fresher’s way into NIT Trichy. The prominent features of the app include timeline of all the events, live event streaming, map of the main hotspots of the campus, push notifications, contact details of the Orientation team and peer supporters of all the departments. It also has vital information regarding the programme itself, guidelines to have a safe stay in campus and so much more.",
+      "members": [
+        "Naren Sairam",
+        "Ankur Sinha",
+        "Sanjeev Vijayakumar",
+        "Amar Rokade"
+      ],
+      "profiles": ["webdev"],
+      "image_link": "images/Projects/Orientation_App/orientation_main.jpg",
+      "desc_images": [
+        "images/Projects/Orientation_App/orientation_main.jpg"
+      ],
+      "desc_video": ""
+    },
+    {
+      "id": 11,
+      "project_name": "RECAL UAE - Admin Portal",
+      "project_description": "Admin Portal for the Alumni Association UAE Chapter. Handles data updation, deletion and provides analytics on the data of RecalUAE.",
+      "members": [
+        "Barath Kumar S",
+        "Smrithi Prakash",
+        "Thrishik Senthilkumar",
+        "Anish C "
+      ],
+      "profiles": ["appdev"],
+      "image_link": "images/Projects/Recal_UAE_Admin/Recal_UAE_Admin_main.jpeg",
+      "desc_images": [
+        "images/Projects/Recal_UAE_Admin/Recal_UAE_Admin_main.jpeg"
+      ],
+      "desc_video": ""
+    },
+    {
+      "id": 12,
+      "project_name": "Document Requisition Portal",
+      "project_description": "The system aims to provide an easy experience for students to request approval on certificates. A unified portal allows both students and administrators to log in using institute credentials to either send or approve requests. The portal handles all the required student information, forms, and receipts to make the process as streamlined as possible for administrators. Functionality is provided for administrators to approve/reject requests in a single click and view student information and required documents on a single interface.",
+      "members": [
+        "N Praveen Chandhar",
+        "Vishal Saranathan",
+        "Jerry J",
+        "Barath Kumar S",
+        "Smrithi Prakash",
+        "Arnav Menon",
+        "Gokulraaj",
+        "Rishabh Taparia",
+        "Sai Sandhya",
+        "Selva Karthik D",
+        "Subramanian V V",
+        "Tharun Kumar"
+      ],
+      "profiles": ["appdev"],
+      "image_link": "images/Projects/Doc/Doc_main.png",
+      "desc_images": [
+        "images/Projects/Doc/Doc_main.png",
+        "images/Projects/Doc/Doc_1.png",
+        "images/Projects/Doc/Doc_2.png"
+      ],
+      "desc_video": ""
+    },
+    {
+      "id": 13,
+      "project_name": "Happy Hunt Challenge",
+      "project_description": "Happy Hunt Challenge is a PWA React Application built for a Scavenger Hunt game conducted by Event Specials in Pune. The app has 1500+ users who need to solve missions (clues) scattered all over Pune. The website has two portals, one for the Admin and another for end-users. The admin portal has features like auto evaluation, admin evaluation, adding or updating the missions, feed control, etc. The end-user interface consists of a portal to check clues and submit answers to the clues after reaching a particular location. If their submissions are accepted, then the players are awarded points, and their submissions get auto-posted in the feed, where other players can react to it by liking or sharing. The project uses the MERN stack.",
+      "members": [
+        "Gokulraaj",
+        "Paarthiban K",
+        "Hetvi Bhansali",
+        "Sai Sandhya",
+        "Mohana Sundaram S",
+        "Mansi Bisen"
+      ],
+      "profiles": ["appdev"],
+      "image_link": "images/Projects/HappyHunt/Happy_main.jpeg",
+      "desc_images": [
+        "images/Projects/HappyHunt/Happy_main.jpeg",
+        "images/Projects/HappyHunt/Happy_1.jpeg",
+        "images/Projects/HappyHunt/Happy_2.jpeg",
+        "images/Projects/HappyHunt/Happy_3.jpeg"
+      ],
+      "desc_video": ""
+    },
+    {
+      "id": 14,
+      "project_name": "Project Securise",
+      "project_description": "Developed an Automatic Number Plate Recognition System for our college campus that logs entrance and exit of vehicles\n • Designed a vehicle data extraction pipeline from the ground up, using a FasterRCNN implementation with Resnet101 for vehicle data extraction\n• Working on implementing a frontend and backend to relay data between the camera and the system.",
+      "members": [
+        "Vishal Saranathan",
+        "Barath Kumar S",
+        "Thrishik Senthilkumar"
+      ],
+      "profiles": ["appdev"],
+      "image_link": "images/Projects/Securise/securise_main.jpeg",
+      "desc_images": [
+        "images/Projects/Securise/securise_main.jpeg",
+        "images/Projects/Securise/securise_1.webp"
+      ],
+      "desc_video": ""
+    },
+    {
+      "id": 12,
+      "project_name": "Homebrew Bionics",
+      "project_description": "The Homebrew Bionics is a community that explores the possibilities of developing open-source, affordable prosthetic devices that are rapidly fabricable. If you are someone who would love to contribute, kindly visit https://homebrew-bionics.github.io/.",
+      "members": [
+        "Senthur Raj",
+        "Jack Samuel S",
+        "Anbuselvan D"
+      ],
+      "profiles": ["tronix"],
+      "image_link": "images/Projects/Homebrew/Homebrew_main.jpg",
+      "desc_images": [
+        "images/Projects/Homebrew/Homebrew_main.jpg",
+        "images/Projects/Homebrew/Homebrew_1.jpg",
+        "images/Projects/Homebrew/Homebrew_2.jpg"
+      ],
+      "desc_video": ""
+    },
+    {
+      "id": 13,
+      "project_name": "UHUGV",
+      "project_description": "UHUGV is an amphibious bot that is capable of traversing both land and underwater. The ground locomotion is achieved by track drive and the underwater motion is achieved by bio-mimicking fin ray fish locomotion. The robot has a track drive mechanism for the purpose of traveling in marshy terrains. It has 4 servo motors on either side of the robot to enable its movement underwater by implementing the mathematical model of fin ray motion. We can control the movement of the bot underwater by adjusting the amplitude and angular frequency of the servos attached to a fin-like material. This bot can be used as a recon to gain insights without being spotted. The onboard controller is capable of sending real-time data acquired to the command center through WiFi using a WiFi-module.",
+      "members": [
+        "Jack Samuel S",
+        "Anbuselvan D",
+        "Miriam Santhosh Kadavan",
+        "Abinaya P A",
+        "Varshini Priyaa",
+        "A.Shanmuga Sundaram",
+        "Shankar Utthandy V"
+      ],
+      "profiles": ["tronix"],
+      "image_link": "images/Projects/UHUGV/UHUGV_main.png",
+      "desc_images": [
+        "images/Projects/UHUGV/UHUGV_main.png",
+        "images/Projects/UHUGV/UHUGV_1.png",
+        "images/Projects/UHUGV/UHUGV_2.png",
+        "images/Projects/UHUGV/UHUGV_3.gif"
+      ],
+      "desc_video": ""
+    },
+    {
+      "id": 14,
+      "project_name": "Bee-Bots - 3.0",
+      "project_description": "Beebots is a swarm robotics project that aims to explore swarm intelligence and coordination using biologically inspired algorithms with a focus on shape formation and recovery from obstacles and disturbances.",
+      "members": [
+        "Akshaya Subramanian",
+        "Karthik Soma",
+        "Aditya R",
+        "P M Venkata Nagarjun",
+        "Visweswaran B"
+      ],
+      "profiles": ["tronix"],
+      "image_link": "images/Projects/BeeBots_3.0/Beebots_main.png",
+      "desc_images": [
+        "images/Projects/BeeBots_3.0/Beebots_main.png"
+      ],
+      "desc_video": ""
+    },
+    {
+      "id": 15,
+      "project_name": "OTA Programming Module",
+      "project_description": "OTA (Over the Air) Programming is a process which allows devices to upgrade their firmware or software wirelessly without any physical access. The project aims in developing a universal module having OTA functionality for AVR microcontrollers without any built in Wifi support.",
+      "members": [
+        "Aditya Kumar Singh",
+        "Miriam Santhosh Kadavan",
+        "Arunesh Saddish",
+        "N Srikrishna"
+      ],
+      "profiles": ["tronix"],
+      "image_link": "images/Projects/OTA/OTA_main.PNG",
+      "desc_images": [
+        "images/Projects/OTA/OTA_main.PNG"
+      ],
+      "desc_video": ""
+    },
+    {
+      "id": 16,
+      "project_name": "RISC V Processor Core",
+      "project_description": "This project aims at developing an RTL design of a microprocessor core that can Support the RISC V instruction set Architecture. The core would be further optimized for different applications and made completely open-sourced for anyone to use.",
+      "members": [
+        "Akil M",
+        "Mukesh Gandhi",
+        "Venkatesh TK",
+        "Sudharshan",
+        "Gaurav Kumar",
+        "Kirithika"
+      ],
+      "profiles": ["tronix"],
+      "image_link": "images/Projects/RISC/RISC_main.png",
+      "desc_images": [
+        "images/Projects/RISC/RISC_main.png"
+      ],
+      "desc_video": ""
+    },
+    {
+      "id": 17,
+      "project_name": "DarkSight: Extreme Low-Light Image Processing Pipeline",
+      "project_description": "DarkSight attains extreme low light image enhancement by combining video feed inputs from a regular camera and a thermal camera. This is performed using Computer Vision by learning to map the low exposure images to high exposure images using an architecture known as a UNet. Check out the source code and slides here: https://github.com/spider-tronix/Dark-Sight",
+      "members": [
+        "S P Sharan",
+        "Sudharsan S",
+        "Arvinth Saravanan",
+        "Harshit Agrawal"
+      ],
+      "profiles": ["tronix"],
+      "image_link": "images/Projects/DarkSight/DarkSight_main.jpg",
+      "desc_images": [
+        "images/Projects/DarkSight/DarkSight_main.jpg",
+        "images/Projects/DarkSight/DarkSight_1.jpg",
+        "images/Projects/DarkSight/DarkSight_2.jpg",
+        "images/Projects/DarkSight/DarkSight_3.png"
+      ],
+      "desc_video": ""
+    },
+    {
+      "id": 18,
+      "project_name": "UAV-UGV",
+      "project_description": "Multi-agent assistive system : A cooperative system consisting of a UAV assisting an UGV.",
+      "members": [
+        "Mukesh Gandhi",
+        "Venkatesh TK",
+        "Vivek Malviya",
+        "Himanshu Nandan",
+        "Shankar Utthandy V"
+      ],
+      "profiles": ["tronix"],
+      "image_link": "images/Projects/UAV-UGV/UAV_UGV_main.jfif",
+      "desc_images": [
+        "images/Projects/UAV-UGV/UAV_UGV_main.jfif",
+        "images/Projects/UAV-UGV/UAV_UGV_1.png",
+        "images/Projects/UAV-UGV/UAV_UGV_2.png"
+      ],
+      "desc_video": ""
+    },
+    {
+      "id": 19,
+      "project_name": "Crawlocator",
+      "project_description": "Crawlocator is a remotely controlled amphibious hexapod(six legged) that can travel into a disaster zone, locate victims and transmit their location back.",
+      "members": [
+        "Arunesh Saddish",
+        "Vivek Malviya",
+        "Surya Thanush",
+        "Sree Ganesh TN",
+        "Himanshu Nandan",
+        "Manu Aatitya R P"
+      ],
+      "profiles": ["tronix"],
+      "image_link": "images/Projects/CrawlLocator/CrawlLocator_main.png",
+      "desc_images": [
+        "images/Projects/CrawlLocator/CrawlLocator_main.png",
+        "images/Projects/CrawlLocator/CrawlLocator_1.png",
+        "images/Projects/CrawlLocator/CrawlLocator_2.png"
+      ],
+      "desc_video": ""
+    },
+    {
+      "id": 20,
+      "project_name": "GISiL (Gesture Interpretation for Sign Language)",
+      "project_description": "Our project strives to bridge the gap and enable effortless communication between users of conventional language and sign language by utilizing cost effective mini-potentiometric pots in our gloves with 3D printed parts to detect finger movements. The gloves are paired with a smartphone to perform sign translation using machine learning and natural language processing to produce audio and visual output.",
+      "members": [
+        "Ishikaa Lunawat",
+        "Visweswaran B",
+        "P M Venkata Nagarjun",
+        "N Srikrishna",
+        "Vignesh S",
+        "Varshini Priyaa"
+      ],
+      "profiles": ["tronix"],
+      "image_link": "images/Projects/GLSIL/GLSIL_main.png",
+      "desc_images": [
+        "images/Projects/GLSIL/GLSIL_main.png"
+      ],
+      "desc_video": ""
+    },
+    {
+      "id": 21,
+      "project_name": "The Landminer",
+      "project_description": "A GPR assisted landmine detection bot that uses DL pipeline, continuous track and arm mechanism for probing and demining.",
+      "members": [
+        "Manu S",
+        "G Arvindaksha",
+        "Rhithick Murali"
+      ],
+      "profiles": ["tronix"],
+      "image_link": "images/Projects/LandMiner/LandMiner_main.jpg",
+      "desc_images": [
+        "images/Projects/LandMiner/LandMiner_1.jpg"
       ],
       "desc_video": ""
     }
@@ -1078,6 +1415,376 @@
       "Year": "B tech 2nd Year",
       "LinkedIn": "http://www.linkedin.com/in/srinidhi-s-p-b005b4171",
       "Github": "https://github.com/Srinidhi2000",
+      "Website": ""
+    },
+    {
+      "id": "100",
+      "Name": "Vaasu Gambhir",
+      "Photo": "images/Members/Vaasu Gambhir.jpg",
+      "Profile": "App Dev",
+      "Year": "B Tech 2nd Year",
+      "LinkedIn": "https://www.linkedin.com/in/vaasu-gambhir-5939b5191/",
+      "Github": "https://github.com/Vaasuawesome7",
+      "Website": ""
+    },
+    {
+      "id": "101",
+      "Name": "Abhinav Kothari",
+      "Photo": "images/Members/Abhinav Kothari.jpg",
+      "Profile": "App Dev",
+      "Year": "All",
+      "LinkedIn": "https://www.linkedin.com/in/abhinav-kothari-67045b199",
+      "Github": "https://github.com/AK-Zero",
+      "Website": ""
+    },
+    {
+      "id": "102",
+      "Name": "Haemanth V",
+      "Photo": "images/Members/Haemanth V.jpg",
+      "Profile": "App Dev",
+      "Year": "All",
+      "LinkedIn": "https://www.linkedin.com/in/haemanth-v-951176191",
+      "Github": "https://github.com/Haemanth-V",
+      "Website": ""
+    },
+    {
+      "id": "103",
+      "Name": "Ankur Sinha",
+      "Photo": "images/Members/Ankur Sinha.jpg",
+      "Profile": "App Dev",
+      "Year": "B Tech 2nd Year",
+      "LinkedIn": "https://www.linkedin.com/in/ankur-sinha-811653188",
+      "Github": "https://github.com/ankursinha03",
+      "Website": ""
+    },
+    {
+      "id": "104",
+      "Name": "Sanjeev Vijayakumar",
+      "Photo": "images/Members/Sanjeev Vijayakumar.jpg",
+      "Profile": "App Dev",
+      "Year": "B Tech 2nd Year",
+      "LinkedIn": "https://www.linkedin.com/in/sanjeev-vijayakumar-060801/",
+      "Github": "https://github.com/sanjeevmax6/",
+      "Website": ""
+    },
+    {
+      "id": "105",
+      "Name": "Amar Rokade",
+      "Photo": "images/Members/Amar Rokade.jpg",
+      "Profile": "Web Dev",
+      "Year": "B Tech 2nd Year",
+      "LinkedIn": "https://www.linkedin.com/in/amar-rokade-903a82184/",
+      "Github": "https://github.com/amar-rokade",
+      "Website": ""
+    },
+    {
+      "id": "106",
+      "Name": "Jack Samuel S",
+      "Photo": "images/new-core/jack.jpg",
+      "Profile": "Tronix",
+      "Year": "B Tech 4th year",
+      "LinkedIn": "https://www.linkedin.com/in/jacksamuel98/",
+      "Github": "",
+      "Website": ""
+    },
+    {
+      "id": "107",
+      "Name": "Varshini Priyaa",
+      "Photo": "images/Members/Varshini Priyaa.jpeg",
+      "Profile": "Tronix",
+      "Year": "B Tech 2nd Year",
+      "LinkedIn":
+        "https://www.linkedin.com/in/varshini-priyaa-senthilnathan-83661314a/",
+      "Github": "https://github.com/varshinisn",
+      "Website": ""
+    },
+    {
+      "id": "108",
+      "Name": "A.Shanmuga Sundaram",
+      "Photo": "images/Members/Shanmuga Sundaram.jpg",
+      "Profile": "Tronix",
+      "Year": "B Tech 2nd Year",
+      "LinkedIn":
+        "https://www.linkedin.com/in/shanmuga-sundaram-5983271b3?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BYrts7jF1SXqUkntP2v4VhA%3D%3D",
+      "Github": "https://github.com/shan2501",
+      "Website": ""
+    },
+    {
+      "id": "109",
+      "Name": "Karthik Soma",
+      "Photo": "images/new-core/soma.jpeg",
+      "Role": "Inter-Profile Coordinator",
+      "Contact": "8778813014",
+      "LinkedIn": "https://www.linkedin.com/in/karthik-soma-b92166162/"
+    },
+    {
+      "id": "110",
+      "Name": "P M Venkata Nagarjun",
+      "Photo": "images/Members/Venkata Nagarjun P M.jpeg",
+      "Profile": "Tronix",
+      "Year": "All",
+      "LinkedIn": "https://www.linkedin.com/in/venkata-nagarjun-p-m-57190b19a/",
+      "Github": "https://github.com/Arjun191",
+      "Website": ""
+    },
+    {
+      "id": "111",
+      "Name": "Visweswaran B",
+      "Photo": "images/Members/B Visweswaran.jpg",
+      "Profile": "Tronix",
+      "Year": "All",
+      "LinkedIn": "https://www.linkedin.com/in/visweswaran-b-1675271b4",
+      "Github": "https://github.com/Vichu-31101",
+      "Website": ""
+    },
+    {
+      "id": "112",
+      "Name": "Arunesh Saddish",
+      "Photo": "images/Members/Arunesh Saddish.jpeg",
+      "Profile": "Tronix",
+      "Year": "B Tech 2nd Year",
+      "LinkedIn": "https://www.linkedin.com/in/arunesh-saddish-26747519a/",
+      "Github": "https://github.com/arunesh006",
+      "Website": ""
+    },
+    {
+      "id": "113",
+      "Name": "N Srikrishna",
+      "Photo": "images/Members/SrikrishnaN.jpg",
+      "Profile": "Tronix",
+      "Year": "B Tech 2nd Year",
+      "LinkedIn": "https://www.linkedin.com/in/srikrishna-neelakantan-5751b7120",
+      "Github": "https://github.com/2001srikrishna",
+      "Website": ""
+    },
+    {
+      "id": "114",
+      "Name": "Venkatesh TK",
+      "Photo": "",
+      "Profile": "",
+      "Year": "",
+      "LinkedIn": "",
+      "Github": "",
+      "Website": ""
+    },
+    {
+      "id": "114",
+      "Name": "Abinaya P A",
+      "Photo": "",
+      "Profile": "",
+      "Year": "",
+      "LinkedIn": "",
+      "Github": "",
+      "Website": ""
+    },
+    {
+      "id": "115",
+      "Name": "Vivek Malviya",
+      "Photo": "images/Members/Vivek Malviya.jpg",
+      "Profile": "Tronix",
+      "Year": "All",
+      "LinkedIn": "https://www.linkedin.com/in/vivek-malviya-a10b141b6/",
+      "Github": "https://github.com/VivekMal29",
+      "Website": ""
+    },
+    {
+      "id": "116",
+      "Name": "Himanshu Nandan",
+      "Photo": "images/Members/Himanshu Nandan.jpg",
+      "Profile": "Tronix",
+      "Year": "B Tech 2nd Year",
+      "LinkedIn": "https://www.linkedin.com/in/himanshu-nandan-4b628a18a",
+      "Github": "https://github.com/himanshunandan292",
+      "Website": ""
+    },
+    {
+      "id": "117",
+      "Name": "Shankar Utthandy V",
+      "Photo": "images/Members/Shankar Utthandy V.jpg",
+      "Profile": "Tronix",
+      "Year": "B Tech 2nd Year",
+      "LinkedIn": "",
+      "Github": "",
+      "Website": ""
+    },
+    {
+      "id": "118",
+      "Name": "Surya Thanush",
+      "Photo": "images/Members/Surya Thanush.jpeg",
+      "Profile": "Tronix",
+      "Year": "B Tech 2nd Year",
+      "LinkedIn": "",
+      "Github": "https://github.com/suryathanush",
+      "Website": ""
+    },
+    {
+      "id": "119",
+      "Name": "Sree Ganesh TN",
+      "Photo": "images/Members/Sree Ganesh.jpg",
+      "Profile": "Tronix",
+      "Year": "All",
+      "LinkedIn": "",
+      "Github": "https://github.com/SreeGaneshTN",
+      "Website": ""
+    },
+    {
+      "id": "120",
+      "Name": "Ishikaa Lunawat",
+      "Photo": "images/Members/Ishikaa Lunawat.jpg",
+      "Profile": "Tronix",
+      "Year": "B Tech 2nd Year",
+      "LinkedIn": "https://www.linkedin.com/in/ishikaa-lunawat-776241193",
+      "Github": "https://github.com/ishikaa25",
+      "Website": ""
+    },
+    {
+      "id": "92",
+      "Name": "Vignesh S",
+      "Photo": "images/Members/Vignesh S.jpeg",
+      "Profile": "Tronix",
+      "Year": "B Tech 2nd Year",
+      "LinkedIn": "`https://www.linkedin.com/in/vignesh-s-3754311b7/",
+      "Github": "https://github.com/VickyRDK",
+      "Website": ""
+    },
+    {
+      "id": "82",
+      "Name": "Manu S",
+      "Photo": "images/Members/Manu Sekar.jpeg",
+      "Profile": "Tronix",
+      "Year": "All",
+      "LinkedIn": "https://www.linkedin.com/in/manu-sekar-9824351b7/",
+      "Github": "https://github.com/Manu-Sekar",
+      "Website": ""
+    },
+    {
+      "id": "87",
+      "Name": "G Arvindaksha",
+      "Photo": "images/Members/Arvindaksha G.jpg",
+      "Profile": "Tronix",
+      "Year": "All",
+      "LinkedIn": "https://www.linkedin.com/in/arvindaksha-g-15622a1a8/",
+      "Github": "https://github.com/Arvindaksha",
+      "Website": ""
+    },
+    {
+      "id": "59",
+      "Name": "Rhithick Murali",
+      "Photo": "images/Members/Rhithick .M.jpg",
+      "Profile": "Algos",
+      "Year": "B Tech 2nd Year",
+      "LinkedIn": "https://www.linkedin.com/in/rhithick-murali-634154191",
+      "Github": "https://github.com/Rhithick02",
+      "Website": ""
+    },
+    {
+      "id": "18",
+      "Name": "Subramanian V V",
+      "Photo": "images/Members/Subramanian.jpg",
+      "Profile": "Web Dev",
+      "Year": "B Tech 2nd Year",
+      "LinkedIn": "https://www.linkedin.com/in/subramanian-v-v-85563a1a6",
+      "Github": "https://github.com/subramanian-vv",
+      "Website": ""
+    },
+    {
+      "id": "122",
+      "Name": "Rishabh Taparia",
+      "Photo": "images/Members/Rishabh Taparia.jpg",
+      "Profile": "Web Dev",
+      "Year": "B Tech 2nd Year",
+      "LinkedIn": "https://www.linkedin.com/in/rishabh-t-837751b8",
+      "Github": "https://github.com/rt1301",
+      "Website": ""
+    },
+    {
+      "id": "29",
+      "Name": "Sai Sandhya",
+      "Photo": "images/Members/Sai Sandhya.jpg",
+      "Profile": "Web Dev",
+      "Year": "All",
+      "LinkedIn": "",
+      "Github": "https://github.com/saisandhya01",
+      "Website": ""
+    },
+    {
+      "id": "28",
+      "Name": "Arnav Menon",
+      "Photo": "images/Members/Arnav Menon.jpeg",
+      "Profile": "Web Dev",
+      "Year": "B Tech 2nd Year",
+      "LinkedIn": "https://www.linkedin.com/in/arnav-menon-6630a019b/",
+      "Github": "https://github.com/arnavmenon",
+      "Website": ""
+    },
+    {
+      "id": "17",
+      "Name": "Gokulraaj",
+      "Photo": "images/Members/Gokulraaj Vaithiyanathan.jpg",
+      "Profile": "Web Dev",
+      "Year": "All",
+      "LinkedIn": "https://www.linkedin.com/in/gokulraaj-vaithiyanathan-a7b7781a5",
+      "Github": "https://github.com/gokul-00",
+      "Website": "https://im-gokul.netlify.app/"
+    },
+    {
+      "id": "21",
+      "Name": "Tharun Kumaar",
+      "Photo": "images/Members/Tharun kumaar.jpg",
+      "Profile": "Web Dev",
+      "Year": "All",
+      "LinkedIn": "",
+      "Github": "https://github.com/Tharun-b777",
+      "Website": ""
+    },
+    {
+      "id": "23",
+      "Name": "Selva Karthik D",
+      "Photo": "images/Members/Selva Karthik.jpg",
+      "Profile": "Web Dev",
+      "Year": "All",
+      "LinkedIn": "https://www.linkedin.com/in/selva-karthik-29b994108/",
+      "Github": "https://github.com/SelvaKarthik17",
+      "Website": ""
+    },
+    {
+      "id": "22",
+      "Name": "Paarthiban K",
+      "Photo": "images/Members/Paarthiban K.jpg",
+      "Profile": "Web Dev",
+      "Year": "B Tech 2nd Year",
+      "LinkedIn": "https://www.linkedin.com/in/paarthiban-k-7409011b7",
+      "Github": "https://github.com/paarthibank",
+      "Website": ""
+    },
+    {
+      "id": "24",
+      "Name": "Hetvi Bhansali",
+      "Photo": "images/Members/Hetvi Bhansali.jpeg",
+      "Profile": "Web Dev",
+      "Year": "B Tech 2nd Year",
+      "LinkedIn": "https://www.linkedin.com/in/hetvibhansali/",
+      "Github": "https://github.com/hetvi955",
+      "Website": ""
+    },
+    {
+      "id": "20",
+      "Name": "Mohana Sundaram S",
+      "Photo": "images/Members/Mohana Sundaram.jpeg",
+      "Profile": "Web Dev",
+      "Year": "All",
+      "LinkedIn": "https://www.linkedin.com/in/mohana-sundaram-s-90a458190/",
+      "Github": "https://github.com/highonweb",
+      "Website": "https://msundaram.me"
+    },
+    {
+      "id": "19",
+      "Name": "Mansi Bisen",
+      "Photo": "images/Members/Mansi Bisen.jpeg",
+      "Profile": "Web Dev",
+      "Year": "B Tech 2nd Year",
+      "LinkedIn": "https://www.linkedin.com/in/mansi-bisen-23a26118b",
+      "Github": "https://github.com/Mansibisen",
       "Website": ""
     }
   ]
