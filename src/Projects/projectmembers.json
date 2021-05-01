@@ -8,7 +8,7 @@
       "profiles": ["algos"],
       "image_link": "images/Projects/SpectralClustering - Anagha Sethuraman.jpg",
       "desc_images": [
-        "https://docs.google.com/uc?id=1_iWIs2UR8qaCuRaIVkWH_PvOSOOxr9zR"
+        "images/Projects/SpectralClustering - Anagha Sethuraman.jpg"
       ],
       "desc_video": ""
     },
@@ -20,8 +20,7 @@
       "profiles": ["algos"],
       "image_link": "images/Projects/Fake_real-1_gebpwg - Adithya Krishnakumar.png",
       "desc_images": [
-        "https://docs.google.com/uc?id=1TfPJvi0lcNCdsdggyGkLrF5LPO3iQnOF",
-        " https://docs.google.com/uc?id=1cnGnCIjDE9COTB9J5rAvHpg00jGU7p5O"
+        "images/Projects/Fake_real-1_gebpwg - Adithya Krishnakumar.png"
       ],
       "desc_video": ""
     },
@@ -38,7 +37,7 @@
       "profiles": ["tronix"],
       "image_link": "images/Projects/rtos - Abishek K R.jpeg",
       "desc_images": [
-        "https://docs.google.com/uc?id=1QPUaAhHybWmLszBH1S4g0t4vX-SCRmRs"
+        "images/Projects/rtos - Abishek K R.jpeg"
       ],
       "desc_video": ""
     },
@@ -55,9 +54,7 @@
       "profiles": ["tronix"],
       "image_link": "images/Projects/shadow bot - MANU AATITYA.png",
       "desc_images": [
-        "https://docs.google.com/uc?id=1mnhNPBGBggj1ZTTvaqvIYl4BYH2oDKPu",
-        "https://docs.google.com/uc?id=1NIaQ_c1KEJ8ILP9MxrbTAxeV3GfAuG74",
-        "https://docs.google.com/uc?id=1jX0XopQCylwktOWjUeBLyN4roQ1snW48"
+        "images/Projects/shadow bot - MANU AATITYA.png"
       ],
       "desc_video": ""
     },
@@ -74,8 +71,7 @@
       "profiles": ["tronix"],
       "image_link": "images/Projects/armadillo - Mukesh Gandhi.png",
       "desc_images": [
-        "https://docs.google.com/uc?id=1nzYxVV5_18i2stMRSgWxygyphVjpK3QN",
-        "https://docs.google.com/uc?id=1remaWCmg-gzSFv9lyoljSmDJrNNWCyOA"
+        "images/Projects/armadillo - Mukesh Gandhi.png"
       ],
       "desc_video": ""
     },
@@ -92,7 +88,7 @@
       "profiles": ["tronix"],
       "image_link": "images/Projects/img - Ruphan S.jpeg",
       "desc_images": [
-        "https://docs.google.com/uc?id=1HCnba1pCkbvrlL1PxZ4ZT3XsnDufRd_m"
+        "images/Projects/img - Ruphan S.jpeg"
       ],
       "desc_video": ""
     },
@@ -263,7 +259,7 @@
       "desc_video": ""
     },
     {
-      "id": 12,
+      "id": 15,
       "project_name": "Homebrew Bionics",
       "project_description": "The Homebrew Bionics is a community that explores the possibilities of developing open-source, affordable prosthetic devices that are rapidly fabricable. If you are someone who would love to contribute, kindly visit https://homebrew-bionics.github.io/.",
       "members": [
@@ -281,7 +277,7 @@
       "desc_video": ""
     },
     {
-      "id": 13,
+      "id": 16,
       "project_name": "UHUGV",
       "project_description": "UHUGV is an amphibious bot that is capable of traversing both land and underwater. The ground locomotion is achieved by track drive and the underwater motion is achieved by bio-mimicking fin ray fish locomotion. The robot has a track drive mechanism for the purpose of traveling in marshy terrains. It has 4 servo motors on either side of the robot to enable its movement underwater by implementing the mathematical model of fin ray motion. We can control the movement of the bot underwater by adjusting the amplitude and angular frequency of the servos attached to a fin-like material. This bot can be used as a recon to gain insights without being spotted. The onboard controller is capable of sending real-time data acquired to the command center through WiFi using a WiFi-module.",
       "members": [
@@ -304,7 +300,7 @@
       "desc_video": ""
     },
     {
-      "id": 14,
+      "id": 17,
       "project_name": "Bee-Bots - 3.0",
       "project_description": "Beebots is a swarm robotics project that aims to explore swarm intelligence and coordination using biologically inspired algorithms with a focus on shape formation and recovery from obstacles and disturbances.",
       "members": [
@@ -322,7 +318,7 @@
       "desc_video": ""
     },
     {
-      "id": 15,
+      "id": 18,
       "project_name": "OTA Programming Module",
       "project_description": "OTA (Over the Air) Programming is a process which allows devices to upgrade their firmware or software wirelessly without any physical access. The project aims in developing a universal module having OTA functionality for AVR microcontrollers without any built in Wifi support.",
       "members": [
@@ -339,7 +335,7 @@
       "desc_video": ""
     },
     {
-      "id": 16,
+      "id": 19,
       "project_name": "RISC V Processor Core",
       "project_description": "This project aims at developing an RTL design of a microprocessor core that can Support the RISC V instruction set Architecture. The core would be further optimized for different applications and made completely open-sourced for anyone to use.",
       "members": [
@@ -358,7 +354,7 @@
       "desc_video": ""
     },
     {
-      "id": 17,
+      "id": 20,
       "project_name": "DarkSight: Extreme Low-Light Image Processing Pipeline",
       "project_description": "DarkSight attains extreme low light image enhancement by combining video feed inputs from a regular camera and a thermal camera. This is performed using Computer Vision by learning to map the low exposure images to high exposure images using an architecture known as a UNet. Check out the source code and slides here: https://github.com/spider-tronix/Dark-Sight",
       "members": [
@@ -378,7 +374,7 @@
       "desc_video": ""
     },
     {
-      "id": 18,
+      "id": 21,
       "project_name": "UAV-UGV",
       "project_description": "Multi-agent assistive system : A cooperative system consisting of a UAV assisting an UGV.",
       "members": [
@@ -398,7 +394,7 @@
       "desc_video": ""
     },
     {
-      "id": 19,
+      "id": 22,
       "project_name": "Crawlocator",
       "project_description": "Crawlocator is a remotely controlled amphibious hexapod(six legged) that can travel into a disaster zone, locate victims and transmit their location back.",
       "members": [
@@ -419,7 +415,7 @@
       "desc_video": ""
     },
     {
-      "id": 20,
+      "id": 23,
       "project_name": "GISiL (Gesture Interpretation for Sign Language)",
       "project_description": "Our project strives to bridge the gap and enable effortless communication between users of conventional language and sign language by utilizing cost effective mini-potentiometric pots in our gloves with 3D printed parts to detect finger movements. The gloves are paired with a smartphone to perform sign translation using machine learning and natural language processing to produce audio and visual output.",
       "members": [
@@ -438,7 +434,7 @@
       "desc_video": ""
     },
     {
-      "id": 21,
+      "id": 24,
       "project_name": "The Landminer",
       "project_description": "A GPR assisted landmine detection bot that uses DL pipeline, continuous track and arm mechanism for probing and demining.",
       "members": [
