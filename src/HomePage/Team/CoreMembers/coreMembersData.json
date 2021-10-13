@@ -1,74 +1,66 @@
 [
   {
     "id": "1",
-    "Name": "Akil M",
+    "Name": "Sudharshan S",
     "Role": "Treasurer",
-    "Photo": "images/new-core/akil.jpeg",
-    "Contact": "9884449027",
-    "LinkedIn": "https://www.linkedin.com/in/akil-m/",
-    "Github": "https://github.com/akilm"
+    "Photo": "images/Members/Sudharsan Sundararaj.jpeg",
+    "Contact": "9600897202",
+    "LinkedIn": "https://www.linkedin.com/in/sudharsan-s-1a7a1317b/",
+    "Github": "https://github.com/sudharsan2000"
   },
   {
     "id": "2",
-    "Name": "Aditya Kumar Singh",
-    "Photo": "images/new-core/aditya.jpg",
+    "Name": "Kumar Gaurav Singh",
+    "Photo": "images/Members/Gaurav Singh.jpg",
     "Role": "President",
-    "Contact": "9470186194",
-    "LinkedIn": "https://www.linkedin.com/in/aditya-kumar-singh-645996152",
-    "Github": "https://github.com/adityasingh3007",
-    "Website": "https://adityasingh3007.github.io/"
+    "Contact": "8210982383",
+    "LinkedIn": "https://www.linkedin.com/in/gaurav-singh-0b056117b",
+    "Github": "https://github.com/GauravSingh789"
   },
   {
     "id": "3",
-    "Name": "Karthik Soma",
-    "Photo": "images/new-core/soma.jpeg",
-    "Role": "Inter-Profile Coordinator",
-    "Contact": "8778813014",
-    "LinkedIn": "https://www.linkedin.com/in/karthik-soma-b92166162/"
+    "Name": "Thrishik Senthilkumar",
+    "Photo": "images/Members/Thrishik Senthilkumar.jpg",
+    "Role": "Joint Treasurer",
+    "Contact": "9791827821",
+    "LinkedIn": "https://in.linkedin.com/in/thrishik-senthilkumar-123918176",
+    "Github": "https://github.com/thrishik7"
   },
   {
     "id": "4",
-    "Name": "Vishal Saranathan",
-    "Photo": "images/new-core/vishal.jpg",
-    "Role": "Joint Treasurer",
-    "Contact": "9952175757",
-    "LinkedIn": "https://www.linkedin.com/in/vishalsaranathan/",
-    "Github": "https://github.com/VishalS99"
+    "Name": "Jerry J",
+    "Photo": "images/Members/Jerry.jpg",
+    "Role": "Web Dev Head",
+    "Contact": "7092622767",
+    "LinkedIn": "https://www.linkedin.com/in/jerry-j-89aa52174/",
+    "Github": "https://github.com/Hank-learner"
   },
   {
     "id": "5",
-    "Name": "Praveen Chandhar",
-    "Photo": "images/new-core/praveen.png",
-    "Role": "Web Dev Head",
-    "Contact": "9245887928",
-    "LinkedIn": "https://www.linkedin.com/in/praveen27/",
-    "Github": "https://github.com/gigatesseract/",
-    "Website": "https://gigatesseract.github.io/"
+    "Name": "Naren Sairam",
+    "Photo": "images/Members/Naren Sairam.jpg",
+    "Role": "App Dev Head",
+    "Contact": "9791131673",
+    "LinkedIn": "https://www.linkedin.com/in/naren-sairam-941739173",
+    "Github": "https://github.com/nsi319",
+    "Website":"https://nsi319.github.io/"
   },
   {
     "id": "6",
-    "Name": "Nitin More",
-    "Photo": "images/new-core/nitin.jpg",
-    "Role": "App Dev Head",
-    "Contact": "9087928077",
-    "LinkedIn": "https://in.linkedin.com/in/nitin-more/",
-    "Github": "https://github.com/NitinMore7"
+    "Name": "Harshit Agrawal",
+    "Photo": "images/Members/Harshit Agrawal.jpeg",
+    "Role": "Algos Head",
+    "Contact": "7016004637",
+    "LinkedIn": "https://www.linkedin.com/in/harshit-agrawal-48b74a174/",
+    "Github": "https://github.com/HarshitCodex"
   },
   {
     "id": "7",
-    "Name": "Arvind Tatiparti",
-    "Photo": "images/new-core/aravind.jpg",
-    "Role": "Algos Head",
-    "Contact": "9182703106",
-    "LinkedIn": "https://www.linkedin.com/in/arvindtatiparti/",
-    "Github": "https://github.com/r0uxt1"
-  },
-  {
-    "id": "8",
-    "Name": "Jack Samuel",
-    "Photo": "images/new-core/jack.jpg",
+    "Name": "S P Sharan",
+    "Photo": "images/Members/Sharan SP.jpg",
     "Role": "Tronix Head",
-    "Contact": "9791016018",
-    "LinkedIn": "https://www.linkedin.com/in/jacksamuel98/"
+    "Contact": "9176910007",
+    "LinkedIn": "https://www.linkedin.com/in/sharan-sp-05735a168",
+    "Github":"https://github.com/Syzygianinfern0"
   }
 ]

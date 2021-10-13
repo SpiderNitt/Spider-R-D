@@ -18,10 +18,11 @@ export default ({ yearName, Year, onSelect }) => {
         centered
       >
         <Tab label="All" />
-        <Tab label="2020-21" />
         <Tab label="2021-22" />
         <Tab label="2022-23" />
+        <Tab label="2023-24" />
         <Tab label="MCA 2020-21" />
+        <Tab label="MCA 2021-22" />
       </Tabs>
     </Paper>
   );

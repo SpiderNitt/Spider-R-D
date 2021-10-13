@@ -16,7 +16,7 @@
     "typeface-raleway": "0.0.75"
   },
   "scripts": {
-    "start": "BROWSER=chromium react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
