@@ -1873,7 +1873,7 @@ export const members = [
   {
     id: 58,
     Name: "GR Thejas",
-    Photo: "images/Members/GR THEJAS.png",
+    Photo: "images/Members/GR Thejas.png",
     Profile: "Algos",
     Year: "All",
     LinkedIn: "",
