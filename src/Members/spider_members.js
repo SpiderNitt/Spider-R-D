@@ -63,7 +63,7 @@ export const members = [
   {
     id: 6,
     Name: "Jerry J",
-    Photo: "images/Members/Jerry.png",
+    Photo: "images/Members/Jerry.jpg",
     Profile: "Web Dev",
     Year: "B Tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/jerry-j-89aa52174/",
