@@ -321,6 +321,16 @@ export const members = [
     Website: "https://shruti0316.github.io/Portfolio/"
   },
   {
+    id:128,
+    Name:"Madikonda Vyshnavi",
+    Photo:"images/Members/Madikonda Vyshnavi.jpeg",
+    Profile:"Web Dev",
+    Year:"B Tech 2nd Year",
+    LinkedIn:"https://www.linkedin.com/in/vyshnavi-madikonda-42679b202",
+    Github:"https://github.com/Vyshnavi207",
+    Website:""
+  },
+  {
     id: 30,
     Name: "Mritunjay Kumar",
     Photo: "images/Members/Mritunjay Kumar.jpg",
@@ -388,16 +398,6 @@ export const members = [
     Year: "B Tech 4th year",
     LinkedIn: "https://www.linkedin.com/in/harshit-agrawal-48b74a174/",
     Github: "https://github.com/HarshitCodex",
-    Website: ""
-  },
-  {
-    id: 37,
-    Name: "Venkataraman V",
-    Photo: "images/Members/Venkataraman V.jpeg",
-    Profile: "Algos",
-    Year: "B Tech 4th year",
-    LinkedIn: "https://www.linkedin.com/in/venkataraman-v-392090193/",
-    Github: "https://github.com/Venkataraman8",
     Website: ""
   },
   {
@@ -1591,6 +1591,16 @@ export const members = [
     Website: "https://shruti0316.github.io/Portfolio/"
   },
   {
+    id:128,
+    Name:"Madikonda Vyshnavi",
+    Photo:"images/Members/Madikonda Vyshnavi.jpeg",
+    Profile:"Web Dev",
+    Year:"All",
+    LinkedIn:"https://www.linkedin.com/in/vyshnavi-madikonda-42679b202",
+    Github:"https://github.com/Vyshnavi207",
+    Website:""
+  },
+  {
     id: 30,
     Name: "Mritunjay Kumar",
     Photo: "images/Members/Mritunjay Kumar.jpg",
@@ -1658,16 +1668,6 @@ export const members = [
     Year: "All",
     LinkedIn: "https://www.linkedin.com/in/harshit-agrawal-48b74a174/",
     Github: "https://github.com/HarshitCodex",
-    Website: ""
-  },
-  {
-    id: 37,
-    Name: "Venkataraman V",
-    Photo: "images/Members/Venkataraman V.jpeg",
-    Profile: "Algos",
-    Year: "All",
-    LinkedIn: "https://www.linkedin.com/in/venkataraman-v-392090193/",
-    Github: "https://github.com/Venkataraman8",
     Website: ""
   },
   {
