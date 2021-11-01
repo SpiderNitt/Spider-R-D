@@ -54,6 +54,12 @@ function Footer() {
             <br />
             Mobile : 8210982383
           </Typography>
+          <Typography align="center" variant="body1" gutterBottom>
+            Sudharshan S
+            <br /> Treasurer, Spider
+            <br />
+            Mobile : 9600897202
+          </Typography>
         </Grid>
       </Grid>
       <br />
