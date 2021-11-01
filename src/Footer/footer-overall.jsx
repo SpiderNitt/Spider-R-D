@@ -49,16 +49,10 @@ function Footer() {
             <br />
           </Typography>
           <Typography align="center" variant="body1" gutterBottom>
-            Aditya Kumar Singh
+            Kumar Gaurav Singh
             <br /> President, Spider
             <br />
-            Mobile :9470186194
-          </Typography>
-          <Typography align="center" variant="body1" gutterBottom>
-            Karthik Soma
-            <br /> Inter-Profile Coordinator, Spider
-            <br />
-            Mobile :8778813014
+            Mobile : 8210982383
           </Typography>
         </Grid>
       </Grid>
