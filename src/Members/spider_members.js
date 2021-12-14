@@ -525,7 +525,7 @@ export const members = [
     Name: "Abhijeet Mishra",
     Photo: "images/Members/Abhijeet.jpg",
     Profile: "Algos",
-    Year: "3rd Year",
+    Year: "B Tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/abhijeet-mishra-b5203a1b7",
     Github: "https://github.com/awesomeabhi34",
     Website: ""
@@ -535,7 +535,7 @@ export const members = [
     Name: "Yash Chaudhari",
     Photo: "images/Members/Yash Chaudhari.jpg",
     Profile: "Algos",
-    Year: "3rd Year",
+    Year: "B Tech 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/yash-chaudhari-27a321197",
     Github: "https://github.com/yash56244",
     Website: "https://yash56244.github.io/"
