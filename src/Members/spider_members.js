@@ -271,16 +271,6 @@ export const members = [
     Website: "https://razdan123.github.io/My_Portfolio/"
   },
   {
-    id: 25,
-    Name: "Basu Krishna",
-    Photo: "images/Members/Basu.jpg",
-    Profile: "Web Dev",
-    Year: "B Tech 2nd Year",
-    LinkedIn: "",
-    Github: "basukrishna1",
-    Website: ""
-  },
-  {
     id: 26,
     Name: "Prajal Singhal",
     Photo: "images/Members/Prajal.jpeg",
@@ -319,16 +309,6 @@ export const members = [
     LinkedIn: "https://www.linkedin.com/in/shruti-b7a695217/",
     Github: "https://github.com/Shruti0316",
     Website: "https://shruti0316.github.io/Portfolio/"
-  },
-  {
-    id:128,
-    Name:"Madikonda Vyshnavi",
-    Photo:"images/Members/Madikonda Vyshnavi.jpeg",
-    Profile:"Web Dev",
-    Year:"B Tech 2nd Year",
-    LinkedIn:"https://www.linkedin.com/in/vyshnavi-madikonda-42679b202",
-    Github:"https://github.com/Vyshnavi207",
-    Website:""
   },
   {
     id: 30,
@@ -1521,16 +1501,6 @@ export const members = [
     Website: "https://razdan123.github.io/My_Portfolio/"
   },
   {
-    id: 25,
-    Name: "Basu Krishna",
-    Photo: "images/Members/Basu.jpg",
-    Profile: "Web Dev",
-    Year: "All",
-    LinkedIn: "",
-    Github: "basukrishna1",
-    Website: ""
-  },
-  {
     id: 26,
     Name: "Prajal Singhal",
     Photo: "images/Members/Prajal.jpeg",
@@ -1569,16 +1539,6 @@ export const members = [
     LinkedIn: "https://www.linkedin.com/in/shruti-b7a695217/",
     Github: "https://github.com/Shruti0316",
     Website: "https://shruti0316.github.io/Portfolio/"
-  },
-  {
-    id:128,
-    Name:"Madikonda Vyshnavi",
-    Photo:"images/Members/Madikonda Vyshnavi.jpeg",
-    Profile:"Web Dev",
-    Year:"All",
-    LinkedIn:"https://www.linkedin.com/in/vyshnavi-madikonda-42679b202",
-    Github:"https://github.com/Vyshnavi207",
-    Website:""
   },
   {
     id: 30,
