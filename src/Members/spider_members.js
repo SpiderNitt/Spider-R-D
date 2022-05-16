@@ -421,9 +421,19 @@ export const members = [
     Website: ""
   },
   {
-    id: 40,
+    id: "40",
+    Name: "Nitin Gupta",
+    Photo: "images/Members/Nitin Gupta.jpg",
+    Profile: "Algos",
+    Year: "B Tech 3rd Year",
+    LinkedIn: "",
+    Github: "https://github.com/nitin0280",
+    Website: "",
+  },
+  {
+    id: 41,
     Name: "Ritik Mittal",
-    Photo: "images/Members/Ritik Mittal.jpeg",
+    Photo: "images/Members/Ritik Mittal.jpg",
     Profile: "Algos",
     Year: "B Tech 3rd Year",
     LinkedIn: "https://linkedin.com/in/mittalritik365",
@@ -431,7 +441,7 @@ export const members = [
     Website: ""
   },
   {
-    id: 41,
+    id: 42,
     Name: "Rishab Nahar",
     Photo: "images/Members/Rishab Nahar.jpg",
     Profile: "Algos",
@@ -441,7 +451,7 @@ export const members = [
     Website: ""
   },
   {
-    id: 42,
+    id: 43,
     Name: "Satyarth Pandey",
     Photo: "images/Members/Satyarth Pandey.jpg",
     Profile: "Algos",
@@ -451,7 +461,7 @@ export const members = [
     Website: ""
   },
   {
-    id: 43,
+    id: 44,
     Name: "Sobhagya Singh Dewal",
     Photo: "images/Members/Sobhagya Singh Dewal.jpg",
     Profile: "Algos",
@@ -461,7 +471,7 @@ export const members = [
     Website: ""
   },
   {
-    id: 44,
+    id: 45,
     Name: "Rhithick Murali",
     Photo: "images/Members/Rhithick .M.jpg",
     Profile: "Algos",
@@ -471,67 +481,7 @@ export const members = [
     Website: ""
   },
   {
-    id: 45,
-    Name: "Priyanka Singh",
-    Photo: "images/Members/Priyanka Singh.jpg",
-    Profile: "Algos",
-    Year: "B Tech 3rd Year",
-    LinkedIn: "https://www.linkedin.com/in/priyanka-singh-8598761a1/",
-    Github: "https://github.com/priyandroid",
-    Website: ""
-  },
-  {
     id: 46,
-    Name: "Shivam Pradhan",
-    Photo: "images/Members/Shivam Pradhan.jpeg",
-    Profile: "Algos",
-    Year: "B Tech 3rd Year",
-    LinkedIn: "",
-    Github: "https://github.com/Shivam1309",
-    Website: ""
-  },
-  {
-    id: 47,
-    Name: "Preksha Rakhecha",
-    Photo: "images/Members/Preksha Rakhecha.JPG",
-    Profile: "Algos",
-    Year: "B Tech 3rd Year",
-    LinkedIn: "https://www.linkedin.com/in/preksha-rakhecha-5b273819b/",
-    Github: "https://github.com/preksha121",
-    Website: ""
-  },
-  {
-    id: 48,
-    Name: "Parvathi Prabhakaran",
-    Photo: "images/Members/Parvathi KP.jpg",
-    Profile: "Algos",
-    Year: "B Tech 3rd Year",
-    LinkedIn: "https://www.linkedin.com/in/parvathi-prabhakaran-799744194",
-    Github: "https://github.com/parvathikp",
-    Website: ""
-  },
-  {
-    id: 49,
-    Name: "Manav Mohata",
-    Photo: "images/Members/Manav Mohata.jpg",
-    Profile: "Algos",
-    Year: "B Tech 3rd Year",
-    LinkedIn: "https://www.linkedin.com/in/manav-mohata-2ba778190/",
-    Github: "https://github.com/manav-06",
-    Website: ""
-  },
-  {
-    id: 50,
-    Name: "Abhijeet Mishra",
-    Photo: "images/Members/Abhijeet.jpg",
-    Profile: "Algos",
-    Year: "B Tech 3rd Year",
-    LinkedIn: "https://www.linkedin.com/in/abhijeet-mishra-b5203a1b7",
-    Github: "https://github.com/awesomeabhi34",
-    Website: ""
-  },
-  {
-    id: 51,
     Name: "Yash Chaudhari",
     Photo: "images/Members/Yash Chaudhari.jpg",
     Profile: "Algos",
@@ -541,7 +491,67 @@ export const members = [
     Website: "https://yash56244.github.io/"
   },
   {
+    id: 50,
+    Name: "Priyanka Singh",
+    Photo: "images/Members/Priyanka Singh.jpg",
+    Profile: "Algos",
+    Year: "B Tech 3rd Year",
+    LinkedIn: "https://www.linkedin.com/in/priyanka-singh-8598761a1/",
+    Github: "https://github.com/priyandroid",
+    Website: ""
+  },
+  {
+    id: 47,
+    Name: "Shivam Pradhan",
+    Photo: "images/Members/Shivam Pradhan.jpeg",
+    Profile: "Algos",
+    Year: "B Tech 3rd Year",
+    LinkedIn: "",
+    Github: "https://github.com/Shivam1309",
+    Website: ""
+  },
+  {
+    id: 48,
+    Name: "Preksha Rakhecha",
+    Photo: "images/Members/Preksha Rakhecha.JPG",
+    Profile: "Algos",
+    Year: "B Tech 3rd Year",
+    LinkedIn: "https://www.linkedin.com/in/preksha-rakhecha-5b273819b/",
+    Github: "https://github.com/preksha121",
+    Website: ""
+  },
+  {
+    id: 49,
+    Name: "Parvathi Prabhakaran",
+    Photo: "images/Members/Parvathi KP.jpg",
+    Profile: "Algos",
+    Year: "B Tech 3rd Year",
+    LinkedIn: "https://www.linkedin.com/in/parvathi-prabhakaran-799744194",
+    Github: "https://github.com/parvathikp",
+    Website: ""
+  },
+  {
+    id: 51,
+    Name: "Manav Mohata",
+    Photo: "images/Members/Manav Mohata.jpg",
+    Profile: "Algos",
+    Year: "B Tech 3rd Year",
+    LinkedIn: "https://www.linkedin.com/in/manav-mohata-2ba778190/",
+    Github: "https://github.com/manav-06",
+    Website: ""
+  },
+  {
     id: 52,
+    Name: "Abhijeet Mishra",
+    Photo: "images/Members/Abhijeet.jpg",
+    Profile: "Algos",
+    Year: "B Tech 3rd Year",
+    LinkedIn: "https://www.linkedin.com/in/abhijeet-mishra-b5203a1b7",
+    Github: "https://github.com/awesomeabhi34",
+    Website: ""
+  },
+  {
+    id: 53,
     Name: "Paras Tiwari",
     Photo: "images/Members/Paras Tiwari.jpeg",
     Profile: "Algos",
@@ -551,7 +561,7 @@ export const members = [
     Website: ""
   },
   {
-    id: 53,
+    id: 54,
     Name: "Simran Garg",
     Photo: "images/Members/Simran Garg.jpg",
     Profile: "Algos",
@@ -561,7 +571,7 @@ export const members = [
     Website: ""
   },
   {
-    id: 54,
+    id: 55,
     Name: "Yasser Osman Khan",
     Photo: "images/Members/Yasser.jpg",
     Profile: "Algos",
@@ -571,7 +581,7 @@ export const members = [
     Website: ""
   },
   {
-    id: 55,
+    id: 56,
     Name: "Manish Kumar Pandey",
     Photo: "images/Members/Manish Pandey.jpg",
     Profile: "Algos",
@@ -581,23 +591,13 @@ export const members = [
     Website: ""
   },
   {
-    id: 56,
+    id: 57,
     Name: "Pankaj Maran",
     Photo: "images/Members/Pankaj Maran.jpg",
     Profile: "Algos",
     Year: "MCA 3rd Year",
     LinkedIn: "https://www.linkedin.com/in/pankajmaran/",
     Github: "https://github.com/pankajmaran",
-    Website: ""
-  },
-  {
-    id: 57,
-    Name: "Ayush Jaiswal",
-    Photo: "images/Members/Ayush Jaiswal.jpeg",
-    Profile: "Algos",
-    Year: "B Tech 2nd Year",
-    LinkedIn: "",
-    Github: "https://github.com/AYUSH2915",
     Website: ""
   },
   {
@@ -612,26 +612,6 @@ export const members = [
   },
   {
     id: 59,
-    Name: "Richik Ghosh",
-    Photo: "images/Members/Richik Ghosh.jpg",
-    Profile: "Algos",
-    Year: "B Tech 2nd Year",
-    LinkedIn: "www.linkedin.com/in/richik-ghosh-9554ba213",
-    Github: "www.github.com/Richik19",
-    Website: ""
-  },
-  {
-    id: 60,
-    Name: "Basu Krishna",
-    Photo: "images/Members/Basu.jpg",
-    Profile: "Algos",
-    Year: "B Tech 2nd Year",
-    LinkedIn: "",
-    Github: "basukrishna1",
-    Website: ""
-  },
-  {
-    id: 61,
     Name: "Ayush kumar sandil",
     Photo: "images/Members/Ayush Kumar.jpg",
     Profile: "Algos",
@@ -641,7 +621,7 @@ export const members = [
     Website: ""
   },
   {
-    id: 62,
+    id: 60,
     Name: "Vivek Yamsani",
     Photo: "images/Members/Vivek Yamsani.jpg",
     Profile: "Algos",
@@ -651,7 +631,7 @@ export const members = [
     Website: ""
   },
   {
-    id: 63,
+    id: 61,
     Name: "Shubham Kaushal",
     Photo: "images/Members/Shubham Kaushal.jpg",
     Profile: "Algos",
@@ -661,7 +641,7 @@ export const members = [
     Website: "shubham_up_47.dorik.io"
   },
   {
-    id: 64,
+    id: 62,
     Name: "Vipul Patel",
     Photo: "images/Members/Vipul Patel.jpeg",
     Profile: "Algos",
@@ -671,7 +651,7 @@ export const members = [
     Website: "https://vipullpatel.000webhostapp.com/"
   },
   {
-    id: 65,
+    id: 63,
     Name: "Narendra Rathod",
     Photo: "images/Members/Narendra Rathod.jpg",
     Profile: "Algos",
@@ -1692,8 +1672,18 @@ export const members = [
   },
   {
     id: 40,
+    Name: "Nitin Gupta",
+    Photo: "images/Members/Nitin Gupta.jpg",
+    Profile: "Algos",
+    Year: "All",
+    LinkedIn: "",
+    Github: "https://github.com/nitin0280",
+    Website: "",
+  },
+  {
+    id: 41,
     Name: "Ritik Mittal",
-    Photo: "images/Members/Ritik Mittal.jpeg",
+    Photo: "images/Members/Ritik Mittal.jpg",
     Profile: "Algos",
     Year: "All",
     LinkedIn: "https://linkedin.com/in/mittalritik365",
@@ -1701,7 +1691,7 @@ export const members = [
     Website: ""
   },
   {
-    id: 41,
+    id: 42,
     Name: "Rishab Nahar",
     Photo: "images/Members/Rishab Nahar.jpg",
     Profile: "Algos",
@@ -1711,7 +1701,7 @@ export const members = [
     Website: ""
   },
   {
-    id: 42,
+    id: 43,
     Name: "Satyarth Pandey",
     Photo: "images/Members/Satyarth Pandey.jpg",
     Profile: "Algos",
@@ -1721,7 +1711,7 @@ export const members = [
     Website: ""
   },
   {
-    id: 43,
+    id: 44,
     Name: "Sobhagya Singh Dewal",
     Photo: "images/Members/Sobhagya Singh Dewal.jpg",
     Profile: "Algos",
@@ -1731,7 +1721,7 @@ export const members = [
     Website: ""
   },
   {
-    id: 44,
+    id: 45,
     Name: "Rhithick Murali",
     Photo: "images/Members/Rhithick .M.jpg",
     Profile: "Algos",
@@ -1741,67 +1731,7 @@ export const members = [
     Website: ""
   },
   {
-    id: 45,
-    Name: "Priyanka Singh",
-    Photo: "images/Members/Priyanka Singh.jpg",
-    Profile: "Algos",
-    Year: "All",
-    LinkedIn: "https://www.linkedin.com/in/priyanka-singh-8598761a1/",
-    Github: "https://github.com/priyandroid",
-    Website: ""
-  },
-  {
-    id: 46,
-    Name: "Shivam Pradhan",
-    Photo: "images/Members/Shivam Pradhan.jpeg",
-    Profile: "Algos",
-    Year: "All",
-    LinkedIn: "",
-    Github: "https://github.com/Shivam1309",
-    Website: ""
-  },
-  {
-    id: 47,
-    Name: "Preksha Rakhecha",
-    Photo: "images/Members/Preksha Rakhecha.JPG",
-    Profile: "Algos",
-    Year: "All",
-    LinkedIn: "https://www.linkedin.com/in/preksha-rakhecha-5b273819b/",
-    Github: "https://github.com/preksha121",
-    Website: ""
-  },
-  {
-    id: 48,
-    Name: "Parvathi Prabhakaran",
-    Photo: "images/Members/Parvathi KP.jpg",
-    Profile: "Algos",
-    Year: "All",
-    LinkedIn: "https://www.linkedin.com/in/parvathi-prabhakaran-799744194",
-    Github: "https://github.com/parvathikp",
-    Website: ""
-  },
-  {
-    id: 49,
-    Name: "Manav Mohata",
-    Photo: "images/Members/Manav Mohata.jpg",
-    Profile: "Algos",
-    Year: "All",
-    LinkedIn: "https://www.linkedin.com/in/manav-mohata-2ba778190/",
-    Github: "https://github.com/manav-06",
-    Website: ""
-  },
-  {
-    id: 50,
-    Name: "Abhijeet Mishra",
-    Photo: "images/Members/Abhijeet.jpg",
-    Profile: "Algos",
-    Year: "All",
-    LinkedIn: "https://www.linkedin.com/in/abhijeet-mishra-b5203a1b7",
-    Github: "https://github.com/awesomeabhi34",
-    Website: ""
-  },
-  {
-    id: 51,
+    id: 52,
     Name: "Yash Chaudhari",
     Photo: "images/Members/Yash Chaudhari.jpg",
     Profile: "Algos",
@@ -1811,7 +1741,67 @@ export const members = [
     Website: "https://yash56244.github.io/"
   },
   {
-    id: 52,
+    id: 46,
+    Name: "Priyanka Singh",
+    Photo: "images/Members/Priyanka Singh.jpg",
+    Profile: "Algos",
+    Year: "All",
+    LinkedIn: "https://www.linkedin.com/in/priyanka-singh-8598761a1/",
+    Github: "https://github.com/priyandroid",
+    Website: ""
+  },
+  {
+    id: 47,
+    Name: "Shivam Pradhan",
+    Photo: "images/Members/Shivam Pradhan.jpeg",
+    Profile: "Algos",
+    Year: "All",
+    LinkedIn: "",
+    Github: "https://github.com/Shivam1309",
+    Website: ""
+  },
+  {
+    id: 48,
+    Name: "Preksha Rakhecha",
+    Photo: "images/Members/Preksha Rakhecha.JPG",
+    Profile: "Algos",
+    Year: "All",
+    LinkedIn: "https://www.linkedin.com/in/preksha-rakhecha-5b273819b/",
+    Github: "https://github.com/preksha121",
+    Website: ""
+  },
+  {
+    id: 49,
+    Name: "Parvathi Prabhakaran",
+    Photo: "images/Members/Parvathi KP.jpg",
+    Profile: "Algos",
+    Year: "All",
+    LinkedIn: "https://www.linkedin.com/in/parvathi-prabhakaran-799744194",
+    Github: "https://github.com/parvathikp",
+    Website: ""
+  },
+  {
+    id: 50,
+    Name: "Manav Mohata",
+    Photo: "images/Members/Manav Mohata.jpg",
+    Profile: "Algos",
+    Year: "All",
+    LinkedIn: "https://www.linkedin.com/in/manav-mohata-2ba778190/",
+    Github: "https://github.com/manav-06",
+    Website: ""
+  },
+  {
+    id: 51,
+    Name: "Abhijeet Mishra",
+    Photo: "images/Members/Abhijeet.jpg",
+    Profile: "Algos",
+    Year: "All",
+    LinkedIn: "https://www.linkedin.com/in/abhijeet-mishra-b5203a1b7",
+    Github: "https://github.com/awesomeabhi34",
+    Website: ""
+  },
+  {
+    id: 53,
     Name: "Paras Tiwari",
     Photo: "images/Members/Paras Tiwari.jpeg",
     Profile: "Algos",
@@ -1821,7 +1811,7 @@ export const members = [
     Website: ""
   },
   {
-    id: 53,
+    id: 54,
     Name: "Simran Garg",
     Photo: "images/Members/Simran Garg.jpg",
     Profile: "Algos",
@@ -1831,7 +1821,7 @@ export const members = [
     Website: ""
   },
   {
-    id: 54,
+    id: 55,
     Name: "Yasser Osman Khan",
     Photo: "images/Members/Yasser.jpg",
     Profile: "Algos",
@@ -1841,7 +1831,7 @@ export const members = [
     Website: ""
   },
   {
-    id: 55,
+    id: 56,
     Name: "Manish Kumar Pandey",
     Photo: "images/Members/Manish Pandey.jpg",
     Profile: "Algos",
@@ -1851,7 +1841,7 @@ export const members = [
     Website: ""
   },
   {
-    id: 56,
+    id: 57,
     Name: "Pankaj Maran",
     Photo: "images/Members/Pankaj Maran.jpg",
     Profile: "Algos",
@@ -1861,17 +1851,7 @@ export const members = [
     Website: ""
   },
   {
-    id: 57,
-    Name: "Ayush Jaiswal",
-    Photo: "images/Members/Ayush Jaiswal.jpeg",
-    Profile: "Algos",
-    Year: "All",
-    LinkedIn: "",
-    Github: "https://github.com/AYUSH2915",
-    Website: ""
-  },
-  {
-    id: 58,
+    id: 59,
     Name: "GR Thejas",
     Photo: "images/Members/GR Thejas.png",
     Profile: "Algos",
@@ -1881,27 +1861,7 @@ export const members = [
     Website: ""
   },
   {
-    id: 59,
-    Name: "Richik Ghosh",
-    Photo: "images/Members/Richik Ghosh.jpg",
-    Profile: "Algos",
-    Year: "All",
-    LinkedIn: "www.linkedin.com/in/richik-ghosh-9554ba213",
-    Github: "www.github.com/Richik19",
-    Website: ""
-  },
-  {
     id: 60,
-    Name: "Basu Krishna",
-    Photo: "images/Members/Basu.jpg",
-    Profile: "Algos",
-    Year: "All",
-    LinkedIn: "",
-    Github: "basukrishna1",
-    Website: ""
-  },
-  {
-    id: 61,
     Name: "Ayush kumar sandil",
     Photo: "images/Members/Ayush Kumar.jpg",
     Profile: "Algos",
@@ -1911,7 +1871,7 @@ export const members = [
     Website: ""
   },
   {
-    id: 62,
+    id: 61,
     Name: "Vivek Yamsani",
     Photo: "images/Members/Vivek Yamsani.jpg",
     Profile: "Algos",
@@ -1921,7 +1881,7 @@ export const members = [
     Website: ""
   },
   {
-    id: 63,
+    id: 62,
     Name: "Shubham Kaushal",
     Photo: "images/Members/Shubham Kaushal.jpg",
     Profile: "Algos",
@@ -1931,7 +1891,7 @@ export const members = [
     Website: "shubham_up_47.dorik.io"
   },
   {
-    id: 64,
+    id: 63,
     Name: "Vipul Patel",
     Photo: "images/Members/Vipul Patel.jpeg",
     Profile: "Algos",
@@ -1941,7 +1901,7 @@ export const members = [
     Website: "https://vipullpatel.000webhostapp.com/"
   },
   {
-    id: 65,
+    id: 64,
     Name: "Narendra Rathod",
     Photo: "images/Members/Narendra Rathod.jpg",
     Profile: "Algos",
