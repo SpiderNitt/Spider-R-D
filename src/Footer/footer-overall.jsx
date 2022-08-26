@@ -49,16 +49,28 @@ function Footer() {
             <br />
           </Typography>
           <Typography align="center" variant="body1" gutterBottom>
-            Kumar Gaurav Singh
-            <br /> President, Spider
+            Ankur Sinha
+            <br /> Head, Spider
             <br />
-            Mobile : 8210982383
+            Mobile : 8107838949
           </Typography>
           <Typography align="center" variant="body1" gutterBottom>
-            Sudharshan S
+            Arunesh Saddish
+            <br /> Head, Spider
+            <br />
+            Mobile : 9150663632
+          </Typography>
+          <Typography align="center" variant="body1" gutterBottom>
+            Rishabh Taparia
             <br /> Treasurer, Spider
             <br />
-            Mobile : 9600897202
+            Mobile : 9930032143
+          </Typography>
+          <Typography align="center" variant="body1" gutterBottom>
+            G Arvindaksha
+            <br /> Treasurer, Spider
+            <br />
+            Mobile : 9710333251
           </Typography>
         </Grid>
       </Grid>

@@ -1,66 +1,126 @@
 [
   {
     "id": "1",
-    "Name": "Sudharshan S",
-    "Role": "Treasurer",
-    "Photo": "images/Members/Sudharsan Sundararaj.jpeg",
-    "Contact": "9600897202",
-    "LinkedIn": "https://www.linkedin.com/in/sudharsan-s-1a7a1317b/",
-    "Github": "https://github.com/sudharsan2000"
+    "Name": "Ankur Sinha",
+    "Role": "Head",
+    "Photo": "images/Members/Ankur Sinha.jpg",
+    "Contact": "8107838949",
+    "LinkedIn": "https://www.linkedin.com/in/ankur-sinha-811653188",
+    "Github": "https://github.com/ankursinha03"
   },
   {
     "id": "2",
-    "Name": "Kumar Gaurav Singh",
-    "Photo": "images/Members/Gaurav Singh.jpg",
-    "Role": "President",
-    "Contact": "8210982383",
-    "LinkedIn": "https://www.linkedin.com/in/gaurav-singh-0b056117b",
-    "Github": "https://github.com/GauravSingh789"
+    "Name": "Arunesh Saddish",
+    "Photo": "images/Members/Arunesh Saddish.jpg",
+    "Role": "Head",
+    "Contact": "9150663632",
+    "LinkedIn": "https://www.linkedin.com/in/arunesh-saddish-26747519a/",
+    "Github": "https://github.com/arunesh006"
   },
   {
     "id": "3",
-    "Name": "Thrishik Senthilkumar",
-    "Photo": "images/Members/Thrishik Senthilkumar.jpg",
-    "Role": "Joint Treasurer",
-    "Contact": "9791827821",
-    "LinkedIn": "https://in.linkedin.com/in/thrishik-senthilkumar-123918176",
-    "Github": "https://github.com/thrishik7"
+    "Name": "Rishabh Taparia",
+    "Photo": "images/Members/Rishabh Taparia.jpg",
+    "Role": "Treasurer",
+    "Contact": "9930032143",
+    "LinkedIn": "https://www.linkedin.com/in/rishabht1301/",
+    "Github": "https://github.com/rt1301"
   },
   {
     "id": "4",
-    "Name": "Jerry J",
-    "Photo": "images/Members/Jerry.jpg",
-    "Role": "Web Dev Head",
-    "Contact": "7092622767",
-    "LinkedIn": "https://www.linkedin.com/in/jerry-j-89aa52174/",
-    "Github": "https://github.com/Hank-learner"
+    "Name": "G Arvindaksha",
+    "Photo": "images/Members/Arvindaksha G.jpg",
+    "Role": "Treasurer",
+    "Contact": "9710333251",
+    "LinkedIn": "https://www.linkedin.com/in/arvindaksha-g-15622a1a8/",
+    "Github": "https://github.com/Arvindaksha"
   },
   {
     "id": "5",
-    "Name": "Naren Sairam",
-    "Photo": "images/Members/Naren Sairam.jpg",
-    "Role": "App Dev Head",
-    "Contact": "9791131673",
-    "LinkedIn": "https://www.linkedin.com/in/naren-sairam-941739173",
-    "Github": "https://github.com/nsi319",
-    "Website":"https://nsi319.github.io/"
+    "Name": "Satyarth Pandey",
+    "Photo": "images/Members/Satyarth Pandey.jpg",
+    "Role": "Software Head",
+    "Contact": "8168915356",
+    "LinkedIn": "https://www.linkedin.com/in/satyarth-pandey-42a6021a4",
+    "Github": "https://github.com/satyarth413"
   },
   {
     "id": "6",
-    "Name": "Harshit Agrawal",
-    "Photo": "images/Members/Harshit Agrawal.jpeg",
-    "Role": "Algos Head",
-    "Contact": "7016004637",
-    "LinkedIn": "https://www.linkedin.com/in/harshit-agrawal-48b74a174/",
-    "Github": "https://github.com/HarshitCodex"
+    "Name": "Sobhagya Singh Dewal",
+    "Photo": "images/Members/Sobhagya Singh Dewal.jpg",
+    "Role": "Software Head",
+    "Contact": "8824838422"
   },
   {
     "id": "7",
-    "Name": "S P Sharan",
-    "Photo": "images/Members/Sharan SP.jpg",
+    "Name": "Priyanka Singh",
+    "Photo": "images/Members/Priyanka Singh.jpg",
+    "Role": "Software Head",
+    "Contact": "8400052889",
+    "LinkedIn": "https://www.linkedin.com/in/priyanka-singh-8598761a1/",
+    "Github":"https://github.com/priyandroid"
+  },
+  {
+    "id": "8",
+    "Name": "Selva Karthik D",
+    "Photo": "images/Members/Selva Karthik.jpg",
+    "Role": "Software Head",
+    "Contact": "8610479929",
+    "LinkedIn": "https://www.linkedin.com/in/selva-karthik-29b994108/",
+    "Github": "https://github.com/SelvaKarthik17"
+  },
+  {
+    "id": "9",
+    "Name": "Mansi Bisen",
+    "Photo": "images/Members/Mansi Bisen.jpg",
+    "Role": "Software Head",
+    "Contact": "7768089260",
+    "LinkedIn": "https://www.linkedin.com/in/mansi-bisen-23a26118b",
+    "Github": "https://github.com/Mansibisen"
+  },
+  {
+    "id": "10",
+    "Name": "Paarthiban K",
+    "Photo": "images/Members/Paarthiban K.jpg",
+    "Role": "Software Head",
+    "Contact": "7358275270",
+    "LinkedIn": "https://www.linkedin.com/in/paarthiban-k-7409011b7",
+    "Github": "https://github.com/paarthibank"
+  },
+  {
+    "id": "11",
+    "Name": "Gokul P",
+    "Photo": "images/Members/Gokul Palaniappan.jpg",
+    "Role": "Software Head",
+    "Contact": "9943627000",
+    "LinkedIn": "https://www.linkedin.com/in/gokul-p-2b174a197/",
+    "Github": "https://github.com/Gokul-31"
+  },
+  {
+    "id": "12",
+    "Name": "Dharun Vaibhav U",
+    "Photo": "images/Members/Dharun Vaibhav U.jpeg",
+    "Role": "Software Head",
+    "Contact": "9843947676",
+    "LinkedIn": "https://www.linkedin.com/in/dharun-vaibhav-u-081b001a1/",
+    "Github": "https://github.com/Dharun1704"
+  },
+  {
+    "id": "13",
+    "Name": "Vaasu Gambhir",
+    "Photo": "images/Members/Vaasu Gambhir.jpg",
+    "Role": "Software Head",
+    "Contact": "8015683505",
+    "LinkedIn": "https://www.linkedin.com/in/vaasu-gambhir-5939b5191/",
+    "Github": "https://github.com/Vaasuawesome7"
+  },
+  {
+    "id": "14",
+    "Name": "Manu S",
+    "Photo": "images/Members/Manu Sekar.jpg",
     "Role": "Tronix Head",
-    "Contact": "9176910007",
-    "LinkedIn": "https://www.linkedin.com/in/sharan-sp-05735a168",
-    "Github":"https://github.com/Syzygianinfern0"
+    "Contact": "8015683505",
+    "LinkedIn": "https://www.linkedin.com/in/manu-sekar-9824351b7/",
+    "Github": "https://github.com/Manu-Sekar"
   }
 ]
